@@ -1,10 +1,20 @@
 body { margin: 0px; }
 p { text-align: justify; }
-a { text-decoration: none; }
-#menu-superior { position: absolute; left: 20px; top:20px;  }
-#home-link { color: white; }
-#opcio1 { position: relative; left: 30px; }
-#opcio2 { position: relative; left: 30px; }
-#opcio3 { position: relative; left: 30px; }
-#opcio4 { position: relative; left: 30px; }
-#opcio5 { position: relative; left: 30px; }
+a { text-decoration: none; 
+    ;}
+#menu-superior { position: absolute; left: 20px; top:10px;  }
+#frame-destinacio { position: absolute; left: 20px; top:60px; }
+#home-link { display: inline-block;
+             text-size-adjust: 18px;
+             width: 200px;
+             color: rgb(109, 109, 109); }
+#opcio1 { display: inline-block;
+          width:   100px; }
+#opcio2 { display: inline-block;
+          width:   80px;}
+#opcio3 { display: inline-block;
+          width:   120px; }
+#opcio4 { display: inline-block;
+          width:   100px; }
+#opcio5 { display: inline-block;
+          width:   100px; }
