@@ -1,0 +1,10 @@
+body { margin: 0px; }
+p { text-align: justify; }
+a { text-decoration: none; }
+#menu-superior { position: absolute; left: 20px; top:20px;  }
+#home-link { color: white; }
+#opcio1 { position: relative; left: 30px; }
+#opcio2 { position: relative; left: 30px; }
+#opcio3 { position: relative; left: 30px; }
+#opcio4 { position: relative; left: 30px; }
+#opcio5 { position: relative; left: 30px; }
