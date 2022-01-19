@@ -2,10 +2,11 @@ body { margin: 0px; }
 p { text-align: justify; }
 a { text-decoration: none; 
     ;}
-#menu-superior { position: absolute; left: 20px; top:10px;  }
+#menu-superior { position: absolute; display:flex; left: 20px; top:10px;  }
 #frame-destinacio { position: absolute; left: 20px; top:60px; }
 #home-link { display: inline-block;
-             text-size-adjust: 18px;
+             font-size: larger;
+             font-weight: bold;
              width: 200px;
              color: rgb(109, 109, 109); }
 #opcio1 { display: inline-block;
