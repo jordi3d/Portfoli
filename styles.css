@@ -12,16 +12,16 @@ a:hover { cursor: pointer;
 #home-link { font-size: 30px;
              font-weight: bold;            
              margin-left: 20px;
-             padding-top: 10px;
+             padding-right: 40px;
              color: rgb(109, 109, 109); }
-#opcions { position: absolute; display: flex; left: 220px; top: 14px; }
-#opcio1 { display: inline-block;
+#opcions { position: absolute; display: flex; justify-content: space-evenly; left: 220px; top: 14px; }
+#opcio1 { /*display: inline-block;*/
           width:   100px; }
-#opcio2 { display: inline-block;
+#opcio2 { /*display: inline-block;*/
           width:   80px; }
-#opcio3 { display: inline-block;
+#opcio3 { /*display: inline-block;*/
           width:   120px; }
-#opcio4 { display: inline-block;
+#opcio4 { /*display: inline-block;*/
           width:   100px; }
-#opcio5 { display: inline-block;
+#opcio5 { /*display: inline-block;*/
           width:   100px; }
