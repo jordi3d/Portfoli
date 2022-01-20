@@ -8,7 +8,7 @@ a:hover { cursor: pointer;
           color: white;
 }
 #menu-superior { position: absolute; left: 0px; top:0px; width: 100%; height:50px; background-color: black; }
-#frame-destinacio { position: absolute; left: 0px; top:50px; background-color: beige; }
+#frame-destinacio { position: absolute; left: 0px; top:50px; width: 100%; background-color: beige; }
 #home-link { font-size: 30px;
              font-weight: bold;            
              margin-left: 20px;
