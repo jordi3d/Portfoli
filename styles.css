@@ -12,6 +12,7 @@ a:hover { cursor: pointer;
 #home-link { font-size: 30px;
              font-weight: bold;            
              margin-left: 20px;
+             padding-top: 10px;
              color: rgb(109, 109, 109); }
 #opcions { position: absolute; display: flex; left: 220px; top: 14px; }
 #opcio1 { display: inline-block;
