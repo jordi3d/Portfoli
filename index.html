@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="styles.css" />
     <script>
         function enviaEmail() {
-            let txt1 = document.getElementByName("name");
+            let txt1 = document.getElementByName('nom');
             alert(txt1.nodeValue);
-            let txt2 = document.getElementByName("email");
+            let txt2 = document.getElementByName('email');
             alert(txt2.nodeValue);
-            return `mailto:jordi@synthespian.com?from=${name}&body=Seen on the website&subject=Resumé Jordi Alonso`;
+            window.location.href = `mailto:jordi@synthespian.com?from=${name}&body=Seen on the website&subject=Resumé Jordi Alonso`;
         }
     </script>
 </head>
@@ -533,13 +533,13 @@
         <div style="position:absolute; left:500px; top:1200px;">
             <h2>In order to receive my Resumé in PDF, fill this form:</h2>
             <form>
-                <label for="email">Your Name:</label>
-                <input type="text" name="name" placeholder="Your Name" /><br/>
+                <label for="nom">Your Name:</label>
+                <input type="text" name="nom" placeholder="Your Name" /><br/>
                 <label for="email">Your Email:</label>
                 <input type="email" name="email" placeholder="Your Email" /><br/>
                 <!-- input type="submit" value="Submit" -->
             </form>
-            <button onclick="enviaEmail();">Submit</button>
+            <a href="javascript:enviaEmail()"><button>Submit</button></a>
         </div>
 </body>
 
