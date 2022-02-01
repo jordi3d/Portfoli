@@ -2,7 +2,30 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
     <title>Resumé of Jordi Alonso</title>
+    <style>
+        @media only screen and (max-width: 1280px) {
+            #menu-superior {
+                background-color: yellow;
+                color: rgb(29, 29, 29);
+            }
+        }
+        
+        @media only screen and (min-width: 1024px) {
+            #menu-superior {
+                background-color: white;
+                color: black;
+            }
+        }
+        
+        @media only screen and (min-width: 320px) {
+            #menu-superior {
+                background-color: black;
+                color: white;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="styles.css" />
     <script>
         function enviaEmail() {
@@ -149,7 +172,7 @@
                 <form action="" class="escull-accio">
                     <select name="escull-accio">
                             <option value="1998" selected>1998</option>
-                            <option value="15">Kalènia - app per Mira t'ho bé (Microsoft Access)</optio>
+                            <option value="15">Kalènia - app per Mira t'ho bé (Microsoft Access)</option>
                         </select>
                 </form>
             </div>
