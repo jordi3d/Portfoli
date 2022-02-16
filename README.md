@@ -16,8 +16,10 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
 <ul>
   <li>LOGO + NOM en barra semitransparent, que és permanent i només s'amaga si es fa scroll vertical</li>
   <li>foto de perfil, amb una animació que va canviant-la segons temàtica:<br/>
-    (APD, Huawei, NEOM)<br/>
-    conferències<br/>
+    -(APD, Huawei, NEOM)<br/>
+    -conferències<br/>
+    -formació i congressos<br/>
+    -afeccions<br/>
   </li>
   <li>Segons menú mostrar (i idioma)</li>
   <ul>
