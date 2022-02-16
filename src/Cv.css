@@ -12,6 +12,8 @@ body {
 }
 
 #logo {
+    height: 60px;
+    width: 60px;
     flex: auto;
     align-self: flex-start;
     background-image: url("https://via.placeholder.com/60x60");
