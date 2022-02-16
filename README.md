@@ -10,11 +10,13 @@ El més difícil és decidir el format del portfoli. Ja ho tinc clar (14-2-22), 
   <li>LOGO + NOM en barra semitransparent, que és permanent i només s'amaga si es fa scroll vertical</li>
   <li>foto de perfil, amb una animació que va canviant-la (APD, Huawei, NEOM)</li>
   <li>Segons menú mostrar</li>
-  <ul>Experiències per competències, de més recent a menys recent
+  <ul>
+    <li>Experiències per competències, de més recent a menys recent</li>
+    <ul>
      <li>Feines</li>
      <li>Entrevistes</li>
      <li>Conferències</li>
-  </ul>
+    </ul>
 <li>Experiències a formació</li>
   <ul>
     <li>SIGGRAPHs, NABs, IBCs, MWCs</li>
