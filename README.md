@@ -65,31 +65,40 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
         <li>Torre Agbar cine.com</li>
         <li>Santiago de Compostela cine.com</li>
       </ul>
-<li>Formació</li>
-  <ul>
-    <li>MSc Photonics a UPC</li>
-    <li>MBA a ESADE</li>
-    <li>MA Compueter Animation a ESCAC</li>
-    <li>BSc Computer Graphics a UAB</li>
-    <li>Cursos i Certificacions</li>
-    <ul>
-      <li>Front-end web developer</li>
-      <li>Coursera ML</li>
-      <li>ITIL</li>
-      <li>PMI</li>
-      <li>Softimage 3D</li>
-      <li>Avid DS</li>
-    </ul>
-    <li>Congressos</li>
-    <ul>
-       <li>SIGGRAPH</li>
-       <li>NAB</li>
-       <li>IBC</li>
-       <li>MWC</li>
-       <li>Suècia</li>
-       <li>Helsinki<Li>
-    </ul>
-    <li>Afiliacions</li>
+      <li>Formació</li>
+      <ul>
+        <li>MSc Photonics a UPC</li>
+        <li>MBA a ESADE</li>
+        <li>MA Compueter Animation a ESCAC</li>
+        <li>BSc Computer Graphics a UAB</li>
+        <li>Cursos i Certificacions</li>
+        <ul>
+          <li>Front-end web developer</li>
+          <li>Coursera ML</li>
+          <li>ITIL</li>
+          <li>PMI</li>
+          <li>Softimage 3D</li>
+          <li>Avid DS</li>
+        </ul>
+        <li>Idiomes</li>
+        <ul>
+          <li>Castellà</li>
+          <li>Català</li>
+          <li>Anglès</li>
+          <li>Francès</li>
+          <li>Rus</li>
+        </ul>
+        <li>Congressos</li>
+        <ul>
+          <li>SIGGRAPH</li>
+          <li>NAB</li>
+          <li>IBC</li>
+          <li>MWC</li>
+          <li>Suècia</li>
+          <li>Helsinki<Li>
+        </ul>
+      </ul>
+      <li>Afiliacions</li>
   </ul>
 <li>Afeccions</li>
   <ul>
