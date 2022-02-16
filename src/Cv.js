@@ -1,6 +1,6 @@
 import "./Cv.css";
 
-export function Cv() {
+export default function Cv() {
   return (
     <div className="cv">
       <ul>
