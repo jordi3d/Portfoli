@@ -1,15 +1,18 @@
 # Portfoli de Jordi Alonso
+
 Exercicis del meu curs de front-end web development a Tecnocampus Mataró<br/>
 Professors: David Rodenas i Pol Valés<br/>
 gener-abril 2022<br/>
 
 ## Mobile First
+
 La idea és fer-ho per mòbil, i que "funcioni" en desktop després<br/>
 Flexbox, per anar mostrant continguts, que enlloc de verticalment, es veuran horitzontalment en desktop<br/>
 Menús desplegables<br/>
 Contacte al peu de pàgina, amb enllaços a les xarxes socials
 
 ### El més difícil
+
 El més difícil és decidir el format del portfoli.<br/>
 Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
 
@@ -65,8 +68,7 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
         <li>Torre Agbar cine.com</li>
         <li>Santiago de Compostela cine.com</li>
       </ul>
-  </ul>
-<li>Experiències a formació</li>
+<li>Formació</li>
   <ul>
     <li>MSc Photonics a UPC</li>
     <li>MBA a ESADE</li>
@@ -104,4 +106,5 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
     <li>Lectura</li>
     <li>Fotografia de viatges</li>
   </ul>
+    </ul>
 </ul>
