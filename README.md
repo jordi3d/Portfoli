@@ -80,7 +80,8 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
           <li>Softimage 3D</li>
           <li>Avid DS</li>
         </ul>
-        <li>Idiomes</li>
+    </ul>
+    <li>Idiomes</li>
         <ul>
           <li>Castellà</li>
           <li>Català</li>
@@ -88,7 +89,7 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
           <li>Francès</li>
           <li>Rus</li>
         </ul>
-        <li>Congressos</li>
+    <li>Congressos</li>
         <ul>
           <li>SIGGRAPH</li>
           <li>NAB</li>
@@ -97,19 +98,18 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
           <li>Suècia</li>
           <li>Helsinki<Li>
         </ul>
-      </ul>
-      <li>Afiliacions</li>
-  </ul>
-<li>Afeccions</li>
-  <ul>
-    <li>Tennis</li>
-    <li>Tennis taula</li>
-    <li>Golf</li>
-    <li>Esquí</li>
-    <li>Trekking</li>
-    <li>Beat Saber</li>
-    <li>Música: Guitarra i Piano</li>
-    <li>Lectura</li>
-    <li>Fotografia de viatges</li>
-  </ul>
+    <li>Afiliacions</li>
+    <li>Afeccions</li>
+    <ul>
+       <li>Tennis</li>
+       <li>Tennis taula</li>
+       <li>Golf</li>
+       <li>Esquí</li>
+       <li>Trekking</li>
+       <li>Beat Saber</li>
+       <li>Música: Guitarra i Piano</li>
+       <li>Lectura</li>
+       <li>Fotografia de viatges</li>
+    </ul>
+    </ul>
 </ul>
