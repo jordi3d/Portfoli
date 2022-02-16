@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16af99c (posant ordre)
 # Portfoli de Jordi Alonso
 Exercicis del meu curs de front-end web development a Tecnocampus Mataró<br/>
 Professors: David Rodenas i Pol Valés<br/>
@@ -114,6 +117,7 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
     </ul>
     </ul>
 </ul>
+<<<<<<< HEAD
 =======
 # Getting Started with Create React App
 
@@ -186,3 +190,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> e627a48 (Initialize project using Create React App)
+=======
+>>>>>>> 16af99c (posant ordre)
