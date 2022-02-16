@@ -4,9 +4,9 @@ Professors: David Rodenas i Pol Valés<br/>
 gener-abril 2022<br/>
 
 ## Mobile First
-La idea és fer-ho per mòbil, i que "funcioni" en desktop després
-Flexbox, per anar mostrant continguts, que enlloc de verticalment, es veuran horitzontalment en desktop
-Menús desplegables
+La idea és fer-ho per mòbil, i que "funcioni" en desktop després<br/>
+Flexbox, per anar mostrant continguts, que enlloc de verticalment, es veuran horitzontalment en desktop<br/>
+Menús desplegables<br/>
 Contacte al peu de pàgina, amb enllaços a les xarxes socials
 
 ### El més difícil
