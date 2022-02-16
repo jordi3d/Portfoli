@@ -9,11 +9,102 @@ let titolsH1 = [
     FR: "Expérience Professionnelle",
     RU: "Профессиональный опыт",
     DE: "Berufserfahrung",
-    IT: "Esperienza professionale",
-    PT: "Experiência profissional",
+    IT: "Esperienza Professionale",
+    PT: "Experiência Profissional",
     ZH: "专业经验",
   },
+  {
+    CAT: "Formació Reglada",
+    ES: "Fromación Reglada",
+    EN: "Regulated Training",
+    FR: "Formation Réglementée",
+    RU: "Регулируемая обучение",
+    DE: "Reguliertes Training",
+    IT: "Formazione Regolata",
+    PT: "Formação Regulada",
+    ZH: "监管培训",
+  },
+  {
+    CAT: "Afiliacions",
+    ES: "Afiliaciones",
+    EN: "Affiliations",
+    FR: "Affiliations",
+    RU: "Принадлежности",
+    DE: "Angelegenheiten",
+    IT: "Affiliazioni",
+    PT: "Afiliações",
+    ZH: "隶属关系",
+  },
+  {
+    CAT: "Idiomes",
+    ES: "Idiomas",
+    EN: "Languages",
+    FR: "Langues",
+    RU: "Языки",
+    DE: "Sprachen",
+    IT: "Idiomas",
+    PT: "LÍNGUAS",
+    ZH: "语言",
+  },
 ];
+let titolsH2 = [
+  {
+    CAT: "Empresari",
+    ES: "Empresario",
+    EN: "Businessman",
+    FR: "Entrepreneur",
+    RU: "Бизнесмен",
+    DE: "Geschäftsmann",
+    IT: "Uomo d'affari",
+    PT: "Homem de negocios",
+    ZH: "商人",
+  },
+  {
+    CAT: "Entrevistes",
+    ES: "Entrevista",
+    EN: "Interviews",
+    FR: "Interviews",
+    RU: "Интервью",
+    DE: "Interviews",
+    IT: "Colloquio",
+    PT: "Entrevistas",
+    ZH: "面试",
+  },
+  {
+    CAT: "Conferències",
+    ES: "Conferencias",
+    EN: "Conferences",
+    FR: "Conférences",
+    RU: "Конференции",
+    DE: "Konferenzen",
+    IT: "Conferenze",
+    PT: "Conferências",
+    ZH: "会议",
+  },
+  {
+    CAT: "Cursos",
+    ES: "Cursos",
+    EN: "Courses",
+    FR: "Cours",
+    RU: "Курсы",
+    DE: "Kurse",
+    IT: "Corsi",
+    PT: "Cursos",
+    ZH: "培训班",
+  },
+  {
+    CAT: "Aficions",
+    ES: "Aficiones",
+    EN: "Hobbies",
+    FR: "Passe-temps",
+    RU: "Хобби",
+    DE: "Hobbys",
+    IT: "Africations",
+    PT: "Hobbies",
+    ZH: "爱好",
+  },
+];
+let titolsH3 = [];
 
 export default function Cv() {
   const [language, setLanguage] = useState("CAT");
@@ -63,7 +154,7 @@ export default function Cv() {
         <h3>RTVE Catalunya</h3>
         <h3>ESCAC</h3>
         <h2>Web developement</h2>
-        <h2>Empresari</h2>
+        <h2>{titolsH2[0][language]}</h2>
         <h3>Serveis de formació</h3>
         <h3>crypto mining</h3>
         <h3>Domainer 1.200 dominis -ara 110-</h3>
@@ -72,7 +163,7 @@ export default function Cv() {
         <h3>CADAT Informàtica importacions, muntatge de PC's</h3>
       </section>
       <section>
-        <h2>Entrevistes</h2>
+        <h2>{titolsH2[1][language]}</h2>
         <h3>VR</h3>
         <h3>Canal+ estrena simultània</h3>
         <h3>TV3</h3>
@@ -80,7 +171,7 @@ export default function Cv() {
         <h3>e-commerce a reg2.net</h3>
       </section>
       <section>
-        <h2>Conferències</h2>
+        <h2>{titolsH2[2][language]}</h2>
         <h3>APD XR: the next big thing?</h3>
         <h3>GITEX Huawei 5G Keynote</h3>
         <h3>La Liga Technology Showcase Shanghai</h3>
@@ -94,18 +185,24 @@ export default function Cv() {
         <h3>Santiago de Compostela cine.com</h3>
       </section>
       <section>
-        <h1>Formació</h1>
+        <h1>{titolsH1[1][language]}</h1>
         <h2>MSc Photonics a UPC</h2>
         <h2>MBA a ESADE</h2>
         <h2>MA Computer Animation a ESCAC</h2>
         <h2>BSc Computer Graphics a UAB</h2>
-        <h3>Cursos i Certificacions</h3>
-        <h4>Front-end web developer</h4>
-        <h4>Coursera ML</h4>
-        <h4>ITIL</h4>
-        <h4>PMI</h4>
-        <h4>Softimage 3D</h4>
-        <h4>Avid DS</h4>
+        <h2>{titolsH2[3][language]}</h2>
+        <h3>Front-end web developer</h3>
+        <h4>Certificació xxx</h4>
+        <h3>Coursera ML</h3>
+        <h4>Certificació xxx</h4>
+        <h3>ITIL</h3>
+        <h4>Certificació EXIN en ITIL Essentials</h4>
+        <h3>Project Manager</h3>
+        <h4>Certificació PMI</h4>
+        <h3>Softimage 3D</h3>
+        <h4>Certificació Softimage 101-501</h4>
+        <h3>Avid DS</h3>
+        <h4>Certificació Avid DS 101-501</h4>
       </section>
       <section>
         <h3>Congressos</h3>
@@ -117,10 +214,14 @@ export default function Cv() {
         <h4>Helsinki</h4>
       </section>
       <section>
-        <h1>Afiliacions</h1>
+        <h1>{titolsH1[2][language]}</h1>
+        <h2>SIGGRAPH</h2>
+        <h2>COEIC</h2>
+        <h2>VRARA</h2>
+        <h2>MENSA</h2>
       </section>
       <section>
-        <h1>Idiomes</h1>
+        <h1>{titolsH1[3][language]}</h1>
         <h2>Català</h2>
         <h3>Idioma Matern</h3>
         <h3>Certificació C1</h3>
@@ -149,7 +250,7 @@ export default function Cv() {
         <h3>Curs online d'iniciació i classes particulars</h3>
       </section>
       <section>
-        <h2>Afeccions</h2>
+        <h2>{titolsH2[4][language]}</h2>
         <h3>Tennis</h3>
         <h3>Tennis taula</h3>
         <h3>Golf</h3>
@@ -162,17 +263,17 @@ export default function Cv() {
       </section>
       <footer>
         <section>
-          <h1>Xarxes Socials</h1>
-          <h2>LinkedIn</h2>
-          <h2>Twitter</h2>
-          <h2>Instagram</h2>
-          <h2>Facebook</h2>
-          <h2>Pinterest</h2>
+          <h2>Xarxes Socials</h2>
+          <h3>LinkedIn</h3>
+          <h3>Twitter</h3>
+          <h3>Instagram</h3>
+          <h3>Wechat</h3>
+          <h3>Facebook</h3>
         </section>
         <section>
-          <h1>Contacte</h1>
-          <h2>Email</h2>
-          <h2>Telèfon</h2>
+          <h2>Contacte</h2>
+          <h3>Email</h3>
+          <h3>Telèfon</h3>
         </section>
         <section>
           <h5 id="copy">&copy; 2022 Jordi Alonso</h5>
