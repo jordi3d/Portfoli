@@ -22,8 +22,8 @@ export default function Cv() {
     <div className="cv">
       <header>
         <div id="barraMenu">
-          <img src="https://via.placeholder.com/60x60" alt="logo empresa" />{" "}
-          JordiAlonso.com
+          <div id="logo"></div>
+          <div id="titol">JordiAlonso.com</div>
           <div id="idioma" onClick={() => changeLanguage("ES")}>
             {language}
           </div>
@@ -43,7 +43,7 @@ export default function Cv() {
         </div>
       </header>
       <section>
-        <h1>{titols1[{ language }]}</h1>
+        <h1>titols1[0].{language}</h1>
         <h2>CTO</h2>
         <h2>Project Manager</h2>
         <h2>Service Account Manager</h2>
