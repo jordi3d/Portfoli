@@ -104,7 +104,19 @@ let titolsH2 = [
     ZH: "爱好",
   },
 ];
-let titolsH3 = [];
+let titolsH3 = [
+  {
+    CAT: "Congressos",
+    ES: "Congresos",
+    EN: "Congresses",
+    FR: "Congrès",
+    RU: "Конгрессы",
+    DE: "Kongresse",
+    IT: "Congressi",
+    PT: "Congressos",
+    ZH: "国会",
+  },
+];
 
 export default function Cv() {
   const [language, setLanguage] = useState("CAT");
@@ -125,6 +137,7 @@ export default function Cv() {
             {language}
           </div>
         </div>
+        <div id="separador"></div>
         <div id="fotoMain">
           <div id="texte">
             foto de perfil, amb una animació que va canviant-la segons temàtica:
@@ -165,10 +178,13 @@ export default function Cv() {
       <section>
         <h2>{titolsH2[1][language]}</h2>
         <h3>VR</h3>
-        <h3>Canal+ estrena simultània</h3>
-        <h3>TV3</h3>
-        <h3>internet video a cine.com</h3>
-        <h3>e-commerce a reg2.net</h3>
+        <h3>3D als Matins de Catradio</h3>
+        <h3>Canal+ Estrena simultània</h3>
+        <h3>TV3 Telenotícies</h3>
+        <h3>CadenaSER @cine.com</h3>
+        <h3>CATRADIO internet video @cine.com</h3>
+        <h3>internet video @cine.com</h3>
+        <h3>e-commerce @reg2.net</h3>
       </section>
       <section>
         <h2>{titolsH2[2][language]}</h2>
@@ -205,7 +221,7 @@ export default function Cv() {
         <h4>Certificació Avid DS 101-501</h4>
       </section>
       <section>
-        <h3>Congressos</h3>
+        <h3>{titolsH3[0][language]}</h3>
         <h4>SIGGRAPH</h4>
         <h4>NAB</h4>
         <h4>IBC</h4>
@@ -247,7 +263,8 @@ export default function Cv() {
         <h3>Curs online d'iniciació</h3>
         <h2>Xinès</h2>
         <h3>Principiant</h3>
-        <h3>Curs online d'iniciació i classes particulars</h3>
+        <h3>Curs online d'iniciació</h3>
+        <h3>Classes particulars</h3>
       </section>
       <section>
         <h2>{titolsH2[4][language]}</h2>
@@ -263,22 +280,27 @@ export default function Cv() {
       </section>
       <footer>
         <section>
-          <h2>Xarxes Socials</h2>
-          <h3>LinkedIn</h3>
-          <h3>Twitter</h3>
-          <h3>Instagram</h3>
-          <h3>Wechat</h3>
-          <h3>Facebook</h3>
+          <div id="xxss">
+            <h3>LinkedIn</h3>
+            <h3>Twitter</h3>
+            <h3>Instagram</h3>
+            <h3>Wechat</h3>
+            <h3>Facebook</h3>
+          </div>
         </section>
         <section>
-          <h2>Contacte</h2>
-          <h3>Email</h3>
-          <h3>Telèfon</h3>
-        </section>
-        <section>
-          <h5 id="copy">&copy; 2022 Jordi Alonso</h5>
+          <div id="contacte">
+            <h2>Contacte</h2>
+            <h3>Email</h3>
+            <h3>Telèfon</h3>
+          </div>
         </section>
       </footer>
+      <section>
+        <div id="copy">
+          <h5>&copy; 2022 SYNTHESPIAN SL</h5>
+        </div>
+      </section>
     </div>
   );
 }

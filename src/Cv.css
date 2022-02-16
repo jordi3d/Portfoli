@@ -3,32 +3,41 @@ body {
 }
 
 #barraMenu {
-    height: 60px;
+    position: fixed;
+    height: 40px;
     width: 100%;
     background-color: gray;
-    font-size: x-large;
-    opacity: 0.5;
+    opacity: 0.6;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
-    height: 60px;
-    width: 60px;
-    flex: auto;
-    align-self: flex-start;
+    height: 40px;
+    width: 40px;
+    flex: none;
     background-image: url("https://via.placeholder.com/60x60");
 }
 
 #titol {
-    flex: auto;
-    align-self: flex-start;
+    flex: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #idioma {
-    flex: auto;
-    align-self: flex-end;
+    flex: none;
     font-size: small;
-    padding-bottom: 22px;
+    padding-right: 10px;
+}
+
+#separador {
+    width: 100%;
+    height: 40px;
 }
 
 #fotoMain {
@@ -46,6 +55,27 @@ body {
     /*display: none;*/
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+
+#xxss {
+    background-color: red;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+
+#contacte {
+    background-color: green;
+    border: 2px solid black;
+}
+
 #copy {
+    width: 100%;
     text-align: center;
 }
