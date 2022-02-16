@@ -1,4 +1,4 @@
-# Portfoli de JordiAlonso
+# Portfoli de Jordi Alonso
 Exercicis del meu curs de front-end web development a Tecnocampus Mataró<br/>
 Professors: David i Pol Valés<br/>
 gener-abril 2022<br/>
