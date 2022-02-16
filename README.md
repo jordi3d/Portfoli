@@ -4,7 +4,7 @@ Professors: David i Pol Valés
 gener-abril 2022
 
 ## El més difícil
-El més difícil és decidir el format del portfoli. Ja ho tinc clar (14-2-22), i m'hi posaré aviat
+El més difícil és decidir el format del portfoli. Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
 LOGO + NOM en barra semitransparent, que és permanent i només s'amaga si es fa scroll vertical
 Just després de la barra, foto de perfil, amb una animació que va canviant-la (APD, Huawei, NEOM)
 Després les experiències per competències, de més recent a menys recent
