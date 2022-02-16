@@ -8,13 +8,19 @@ El més difícil és decidir el format del portfoli. Ja ho tinc clar (14-2-22), 
 
 <ul>
   <li>LOGO + NOM en barra semitransparent, que és permanent i només s'amaga si es fa scroll vertical</li>
-Just després de la barra, foto de perfil, amb una animació que va canviant-la (APD, Huawei, NEOM)<br/>
-Experiències per competències, de més recent a menys recent<br/>
--incloure entrevistes i conferències<br/>
-Canviant el menú, passem d'experiències a formació
+<li>foto de perfil, amb una animació que va canviant-la (APD, Huawei, NEOM)</li>
+<li>
+Experiències per competències, de més recent a menys recent</li>
+<li>
+-incloure entrevistes i conferències</li>
+<li>
+Canviant el menú, passem d'experiències a formació</li>
+<li>
 -afegir SIGGRAPHs, NABs, IBCs, MWCs i afiliacions
-Canviant el menú, passem de formació a afeccions
--fotos de tennis, tennis taula, golf, beat saber, guitarra, lectura, fotografia
+</li>
+<li>Canviant el menú, passem de formació a afeccions
+</li>
+<li>-fotos de tennis, tennis taula, golf, beat saber, guitarra, lectura, fotografia
   </ul>
 
 ### Mobile First
