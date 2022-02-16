@@ -281,18 +281,51 @@ export default function Cv() {
       <footer>
         <section>
           <div id="xxss">
-            <h3>LinkedIn</h3>
-            <h3>Twitter</h3>
-            <h3>Instagram</h3>
-            <h3>Wechat</h3>
-            <h3>Facebook</h3>
+            <a
+              href="https://linkedin.com/in/jordialonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/linkedin.svg" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://twitter.com/jordialonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/twitter.svg" alt="twitter" />
+            </a>
+            <a
+              href="https://instagram.com/jordialonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/instagram.svg" alt="instagram" />
+            </a>
+            <a
+              href="https://facebook.com/jordi.alonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              href="https://youtube.com/user/cine3Dtv/videos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/youtube.svg" alt="youtube" />
+            </a>
           </div>
         </section>
         <section>
           <div id="contacte">
-            <h2>Contacte</h2>
-            <h3>Email</h3>
-            <h3>Telèfon</h3>
+            <a href="mailto:jordi_alonso@hotmail.com?subject=He vist en seu CV a la seva web">
+              <img src="./img/wechat.svg" alt="email" width="40" />
+            </a>
+            <a href="tel:+34905-115-050">
+              <img src="./img/wechat.svg" alt="email" width="40" />
+            </a>
           </div>
         </section>
       </footer>

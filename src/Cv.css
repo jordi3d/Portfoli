@@ -63,6 +63,7 @@ footer {
     align-items: center;
     align-content: stretch;
     justify-content: space-evenly;
+    background-color: wheat;
 }
 
 #xxss {
@@ -77,6 +78,7 @@ footer {
 }
 
 #copy {
+    background-color: wheat;
     width: 100%;
     text-align: center;
 }
