@@ -1,112 +1,148 @@
 import "./Cv.css";
+import { useState } from "react";
+let titols1 = [
+  {
+    CAT: "Experiència Professional",
+    ES: "Experiecnia profesional",
+    EN: "Professional Experience",
+    FR: "Experience Professionnel",
+    RU: "rus",
+  },
+];
 
 export default function Cv() {
+  const [language, setLanguage] = useState("CAT");
+  function changeLanguage(idioma) {
+    let tmp = idioma;
+    setLanguage(tmp);
+    console.log("canviat idioma a %s", tmp);
+    return tmp;
+  }
   return (
     <div className="cv">
-      <ul>
-        <li>
-          LOGO + NOM en barra semitransparent, que és permanent i només s'amaga
-          si es fa scroll vertical
-        </li>
-        <li>
-          foto de perfil, amb una animació que va canviant-la segons temàtica:
-          <br />
-          -(APD, Huawei, NEOM)
-          <br />
-          -conferències
-          <br />
-          -formació i congressos
-          <br />
-          -afeccions
-          <br />
-        </li>
-        <li>Segons menú mostrar (i idioma)</li>
-        <ul>
-          <li>
-            Experiències per competències, de més important a menys o de més
-            recent a menys, segons convingui
-          </li>
-          <li>Feines</li>
-          <ul>
-            <li>CTO</li>
-            <li>Project Management</li>
-            <li>Service Account Manager</li>
-            <li>Formació</li>
-            <ul>
-              <li>ESADE Mentor</li>
-              <li>La Salle</li>
-              <li>ERAM</li>
-              <li>MSc UPC</li>
-              <li>Mediapro AutomaticTV</li>
-              <li>Mediapro 3D</li>
-              <li>RTVE Catalunya</li>
-              <li>ESCAC</li>
-            </ul>
-            <li>Web developement</li>
-            <li>Empresari</li>
-          </ul>
-          <li>Entrevistes</li>
-          <ul>
-            <li>VR</li>
-            <li>Canal+ estrena simultània</li>
-            <li>TV3</li>
-            <li>internet video a cine.com</li>
-            <li>e-commerce a reg2.net</li>
-          </ul>
-          <li>Conferències</li>
-          <ul>
-            <li>APD XR: the next big thing?</li>
-            <li>GITEX Huawei 5G Keynote</li>
-            <li>La Liga Technology Showcase Shanghai</li>
-            <li>La Liga Technology Showcase BCN</li>
-            <li>COEIC media &and; IT</li>
-            <li>Mediapro 2020 3D Media</li>
-            <li>IBC 2020 3D Media</li>
-            <li>CGIx Glory Day</li>
-            <li>Festival de cinema de Sitges cine.com</li>
-            <li>Torre Agbar cine.com</li>
-            <li>Santiago de Compostela cine.com</li>
-          </ul>
-          <li>Formació</li>
-          <ul>
-            <li>MSc Photonics a UPC</li>
-            <li>MBA a ESADE</li>
-            <li>MA Compueter Animation a ESCAC</li>
-            <li>BSc Computer Graphics a UAB</li>
-            <li>Cursos i Certificacions</li>
-            <ul>
-              <li>Front-end web developer</li>
-              <li>Coursera ML</li>
-              <li>ITIL</li>
-              <li>PMI</li>
-              <li>Softimage 3D</li>
-              <li>Avid DS</li>
-            </ul>
-            <li>Congressos</li>
-            <ul>
-              <li>SIGGRAPH</li>
-              <li>NAB</li>
-              <li>IBC</li>
-              <li>MWC</li>
-              <li>Suècia</li>
-              <li>Helsinki</li>
-            </ul>
-          </ul>
-          <li>Afiliacions</li>
-          <li>Afeccions</li>
-          <ul>
-            <li>Tennis</li>
-            <li>Tennis taula</li>
-            <li>Golf</li>
-            <li>Esquí</li>
-            <li>Trekking</li>
-            <li>Beat Saber</li>
-            <li>Música: Guitarra i Piano</li>
-            <li>Lectura</li>
-            <li>Fotografia de viatges</li>
-          </ul>
-        </ul>
-      </ul>
+      <header>
+        <div id="barraMenu">
+          <img src="https://via.placeholder.com/60x60" alt="logo empresa" />{" "}
+          JordiAlonso.com
+          <div id="idioma" onClick={() => changeLanguage("ES")}>
+            {language}
+          </div>
+        </div>
+        <div id="fotoMain">
+          <div id="texte">
+            foto de perfil, amb una animació que va canviant-la segons temàtica:
+            <br />
+            -(APD, Huawei, NEOM)
+            <br />
+            -conferències
+            <br />
+            -formació i congressos
+            <br />
+            -afeccions
+          </div>
+        </div>
+      </header>
+      <section>
+        <h1>{titols1[{ language }]}</h1>
+        <h2>CTO</h2>
+        <h2>Project Manager</h2>
+        <h2>Service Account Manager</h2>
+        <h2>Ensenyament donant classes</h2>
+        <h3>ESADE Mentor alumnes del Màster</h3>
+        <h3>La Salle</h3>
+        <h3>ERAM</h3>
+        <h3>MSc UPC</h3>
+        <h3>Mediapro AutomaticTV</h3>
+        <h3>Mediapro 3D</h3>
+        <h3>RTVE Catalunya</h3>
+        <h3>ESCAC</h3>
+        <h2>Web developement</h2>
+        <h2>Empresari</h2>
+        <h3>Serveis de formació</h3>
+        <h3>crypto mining</h3>
+        <h3>Domainer 1.200 dominis -ara 110-</h3>
+        <h3>cine.com descàrregues legals de vídeo</h3>
+        <h3>Iberseller e-commerce solutions</h3>
+        <h3>CADAT Informàtica importacions, muntatge de PC's</h3>
+      </section>
+      <section>
+        <h2>Entrevistes</h2>
+        <h3>VR</h3>
+        <h3>Canal+ estrena simultània</h3>
+        <h3>TV3</h3>
+        <h3>internet video a cine.com</h3>
+        <h3>e-commerce a reg2.net</h3>
+      </section>
+      <section>
+        <h2>Conferències</h2>
+        <h3>APD XR: the next big thing?</h3>
+        <h3>GITEX Huawei 5G Keynote</h3>
+        <h3>La Liga Technology Showcase Shanghai</h3>
+        <h3>La Liga Technology Showcase BCN</h3>
+        <h3>COEIC media &amp; IT</h3>
+        <h3>Mediapro 2020 3D Media</h3>
+        <h3>IBC 2020 3D Media</h3>
+        <h3>CGIx Glory Day</h3>
+        <h3>Festival de cinema de Sitges cine.com</h3>
+        <h3>Torre Agbar cine.com</h3>
+        <h3>Santiago de Compostela cine.com</h3>
+      </section>
+      <section>
+        <h2>Formació</h2>
+        <h3>MSc Photonics a UPC</h3>
+        <h3>MBA a ESADE</h3>
+        <h3>MA Computer Animation a ESCAC</h3>
+        <h3>BSc Computer Graphics a UAB</h3>
+        <h3>Cursos i Certificacions</h3>
+        <h4>Front-end web developer</h4>
+        <h4>Coursera ML</h4>
+        <h4>ITIL</h4>
+        <h4>PMI</h4>
+        <h4>Softimage 3D</h4>
+        <h4>Avid DS</h4>
+      </section>
+      <section>
+        <h3>Congressos</h3>
+        <h4>SIGGRAPH</h4>
+        <h4>NAB</h4>
+        <h4>IBC</h4>
+        <h4>MWC</h4>
+        <h4>Suècia</h4>
+        <h4>Helsinki</h4>
+      </section>
+      <section>
+        <h2>Afiliacions</h2>
+      </section>
+      <section>
+        <h2>Afeccions</h2>
+        <h3>Tennis</h3>
+        <h3>Tennis taula</h3>
+        <h3>Golf</h3>
+        <h3>Esquí</h3>
+        <h3>Trekking</h3>
+        <h3>Beat Saber</h3>
+        <h3>Música: Guitarra i Piano</h3>
+        <h3>Lectura</h3>
+        <h3>Fotografia de viatges</h3>
+      </section>
+      <footer>
+        <section>
+          <h1>Xarxes Socials</h1>
+          <h2>LinkedIn</h2>
+          <h2>Twitter</h2>
+          <h2>Instagram</h2>
+          <h2>Facebook</h2>
+          <h2>Pinterest</h2>
+        </section>
+        <section>
+          <h1>Contacte</h1>
+          <h2>Email</h2>
+          <h2>Telèfon</h2>
+        </section>
+        <section>
+          <h5 id="copy">&copy; 2022 Jordi Alonso</h5>
+        </section>
+      </footer>
     </div>
   );
 }
