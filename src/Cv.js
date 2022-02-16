@@ -298,7 +298,7 @@ export default function Cv() {
       </footer>
       <section>
         <div id="copy">
-          <h5>&copy; 2022 SYNTHESPIAN SL</h5>
+          <h5>&copy; 2022 Synthespian SL. Tots els drets reservats</h5>
         </div>
       </section>
     </div>

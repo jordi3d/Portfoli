@@ -33,6 +33,7 @@ body {
     flex: none;
     font-size: small;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 #separador {
