@@ -65,7 +65,6 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
         <li>Torre Agbar cine.com</li>
         <li>Santiago de Compostela cine.com</li>
       </ul>
-  </ul>
 <li>Experiències a formació</li>
   <ul>
     <li>MSc Photonics a UPC</li>
@@ -104,4 +103,5 @@ Ja ho tinc clar (14-2-22), i m'hi posaré aviat<br/>
     <li>Lectura</li>
     <li>Fotografia de viatges</li>
   </ul>
+      </ul>
 </ul>
