@@ -11,19 +11,33 @@ El més difícil és decidir el format del portfoli. Ja ho tinc clar (14-2-22), 
   <li>foto de perfil, amb una animació que va canviant-la (APD, Huawei, NEOM)</li>
   <li>Segons menú mostrar (i idioma)</li>
   <ul>
-    <li>Experiències per competències, de més recent a menys recent</li>
+    <li>Experiències per competències, de més important a menys o de més recent a menys, segons convingui</li>
      <li>Feines</li>
      <ul>
         <li>CTO</li>
         <li>Project Management</li>
+        <li>Service Account Manager</li>
         <li>Formació</li>
+        <ul>
+          <li>ESADE Mentor</li>
+          <li>La Salle</li>
+          <li>ERAM</li>
+          <li>MSc UPC</li>
+          <li>Mediapro AutomaticTV</li>
+          <li>Mediapro 3D</li>
+          <li>RTVE Catalunya</li>
+          <li>ESCAC</li>
+        </ul>
+        <li>Web developement</li>
         <li>Empresari</li>
      </ul>
      <li>Entrevistes</li>
      <ul>
-        <li>e-commerce a reg2.net</li>
-        <li>internet video a cine.com</li>
         <li>VR</li>
+        <li>Canal+ estrena simultània</li>
+        <li>TV3</li>
+        <li>internet video a cine.com</li>
+        <li>e-commerce a reg2.net</li>
       </ul>
       <li>Conferències</li>
       <ul>
@@ -34,6 +48,8 @@ El més difícil és decidir el format del portfoli. Ja ho tinc clar (14-2-22), 
         <li>COEIC media & IT</li>
         <li>Mediapro 2020 3D Media</li>      
         <li>IBC 2020 3D Media</li>
+        <li>CGIx Glory Day</li>
+        <li>Festival de cinema de Sitges cine.com</li>
         <li>Torre Agbar cine.com</li>
         <li>Santiago de Compostela cine.com</li>
       </ul>
