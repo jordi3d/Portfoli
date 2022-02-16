@@ -1,22 +1,28 @@
 import "./Cv.css";
 import { useState } from "react";
-let titols1 = [
+let idiomes = ["CAT", "ES", "EN", "FR", "RU", "DE", "IT", "PT", "ZH"];
+let titolsH1 = [
   {
     CAT: "Experiència Professional",
-    ES: "Experiecnia profesional",
+    ES: "Experiencia Profesional",
     EN: "Professional Experience",
-    FR: "Experience Professionnel",
-    RU: "rus",
+    FR: "Expérience Professionnelle",
+    RU: "Профессиональный опыт",
+    DE: "Berufserfahrung",
+    IT: "Esperienza professionale",
+    PT: "Experiência profissional",
+    ZH: "专业经验",
   },
 ];
 
 export default function Cv() {
   const [language, setLanguage] = useState("CAT");
-  function changeLanguage(idioma) {
-    let tmp = idioma;
-    setLanguage(tmp);
-    console.log("canviat idioma a %s", tmp);
-    return tmp;
+  function changeLanguage() {
+    let tmp = idiomes.indexOf(language);
+    if (tmp >= idiomes.length - 1) tmp = -1;
+    let next = idiomes[tmp + 1];
+    setLanguage(next);
+    return next;
   }
   return (
     <div className="cv">
@@ -24,7 +30,7 @@ export default function Cv() {
         <div id="barraMenu">
           <div id="logo"></div>
           <div id="titol">JordiAlonso.com</div>
-          <div id="idioma" onClick={() => changeLanguage("ES")}>
+          <div id="idioma" onClick={() => changeLanguage()}>
             {language}
           </div>
         </div>
@@ -43,7 +49,7 @@ export default function Cv() {
         </div>
       </header>
       <section>
-        <h1>titols1[0].{language}</h1>
+        <h1>{titolsH1[0][language]}</h1>
         <h2>CTO</h2>
         <h2>Project Manager</h2>
         <h2>Service Account Manager</h2>
@@ -88,11 +94,11 @@ export default function Cv() {
         <h3>Santiago de Compostela cine.com</h3>
       </section>
       <section>
-        <h2>Formació</h2>
-        <h3>MSc Photonics a UPC</h3>
-        <h3>MBA a ESADE</h3>
-        <h3>MA Computer Animation a ESCAC</h3>
-        <h3>BSc Computer Graphics a UAB</h3>
+        <h1>Formació</h1>
+        <h2>MSc Photonics a UPC</h2>
+        <h2>MBA a ESADE</h2>
+        <h2>MA Computer Animation a ESCAC</h2>
+        <h2>BSc Computer Graphics a UAB</h2>
         <h3>Cursos i Certificacions</h3>
         <h4>Front-end web developer</h4>
         <h4>Coursera ML</h4>
@@ -111,7 +117,36 @@ export default function Cv() {
         <h4>Helsinki</h4>
       </section>
       <section>
-        <h2>Afiliacions</h2>
+        <h1>Afiliacions</h1>
+      </section>
+      <section>
+        <h1>Idiomes</h1>
+        <h2>Català</h2>
+        <h3>Idioma Matern</h3>
+        <h3>Certificació C1</h3>
+        <h2>Castellà</h2>
+        <h3>Idioma Matern</h3>
+        <h2>Anglès</h2>
+        <h3>Nivell negociació</h3>
+        <h3>Michigan Proficiency</h3>
+        <h2>Francès</h2>
+        <h3>Estudiat durant 7 anys a l'escola</h3>
+        <h3>Cal refrescar-lo</h3>
+        <h2>Rus</h2>
+        <h3>Principiant</h3>
+        <h3>Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
+        <h2>Alemany</h2>
+        <h3>Principiant</h3>
+        <h3>Curs online d'iniciació</h3>
+        <h2>Italià</h2>
+        <h3>Principiant</h3>
+        <h3>Curs online d'iniciació</h3>
+        <h2>Portugués</h2>
+        <h3>Principiant</h3>
+        <h3>Curs online d'iniciació</h3>
+        <h2>Xinès</h2>
+        <h3>Principiant</h3>
+        <h3>Curs online d'iniciació i classes particulars</h3>
       </section>
       <section>
         <h2>Afeccions</h2>
