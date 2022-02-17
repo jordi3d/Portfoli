@@ -15,7 +15,7 @@ let titolsH1 = [
   },
   {
     CAT: "Formació Reglada",
-    ES: "Fromación Reglada",
+    ES: "Formación Reglada",
     EN: "Regulated Training",
     FR: "Formation Réglementée",
     RU: "Регулируемая обучение",
@@ -117,6 +117,164 @@ let titolsH3 = [
     ZH: "国会",
   },
 ];
+let feines = [
+  {
+    CAT: "Director Tècnic",
+    ES: "Director Técnico",
+    EN: "CTO",
+    FR: "Directeur technique",
+    RU: "Технический директор",
+    DE: "Technischer Direktor",
+    IT: "Direttore tecnico",
+    PT: "Diretor técnico",
+    ZH: "技术总监",
+  },
+  {
+    CAT: "Cap de Projectes",
+    ES: "Director de Proyectos",
+    EN: "Project Manager",
+    FR: "Chef de projets",
+    RU: "Руководитель проекта",
+    DE: "Projektmanager",
+    IT: "Manager di Proyecto",
+    PT: "Gestor de projeto",
+    ZH: "专案经理",
+  },
+  {
+    CAT: "Responsable de serveis al client",
+    ES: "Responsable de servicio al cliente",
+    EN: "Service Account Manager",
+    FR: "Gestionnaire de service de comptes",
+    RU: "Менеджер по обслуживанию учетной записи",
+    DE: "Service Account Manager",
+    IT: "Amministratore dei servizio del conteggi",
+    PT: "Gerente de serviço de conta",
+    ZH: "服务客户经理",
+  },
+  {
+    CAT: "Mestre",
+    ES: "Profesor",
+    EN: "Teacher",
+    FR: "Prof",
+    RU: "Учитель",
+    DE: "Lehrer",
+    IT: "Professore",
+    PT: "Professor",
+    ZH: "老师",
+  },
+  {
+    CAT: "Desenvolupador Web",
+    ES: "Desarrollador Web",
+    EN: "Web Developer",
+    FR: " ",
+    RU: " ",
+    DE: " ",
+    IT: " ",
+    PT: " ",
+    ZH: " ",
+  },
+];
+let llengues = [
+  {
+    CAT: "Català",
+    ES: "Catalán",
+    EN: "Catalan",
+    FR: "Catalan",
+    RU: "Каталон",
+    DE: "Katalanisch",
+    IT: "Catalano",
+    PT: "Catalão",
+    ZH: "加泰罗尼亚州",
+  },
+  {
+    CAT: "Castellà",
+    ES: "Español",
+    EN: "Spanish",
+    FR: "Espagnol",
+    RU: "испанский",
+    DE: "Spanisch",
+    IT: "Spagnolo",
+    PT: "Espanhol",
+    ZH: "西班牙语",
+  },
+  {
+    CAT: "Anglès",
+    ES: "Inglés",
+    EN: "English",
+    FR: "Anglais",
+    RU: "английский",
+    DE: "Englisch",
+    IT: "Inglese",
+    PT: "Inglês",
+    ZH: "英语",
+  },
+  {
+    CAT: "Francès",
+    ES: "Francés",
+    EN: "French",
+    FR: "Français",
+    RU: "Французский",
+    DE: "Französisch",
+    IT: "Francese",
+    PT: "Francês",
+    ZH: "法语",
+  },
+  {
+    CAT: "Rus",
+    ES: "Ruso",
+    EN: "Russian",
+    FR: "Russe",
+    RU: "русский",
+    DE: "Russisch",
+    IT: "Ruso",
+    PT: "Russo",
+    ZH: "俄语",
+  },
+  {
+    CAT: "Alemany",
+    ES: "Alemán",
+    EN: "German",
+    FR: "Allemand",
+    RU: "Немецкий",
+    DE: "Deutsch",
+    IT: "Tedesco",
+    PT: "Alemão",
+    ZH: "德语",
+  },
+  {
+    CAT: "Italià",
+    ES: "Italiano",
+    EN: "Italian",
+    FR: "Italien",
+    RU: "Итальянский",
+    DE: "Italienisch",
+    IT: "Italiano",
+    PT: "Italiano",
+    ZH: "意大利人",
+  },
+  {
+    CAT: "Portuguès",
+    ES: "Portugués",
+    EN: "Portuguese",
+    FR: "Portugais",
+    RU: "португальский",
+    DE: "Portugiesisch",
+    IT: "Portoghese",
+    PT: "Português",
+    ZH: "葡萄牙语",
+  },
+  {
+    CAT: "Xinès",
+    ES: "Chino",
+    EN: "Chinese",
+    FR: "Chinois",
+    RU: "китайский",
+    DE: "Chinesisch",
+    IT: "Chino",
+    PT: "Chinês",
+    ZH: "中国人",
+  },
+];
 
 export default function Cv() {
   const [language, setLanguage] = useState("CAT");
@@ -154,10 +312,10 @@ export default function Cv() {
       </header>
       <section>
         <h1>{titolsH1[0][language]}</h1>
-        <h2>CTO</h2>
-        <h2>Project Manager</h2>
-        <h2>Service Account Manager</h2>
-        <h2>Ensenyament donant classes</h2>
+        <h2>{feines[0][language]}</h2>
+        <h2>{feines[1][language]}</h2>
+        <h2>{feines[2][language]}</h2>
+        <h2>{feines[3][language]}</h2>
         <h3>ESADE Mentor alumnes del Màster</h3>
         <h3>La Salle</h3>
         <h3>ERAM</h3>
@@ -166,7 +324,7 @@ export default function Cv() {
         <h3>Mediapro 3D</h3>
         <h3>RTVE Catalunya</h3>
         <h3>ESCAC</h3>
-        <h2>Web developement</h2>
+        <h2>{feines[4][language]}</h2>
         <h2>{titolsH2[0][language]}</h2>
         <h3>Serveis de formació</h3>
         <h3>crypto mining</h3>
@@ -208,11 +366,11 @@ export default function Cv() {
         <h2>BSc Computer Graphics a UAB</h2>
         <h2>{titolsH2[3][language]}</h2>
         <h3>Front-end web developer</h3>
-        <h4>Certificació xxx</h4>
-        <h3>Coursera ML</h3>
-        <h4>Certificació xxx</h4>
-        <h3>ITIL</h3>
-        <h4>Certificació EXIN en ITIL Essentials</h4>
+        <h4>Certificació Tecnocampus</h4>
+        <h3>Machine Learning</h3>
+        <h4>Certificació Coursera/Stanford</h4>
+        <h3>ITIL Essentials</h3>
+        <h4>Certificació EXIN</h4>
         <h3>Project Manager</h3>
         <h4>Certificació PMI</h4>
         <h3>Softimage 3D</h3>
@@ -238,30 +396,30 @@ export default function Cv() {
       </section>
       <section>
         <h1>{titolsH1[3][language]}</h1>
-        <h2>Català</h2>
+        <h2>{llengues[0][language]}</h2>
         <h3>Idioma Matern</h3>
         <h3>Certificació C1</h3>
-        <h2>Castellà</h2>
+        <h2>{llengues[1][language]}</h2>
         <h3>Idioma Matern</h3>
-        <h2>Anglès</h2>
+        <h2>{llengues[2][language]}</h2>
         <h3>Nivell negociació</h3>
         <h3>Michigan Proficiency</h3>
-        <h2>Francès</h2>
+        <h2>{llengues[3][language]}</h2>
         <h3>Estudiat durant 7 anys a l'escola</h3>
         <h3>Cal refrescar-lo</h3>
-        <h2>Rus</h2>
+        <h2>{llengues[4][language]}</h2>
         <h3>Principiant</h3>
         <h3>Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
-        <h2>Alemany</h2>
+        <h2>{llengues[5][language]}</h2>
         <h3>Principiant</h3>
         <h3>Curs online d'iniciació</h3>
-        <h2>Italià</h2>
+        <h2>{llengues[6][language]}</h2>
         <h3>Principiant</h3>
         <h3>Curs online d'iniciació</h3>
-        <h2>Portugués</h2>
+        <h2>{llengues[7][language]}</h2>
         <h3>Principiant</h3>
         <h3>Curs online d'iniciació</h3>
-        <h2>Xinès</h2>
+        <h2>{llengues[8][language]}</h2>
         <h3>Principiant</h3>
         <h3>Curs online d'iniciació</h3>
         <h3>Classes particulars</h3>
