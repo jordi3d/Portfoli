@@ -311,130 +311,141 @@ export default function Cv() {
         </div>
       </header>
       <section>
-        <h1>{titolsH1[0][language]}</h1>
-        <h2>{feines[0][language]}</h2>
-        <h2>{feines[1][language]}</h2>
-        <h2>{feines[2][language]}</h2>
-        <h2>{feines[3][language]}</h2>
-        <h3>ESADE Mentor alumnes del Màster</h3>
-        <h3>La Salle</h3>
-        <h3>ERAM</h3>
-        <h3>MSc UPC</h3>
-        <h3>Mediapro AutomaticTV</h3>
-        <h3>Mediapro 3D</h3>
-        <h3>RTVE Catalunya</h3>
-        <h3>ESCAC</h3>
-        <h2>{feines[4][language]}</h2>
-        <h2>{titolsH2[0][language]}</h2>
-        <h3>Serveis de formació</h3>
-        <h3>crypto mining</h3>
-        <h3>Domainer 1.200 dominis -ara 110-</h3>
-        <h3>cine.com descàrregues legals de vídeo</h3>
-        <h3>Iberseller e-commerce solutions</h3>
-        <h3>CADAT Informàtica importacions, muntatge de PC's</h3>
+        <h1>+{titolsH1[0][language]}</h1>
+        <h2>-{feines[0][language]}</h2>
+        <h2>-{feines[1][language]}</h2>
+        <h2>-{feines[2][language]}</h2>
+        <h2>-{feines[3][language]}</h2>
+        <h3>--ESADE Mentor alumnes del Màster</h3>
+        <h3>--La Salle</h3>
+        <h3>--ERAM</h3>
+        <h3>--MSc UPC</h3>
+        <h3>--Mediapro AutomaticTV</h3>
+        <h3>--Mediapro 3D</h3>
+        <h3>--RTVE Catalunya</h3>
+        <h3>--ESCAC</h3>
+        <h2>-{feines[4][language]}</h2>
+        <h2>+{titolsH2[0][language]}</h2>
+        <h3>-Serveis de formació</h3>
+        <h3>-crypto mining</h3>
+        <h3>-Domainer 1.200 dominis -ara 110-</h3>
+        <h3>-cine.com descàrregues legals de vídeo</h3>
+        <h3>-Iberseller e-commerce solutions</h3>
+        <h3>-CADAT Informàtica importacions, muntatge de PC's</h3>
       </section>
       <section>
-        <h2>{titolsH2[1][language]}</h2>
-        <h3>VR</h3>
-        <h3>3D als Matins de Catradio</h3>
-        <h3>Canal+ Estrena simultània</h3>
-        <h3>TV3 Telenotícies</h3>
-        <h3>CadenaSER @cine.com</h3>
-        <h3>CATRADIO internet video @cine.com</h3>
-        <h3>internet video @cine.com</h3>
-        <h3>e-commerce @reg2.net</h3>
+        <h2>+{titolsH2[1][language]}</h2>
+        <h3>-VR</h3>
+        <h3>-3D als Matins de Catradio</h3>
+        <h3>-Canal+ Estrena simultània</h3>
+        <h3>-TV3 Telenotícies</h3>
+        <h3>-CadenaSER @cine.com</h3>
+        <h3>-CATRADIO internet video @cine.com</h3>
+        <h3>-internet video @cine.com</h3>
+        <h3>-e-commerce @reg2.net</h3>
       </section>
       <section>
-        <h2>{titolsH2[2][language]}</h2>
-        <h3>APD XR: the next big thing?</h3>
-        <h3>GITEX Huawei 5G Keynote</h3>
-        <h3>La Liga Technology Showcase Shanghai</h3>
-        <h3>La Liga Technology Showcase BCN</h3>
-        <h3>COEIC media &amp; IT</h3>
-        <h3>Mediapro 2020 3D Media</h3>
-        <h3>IBC 2020 3D Media</h3>
-        <h3>CGIx Glory Day</h3>
-        <h3>Festival de cinema de Sitges cine.com</h3>
-        <h3>Torre Agbar cine.com</h3>
-        <h3>Santiago de Compostela cine.com</h3>
+        <h2>+{titolsH2[2][language]}</h2>
+        <h3>-APD XR: the next big thing?</h3>
+        <h3>-GITEX Huawei 5G Keynote</h3>
+        <h3>-La Liga Technology Showcase Shanghai</h3>
+        <h3>-La Liga Technology Showcase BCN</h3>
+        <h3>-COEIC media &amp; IT</h3>
+        <h3>-Mediapro 2020 3D Media</h3>
+        <h3>-IBC 2020 3D Media</h3>
+        <h3>-CGIx Glory Day</h3>
+        <h3>-Festival de cinema de Sitges cine.com</h3>
+        <h3>-Torre Agbar cine.com</h3>
+        <h3>-Santiago de Compostela cine.com</h3>
       </section>
       <section>
-        <h1>{titolsH1[1][language]}</h1>
-        <h2>MSc Photonics a UPC</h2>
-        <h2>MBA a ESADE</h2>
-        <h2>MA Computer Animation a ESCAC</h2>
-        <h2>BSc Computer Graphics a UAB</h2>
-        <h2>{titolsH2[3][language]}</h2>
-        <h3>Front-end web developer</h3>
-        <h4>Certificació Tecnocampus</h4>
-        <h3>Machine Learning</h3>
-        <h4>Certificació Coursera/Stanford</h4>
-        <h3>ITIL Essentials</h3>
-        <h4>Certificació EXIN</h4>
-        <h3>Project Manager</h3>
-        <h4>Certificació PMI</h4>
-        <h3>Softimage 3D</h3>
-        <h4>Certificació Softimage 101-501</h4>
-        <h3>Avid DS</h3>
-        <h4>Certificació Avid DS 101-501</h4>
+        <h1>+{titolsH1[1][language]}</h1>
+        <h2>-MSc Photonics a UPC</h2>
+        <h2>-MBA a ESADE</h2>
+        <h2>-MA Computer Animation a ESCAC</h2>
+        <h2>-BSc Computer Graphics a UAB</h2>
+        <h2>+{titolsH2[3][language]}</h2>
+        <h3>-Front-end web developer</h3>
+        <h4>--Certificació Tecnocampus</h4>
+        <h3>-Machine Learning</h3>
+        <h4>--Certificació Coursera/Stanford</h4>
+        <h3>-ITIL Essentials</h3>
+        <h4>--Certificació EXIN</h4>
+        <h3>-Project Manager</h3>
+        <h4>--Certificació PMI</h4>
+        <h3>-Softimage 3D</h3>
+        <h4>--Certificació Softimage 101-501</h4>
+        <h3>-Avid DS</h3>
+        <h4>--Certificació Avid DS 101-501</h4>
       </section>
       <section>
-        <h3>{titolsH3[0][language]}</h3>
-        <h4>SIGGRAPH</h4>
-        <h4>NAB</h4>
-        <h4>IBC</h4>
-        <h4>MWC</h4>
-        <h4>Suècia</h4>
-        <h4>Helsinki</h4>
+        <h3>+{titolsH3[0][language]}</h3>
+        <h4>-SIGGRAPH</h4>
+        <h4>-NAB</h4>
+        <h4>-IBC</h4>
+        <h4>-MWC</h4>
+        <h4>-Suècia</h4>
+        <h4>-Helsinki</h4>
       </section>
       <section>
-        <h1>{titolsH1[2][language]}</h1>
-        <h2>SIGGRAPH</h2>
-        <h2>COEIC</h2>
-        <h2>VRARA</h2>
-        <h2>MENSA</h2>
+        <h1>+{titolsH1[2][language]}</h1>
+        <h2>-SIGGRAPH</h2>
+        <h2>-COEIC</h2>
+        <h2>-VRARA</h2>
+        <h2>-MENSA</h2>
       </section>
       <section>
-        <h1>{titolsH1[3][language]}</h1>
-        <h2>{llengues[0][language]}</h2>
-        <h3>Idioma Matern</h3>
-        <h3>Certificació C1</h3>
-        <h2>{llengues[1][language]}</h2>
-        <h3>Idioma Matern</h3>
-        <h2>{llengues[2][language]}</h2>
-        <h3>Nivell negociació</h3>
-        <h3>Michigan Proficiency</h3>
-        <h2>{llengues[3][language]}</h2>
-        <h3>Estudiat durant 7 anys a l'escola</h3>
-        <h3>Cal refrescar-lo</h3>
-        <h2>{llengues[4][language]}</h2>
-        <h3>Principiant</h3>
-        <h3>Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
-        <h2>{llengues[5][language]}</h2>
-        <h3>Principiant</h3>
-        <h3>Curs online d'iniciació</h3>
-        <h2>{llengues[6][language]}</h2>
-        <h3>Principiant</h3>
-        <h3>Curs online d'iniciació</h3>
-        <h2>{llengues[7][language]}</h2>
-        <h3>Principiant</h3>
-        <h3>Curs online d'iniciació</h3>
-        <h2>{llengues[8][language]}</h2>
-        <h3>Principiant</h3>
-        <h3>Curs online d'iniciació</h3>
-        <h3>Classes particulars</h3>
+        <h1>+{titolsH1[3][language]}</h1>
+        <h2>-{llengues[0][language]}</h2>
+        <h3>--Idioma Matern</h3>
+        <h3>--Certificació C1</h3>
+        <h2>-{llengues[1][language]}</h2>
+        <h3>--Idioma Matern</h3>
+        <h2>-{llengues[2][language]}</h2>
+        <h3>--Nivell negociació</h3>
+        <h3>--Michigan Proficiency</h3>
+        <h2>-{llengues[3][language]}</h2>
+        <h3>--Estudiat durant 7 anys a l'escola</h3>
+        <h3>--Cal refrescar-lo</h3>
+        <h2>-{llengues[4][language]}</h2>
+        <h3>--Principiant</h3>
+        <h3>--Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
+        <h2>-{llengues[5][language]}</h2>
+        <h3>--Principiant</h3>
+        <h3>--Curs online d'iniciació</h3>
+        <h2>-{llengues[6][language]}</h2>
+        <h3>--Principiant</h3>
+        <h3>--Curs online d'iniciació</h3>
+        <h2>-{llengues[7][language]}</h2>
+        <h3>--Principiant</h3>
+        <h3>--Curs online d'iniciació</h3>
+        <h2>-{llengues[8][language]}</h2>
+        <h3>--Principiant</h3>
+        <h3>--Curs online d'iniciació</h3>
+        <h3>--Classes particulars</h3>
       </section>
       <section>
-        <h2>{titolsH2[4][language]}</h2>
-        <h3>Tennis</h3>
-        <h3>Tennis taula</h3>
-        <h3>Golf</h3>
-        <h3>Esquí</h3>
-        <h3>Trekking</h3>
-        <h3>Beat Saber</h3>
-        <h3>Música: Guitarra i Piano</h3>
-        <h3>Lectura</h3>
-        <h3>Fotografia de viatges</h3>
+        <h2>+{titolsH2[4][language]}</h2>
+        <h3>-Tennis</h3>
+        <h4>--</h4>
+        <h3>-Tennis taula</h3>
+        <h4>--</h4>
+        <h3>-Golf</h3>
+        <h4>--</h4>
+        <h3>-Esquí</h3>
+        <h4>--</h4>
+        <h3>-Trekking</h3>
+        <h4>--</h4>
+        <h3>-Beat Saber</h3>
+        <h4>--</h4>
+        <h3>-Guitarra</h3>
+        <h4>--</h4>
+        <h3>-Piano</h3>
+        <h4>--</h4>
+        <h3>-Lectura</h3>
+        <h4>--</h4>
+        <h3>-Fotografia de viatges</h3>
+        <h4>--</h4>
       </section>
       <footer>
         <section>
