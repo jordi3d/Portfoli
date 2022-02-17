@@ -520,7 +520,7 @@ export default function Cv() {
               <img src="./img/wechat.svg" alt="email" width="40" />
             </a>
             <a href="tel:+34905-115-050">
-              <img src="./img/wechat.svg" alt="email" width="40" />
+              <img src="./img/wechat.svg" alt="tel" width="40" />
             </a>
           </div>
           <div className="break"></div>
