@@ -514,8 +514,7 @@ export default function Cv() {
               <img src="./img/youtube.svg" alt="youtube" />
             </a>
           </div>
-        </section>
-        <section>
+
           <div id="contacte">
             <a href="mailto:jordi_alonso@hotmail.com?subject=He vist en seu CV a la seva web">
               <img src="./img/wechat.svg" alt="email" width="40" />
@@ -524,13 +523,12 @@ export default function Cv() {
               <img src="./img/wechat.svg" alt="email" width="40" />
             </a>
           </div>
+          <div className="break"></div>
+          <div id="copy">
+            <h5>&copy; 2022 Synthespian SL. Tots els drets reservats</h5>
+          </div>
         </section>
       </footer>
-      <section>
-        <div id="copy">
-          <h5>&copy; 2022 Synthespian SL. Tots els drets reservats</h5>
-        </div>
-      </section>
     </div>
   );
 }
