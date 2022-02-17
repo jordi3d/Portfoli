@@ -427,23 +427,23 @@ export default function Cv() {
       <section>
         <h2>+{titolsH2[4][language]}</h2>
         <h3>-Tennis</h3>
-        <h4>--</h4>
+        <h4>--3ª Categoria Grup 8</h4>
         <h3>-Tennis taula</h3>
-        <h4>--</h4>
+        <h4>--3ª Categoria</h4>
         <h3>-Golf</h3>
-        <h4>--</h4>
+        <h4>--Handicap 19.9</h4>
         <h3>-Esquí</h3>
-        <h4>--</h4>
         <h3>-Trekking</h3>
-        <h4>--</h4>
         <h3>-Beat Saber</h3>
-        <h4>--</h4>
+        <h4>--Nivell Expert</h4>
         <h3>-Guitarra</h3>
         <h4>--</h4>
         <h3>-Piano</h3>
-        <h4>--</h4>
+        <h4>--4rt de Solfeig</h4>
         <h3>-Lectura</h3>
-        <h4>--</h4>
+        <h4>--Darrer llibre: 01/2022 A Thousand Minds</h4>
+        <h3>-Cinema</h3>
+        <h4>--Veig totes les pelis en 3D i d'altres</h4>
         <h3>-Fotografia de viatges</h3>
         <h4>--</h4>
       </section>
