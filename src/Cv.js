@@ -166,12 +166,12 @@ let feines = [
     CAT: "Desenvolupador Web",
     ES: "Desarrollador Web",
     EN: "Web Developer",
-    FR: " ",
-    RU: " ",
-    DE: " ",
-    IT: " ",
-    PT: " ",
-    ZH: " ",
+    FR: "Développeur web",
+    RU: "веб-разработчик",
+    DE: "Web-Entwickler",
+    IT: "Sviluppatore web",
+    PT: "Desenvolvedor da Web",
+    ZH: "Web开发人员",
   },
 ];
 let llengues = [
@@ -289,7 +289,11 @@ export default function Cv() {
     <div className="cv">
       <header>
         <div id="barraMenu">
-          <div id="logo"></div>
+        <nav>
+          <div id="logo">
+          <img src="./img/LOGO.png" alt ="Logo"/>
+          </div>
+          </nav>
           <div id="titol">JordiAlonso.com</div>
           <div id="idioma" onClick={() => changeLanguage()}>
             {language}
@@ -345,6 +349,14 @@ export default function Cv() {
         <h3>-e-commerce @reg2.net</h3>
       </section>
       <section>
+        <h2>+Articulista{titolsH2[1][language]}</h2>
+        <h3>-Blog Veni Vidi Vici</h3>
+        <h3>-Blog cine3D.com</h3>
+        <h3>-Blog cine.com</h3>
+        <h3>-El Periódico de Catalunya</h3>
+        <h3>-3D Magazine</h3>
+      </section>
+      <section>
         <h2>+{titolsH2[2][language]}</h2>
         <h3>-APD XR: the next big thing?</h3>
         <h3>-GITEX Huawei 5G Keynote</h3>
@@ -353,7 +365,7 @@ export default function Cv() {
         <h3>-COEIC media &amp; IT</h3>
         <h3>-Mediapro 2020 3D Media</h3>
         <h3>-IBC 2020 3D Media</h3>
-        <h3>-CGIx Glory Day</h3>
+        <h3>-CgiX Glory Day</h3>
         <h3>-Festival de cinema de Sitges cine.com</h3>
         <h3>-Torre Agbar cine.com</h3>
         <h3>-Santiago de Compostela cine.com</h3>
