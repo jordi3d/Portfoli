@@ -6,7 +6,8 @@ body {
     position: fixed;
     height: 40px;
     width: 100%;
-    background-color: rgb(242, 184, 5);
+    background-color: black;
+    /* rgb(242, 184, 5);
     /*CMYK 0,24,98,5*/
     opacity: 0.8;
     display: flex;
@@ -26,14 +27,16 @@ body {
 
 #titol {
     flex: none;
-    color: black;
+    color: rgb(242, 184, 5);
+    /*CMYK 0,24,98,5*/
     font-size: x-large;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 #idioma {
     flex: none;
+    color: rgb(242, 184, 5);
     font-size: small;
     cursor: pointer;
 }

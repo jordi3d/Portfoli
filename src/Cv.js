@@ -71,6 +71,17 @@ let titolsH2 = [
     ZH: "面试",
   },
   {
+    CAT: "Articulista",
+    ES: "Articulista",
+    EN: " ",
+    FR: " ",
+    RU: " ",
+    DE: " ",
+    IT: " ",
+    PT: " ",
+    ZH: " ",
+  },
+  {
     CAT: "Conferències",
     ES: "Conferencias",
     EN: "Conferences",
@@ -289,10 +300,10 @@ export default function Cv() {
     <div className="cv">
       <header>
         <div id="barraMenu">
-        <nav>
-          <div id="logo">
-          <img src="./img/LOGO.png" alt ="Logo"/>
-          </div>
+          <nav>
+            <div id="logo">
+              <img src="./img/LOGO.png" alt="Logo" />
+            </div>
           </nav>
           <div id="titol">JordiAlonso.com</div>
           <div id="idioma" onClick={() => changeLanguage()}>
@@ -329,6 +340,11 @@ export default function Cv() {
         <h3>--RTVE Catalunya</h3>
         <h3>--ESCAC</h3>
         <h2>-{feines[4][language]}</h2>
+        <h3>--HTML5, CSS4, JS, SVG, ReactJS, ThreeJS per Portfolio personal</h3>
+        <h3>--HTML, CSS, JS, AJAX, JQuery, MariaDB, plugin 360 per Mediapro</h3>
+        <h3>--Macromedia Flash per Webs de clients</h3>
+        <h3>--HTML, CSS, JS per video online a cine.com</h3>
+        <h3>--HTML, CSS, JS per e-commerce a reg2.net</h3>
         <h2>+{titolsH2[0][language]}</h2>
         <h3>-Serveis de formació</h3>
         <h3>-crypto mining</h3>
@@ -349,7 +365,7 @@ export default function Cv() {
         <h3>-e-commerce @reg2.net</h3>
       </section>
       <section>
-        <h2>+Articulista{titolsH2[1][language]}</h2>
+        <h2>+{titolsH2[2][language]}</h2>
         <h3>-Blog Veni Vidi Vici</h3>
         <h3>-Blog cine3D.com</h3>
         <h3>-Blog cine.com</h3>
@@ -357,7 +373,7 @@ export default function Cv() {
         <h3>-3D Magazine</h3>
       </section>
       <section>
-        <h2>+{titolsH2[2][language]}</h2>
+        <h2>+{titolsH2[3][language]}</h2>
         <h3>-APD XR: the next big thing?</h3>
         <h3>-GITEX Huawei 5G Keynote</h3>
         <h3>-La Liga Technology Showcase Shanghai</h3>
@@ -376,7 +392,7 @@ export default function Cv() {
         <h2>-MBA a ESADE</h2>
         <h2>-MA Computer Animation a ESCAC</h2>
         <h2>-BSc Computer Graphics a UAB</h2>
-        <h2>+{titolsH2[3][language]}</h2>
+        <h2>+{titolsH2[4][language]}</h2>
         <h3>-Front-end web developer</h3>
         <h4>--Certificació Tecnocampus</h4>
         <h3>-Machine Learning</h3>
@@ -437,7 +453,7 @@ export default function Cv() {
         <h3>--Classes particulars</h3>
       </section>
       <section>
-        <h2>+{titolsH2[4][language]}</h2>
+        <h2>+{titolsH2[5][language]}</h2>
         <h3>-Tennis</h3>
         <h4>--3ª Categoria Grup 8</h4>
         <h3>-Tennis taula</h3>
@@ -449,7 +465,7 @@ export default function Cv() {
         <h3>-Beat Saber</h3>
         <h4>--Nivell Expert</h4>
         <h3>-Guitarra</h3>
-        <h4>--</h4>
+        <h4>--Crusos online</h4>
         <h3>-Piano</h3>
         <h4>--4rt de Solfeig</h4>
         <h3>-Lectura</h3>
