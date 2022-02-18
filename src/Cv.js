@@ -328,6 +328,18 @@ export default function Cv() {
       <section>
         <h1>+{titolsH1[0][language]}</h1>
         <h2>-{feines[0][language]}</h2>
+        Afegir foto a Stadio da luz
+        <figure>
+          <img
+            src="./img/obvan_ext2.jpg"
+            alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
+            width="500"
+          />
+          <figcaption>
+            Unitat mòbil 3D de Medialuso. Klepth Live 3D al Palacio da Música de
+            Porto
+          </figcaption>
+        </figure>
         <h2>-{feines[1][language]}</h2>
         <h2>-{feines[2][language]}</h2>
         <h2>-{feines[3][language]}</h2>
@@ -369,7 +381,41 @@ export default function Cv() {
         <h3>-Blog Veni Vidi Vici</h3>
         <h3>-Blog cine3D.com</h3>
         <h3>-Blog cine.com</h3>
+        <figure>
+          <img
+            src="./img/DougTrumbull_Sitges.jpg"
+            alt="entrevista a Doug Trumbull"
+            width="500"
+            heigth="375"
+          />
+          <figcaption>
+            Entrevista a Doug Trumbull durant el festival de Sitges 2007 per
+            cine.com
+          </figcaption>
+        </figure>
         <h3>-El Periódico de Catalunya</h3>
+        <figure>
+          <img
+            src="./img/Elperiodico1.jpg"
+            alt="Article#1 El Periódico"
+            width="500"
+            heigth="375"
+          />{" "}
+          <figcaption>
+            Article a El Periódico de Catalunya (suplement de tecnologia)
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./img/Elperiodico2.jpg"
+            alt="Article#2 El Periódico"
+            width="500"
+            heigth="375"
+          />
+          <figcaption>
+            Article a El Periódico de Catalunya (suplement de tecnologia)
+          </figcaption>
+        </figure>
         <h3>-3D Magazine</h3>
       </section>
       <section>
@@ -381,9 +427,31 @@ export default function Cv() {
         <h3>-COEIC media &amp; IT</h3>
         <h3>-Mediapro 2020 3D Media</h3>
         <h3>-IBC 2020 3D Media</h3>
-        <h3>-CgiX Glory Day</h3>
+        <h3>-CGIx Glory Day</h3>
+        <figure>
+          <img
+            src="./img/CGIx.jpg"
+            alt="CGIx a Barcelona el 1999"
+            width="500"
+          />
+          <figcaption>
+            Presentació del projecte "Glory Day" al CGIx de Barcelona 04-02-1999
+          </figcaption>
+        </figure>
         <h3>-Festival de cinema de Sitges cine.com</h3>
         <h3>-Torre Agbar cine.com</h3>
+        <figure>
+          <img
+            src="./img/CPAC_24-04-2008-Agbar.jpg"
+            alt="CPAC r-evolució difital 24-04-08 a Torre Agbar"
+            width="500"
+            heigth="375"
+          />
+          <figcaption>
+            Conferència a la Torre Agbar 24-04-2008 per CPAC: r-evolució digital
+            (cine.com)
+          </figcaption>
+        </figure>
         <h3>-Santiago de Compostela cine.com</h3>
       </section>
       <section>
@@ -412,8 +480,21 @@ export default function Cv() {
         <h4>-NAB</h4>
         <h4>-IBC</h4>
         <h4>-MWC</h4>
-        <h4>-Suècia</h4>
-        <h4>-Helsinki</h4>
+        <h4>EU COST Action. 2017 Stockholm-Helsinki</h4>
+        <a
+          href="https://www.3d-contournet.eu/cost-training-school-3d-avcom-2015/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h4>3D-AVCom Training School. EU COST Action. 2015 Lisbon</h4>
+        </a>
+        <a
+          href="https://www.3d-contournet.eu/plenoptics-2013/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h4>3D-ConTourNet Training School. EU COST Action. 2013 Sundsvall</h4>
+        </a>
       </section>
       <section>
         <h1>+{titolsH1[2][language]}</h1>
@@ -473,7 +554,26 @@ export default function Cv() {
         <h3>-Cinema</h3>
         <h4>--Veig totes les pelis en 3D i d'altres</h4>
         <h3>-Fotografia de viatges</h3>
-        <h4>--</h4>
+        <figure>
+          <img
+            src="./img/kiruna.jpg"
+            alt="Sol de mitjanit a Kiruna"
+            width="500"
+          />
+          <figcaption>
+            Sol de mitjanit a Kiruna (Suècia) + Superlluna 23-06-2013
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./img/kiruna.jpg"
+            alt="Sol de mitjanit a Kiruna"
+            width="500"
+          />
+          <figcaption>
+            Giorgios Wreckage NEOM (Arabia Saudita), 30-09-2018
+          </figcaption>
+        </figure>
       </section>
       <footer>
         <section>

@@ -61,6 +61,13 @@ body {
     /*display: none;*/
 }
 
+figcaption {
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    margin-left: -1rem;
+}
+
 footer {
     display: flex;
     flex-direction: row;
