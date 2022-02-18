@@ -340,7 +340,34 @@ export default function Cv() {
             Porto
           </figcaption>
         </figure>
+        <figure>
+          <img
+            src="./img/cartell3d_elclasico.png"
+            alt="Cartell de promoció del Clásico en 3D"
+            width="500"
+            heigth="375"
+          />
+          <figcaption>
+            Primera retransmissió d'El Clásico en 3D en directe
+          </figcaption>
+        </figure>
         <h2>-{feines[1][language]}</h2>
+        <h3>--NEOM The Line 2020</h3>
+        <h3>--TZoH v2 2020</h3>
+        <h3>--Messi 10 by Cirque du Soleil 2019</h3>
+        <h3>--BTS Woody Allen's visit to Spain 2019</h3>
+        <h3>--NEOM Tourism Book &amp; Map 2019</h3>
+        <h3>--NEOM Immersive 2019 </h3>
+        <h3>--NEOM Smart City 2019</h3>
+        <h3>--Messi Experience Park 2018</h3>
+        <h3>--VR Live 2018</h3>
+        <h3>--AutomaticTV 2014</h3>
+        <h3>--Immersive TV 2010</h3>
+        <h3>--Project FINE 2010</h3>
+        <h3>--Fútbol 3D 2010</h3>
+        <h3>--2020 3D Media 2008</h3>
+        <h3>--i3media 2008</h3>
+        <h3>--IPRacine 2008</h3>
         <h2>-{feines[2][language]}</h2>
         <h2>-{feines[3][language]}</h2>
         <h3>--ESADE Mentor alumnes del Màster</h3>
@@ -351,8 +378,14 @@ export default function Cv() {
         <h3>--Mediapro 3D</h3>
         <h3>--RTVE Catalunya</h3>
         <h3>--ESCAC</h3>
+        <h2>-VFX SV</h2>
+        <h3>--Glory Day</h3>
+        <h3>--Anunci Catalunya Música</h3>
+        <h3>--Short Film</h3>
         <h2>-{feines[4][language]}</h2>
-        <h3>--HTML5, CSS4, JS, SVG, ReactJS, ThreeJS per Portfolio personal</h3>
+        <h3>
+          --HTML5, CSS4, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio personal
+        </h3>
         <h3>--HTML, CSS, JS, AJAX, JQuery, MariaDB, plugin 360 per Mediapro</h3>
         <h3>--Macromedia Flash per Webs de clients</h3>
         <h3>--HTML, CSS, JS per video online a cine.com</h3>
@@ -425,7 +458,7 @@ export default function Cv() {
         <h3>-La Liga Technology Showcase Shanghai</h3>
         <h3>-La Liga Technology Showcase BCN</h3>
         <h3>-COEIC media &amp; IT</h3>
-        <h3>-Mediapro 2020 3D Media</h3>
+        <h3>-Auditori Mediapro 2020 3D Media</h3>
         <h3>-IBC 2020 3D Media</h3>
         <h3>-CGIx Glory Day</h3>
         <figure>
