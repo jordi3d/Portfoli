@@ -517,7 +517,7 @@ export default function Cv() {
         <h4>-NAB</h4>
         <h4>-IBC</h4>
         <h4>-MWC</h4>
-        <h4>EU COST Action. 2017 Stockholm-Helsinki</h4>
+        <h4>EU COST Action. 2018 Stockholm-Helsinki</h4>
         <a
           href="https://www.3d-contournet.eu/cost-training-school-3d-avcom-2015/"
           target="_blank"
