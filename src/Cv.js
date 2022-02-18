@@ -380,6 +380,7 @@ export default function Cv() {
         <h3>--ESCAC</h3>
         <h2>-VFX SV</h2>
         <h3>--Glory Day</h3>
+        <h3>--Capçalera Festival de Sitges</h3>
         <h3>--Anunci Catalunya Música</h3>
         <h3>--Anunci La Agenda</h3>
         <h3>--Short Film</h3>
