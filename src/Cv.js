@@ -386,14 +386,16 @@ export default function Cv() {
         <h3>--Short Film</h3>
         <h2>-{feines[4][language]}</h2>
         <h3>
-          --HTML5, CSS4, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio personal
+          --HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio personal
         </h3>
+        <h3>--SEO, SEM, Wordpress per webs pròpies</h3>
         <h3>--HTML, CSS, JS, AJAX, JQuery, MariaDB, plugin 360 per Mediapro</h3>
         <h3>--Macromedia Flash per Webs de clients</h3>
         <h3>--HTML, CSS, JS per video online a cine.com</h3>
         <h3>--HTML, CSS, JS per e-commerce a reg2.net</h3>
         <h2>+{titolsH2[0][language]}</h2>
-        <h3>-Serveis de formació</h3>
+        <h3>-Serveis de formació CGI, 3D, XR, web, Presentacions en públic</h3>
+        <h3>-SEO, SEM, Optimització de webs</h3>
         <h3>-crypto mining</h3>
         <h3>-Domainer 1.200 dominis -ara 110-</h3>
         <h3>-cine.com descàrregues legals de vídeo</h3>
