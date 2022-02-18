@@ -388,10 +388,12 @@ export default function Cv() {
         <h3>
           --HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio personal
         </h3>
-        <h3>--SEO, SEM, Wordpress per webs pròpies</h3>
-        <h3>--HTML, CSS, JS, AJAX, JQuery, MariaDB, plugin 360 per Mediapro</h3>
+        <h3>--SEO, SEM, Wordpress, PHP per webs pròpies</h3>
+        <h3>
+          --HTML, CSS, JS, AJAX, JQuery, PHP, MariaDB, plugin 360 per Mediapro
+        </h3>
         <h3>--Macromedia Flash per Webs de clients</h3>
-        <h3>--HTML, CSS, JS per video online a cine.com</h3>
+        <h3>--HTML, CSS, JS, PHP per video online a cine.com</h3>
         <h3>--HTML, CSS, JS per e-commerce a reg2.net</h3>
         <h2>+{titolsH2[0][language]}</h2>
         <h3>-Serveis de formació CGI, 3D, XR, web, Presentacions en públic</h3>
