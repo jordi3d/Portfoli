@@ -492,13 +492,30 @@ export default function Cv() {
               />
               <figcaption>Detalls de The Line a NEOM</figcaption>
             </figure>
-            <a href="#5">TZoH v2 2020</a>
+            <a
+              href="https://www.youtube.com/watch?v=OLIpvPvQ14E"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vídeo: The Zone of Hope
+            </a>
+            <figure>
+              <img
+                src="./img/tzoh.png"
+                alt="The Zone oh Hope"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>
+                The Zone of Hope v1 per Aigües de Barcelona
+              </figcaption>
+            </figure>
             <a
               href="https://mediaproexhibitions.com/ca/project/messi-challenge"
               target="_blank"
               rel="noreferrer"
             >
-              Messi Challenge: sigues Messi per un dia
+              Vídeo de Messi Challenge: sigues Messi per un dia
             </a>
             <figure>
               <img
@@ -513,8 +530,38 @@ export default function Cv() {
             <a href="#8">NEOM Tourism Book &amp; Map 2019</a>
             <a href="#9">NEOM Immersive 2019</a>
             <a href="#10">NEOM Smart City 2019</a>
-            <a href="#11">MEP (Messi Experience Park) 2018</a>
-            <a href="#12">VR Live 2018</a>
+            <a
+              href="https://mediaproexhibitions.com/ca/project/mep"
+              target="_blank"
+              rel="noreferrer"
+            >
+              MEP (Messi Experience Park) 2018
+            </a>
+            <figure>
+              <img
+                src="./img/mep.jpg"
+                alt="Messi Experience Park"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>Messi Experience Park a Nanjing, China</figcaption>
+            </figure>
+            <a
+              href="https://www.youtube.com/watch?v=bKJ9cW0xRuw"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Video promo: VR Live Gulf League 2018
+            </a>
+            <figure>
+              <img
+                src="./img/vrlive.jpg"
+                alt="VR Live Gulf League 2018"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>VR Live: Gulf Fooball League. Dubai, EAU</figcaption>
+            </figure>
             <a href="#13">AutomaticTV 2014</a>
             <a href="#14">Immersive TV 2010</a>
             <a href="#15">Project FINE 2010</a>
