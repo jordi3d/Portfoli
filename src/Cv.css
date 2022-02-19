@@ -3,6 +3,10 @@ body {
     background-color: wheat;
 }
 
+a {
+    text-decoration: none;
+}
+
 #barraMenu {
     position: fixed;
     height: 40px;
@@ -49,6 +53,7 @@ body {
     padding: 16px;
     font-size: x-large;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .dropbtn {
@@ -141,26 +146,23 @@ figcaption {
 
 footer {
     background-color: wheat;
-}
-
-#peu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*  align-content: stretch;*/
     justify-content: center;
-    margin-top: 30px;
 }
 
-#xxss {
+#peu {
+    /*  align-content: stretch;*/
+    margin-top: 30px;
     height: 60px;
-    width: 280px;
+    width: 340px;
     background-color: gray;
 }
 
-#contacte {
-    height: 60px;
-    width: 150px;
+#email {
+    padding-bottom: 6px;
+    padding-left: 0.8em;
 }
 
 .break {

@@ -121,7 +121,7 @@ let titolsH2 = [
     CAT: "Entrevistes",
     ES: "Entrevista",
     EN: "Interviews",
-    FR: "Interviews",
+    FR: "Entretiens",
     RU: "Интервью",
     DE: "Interviews",
     IT: "Colloquio",
@@ -1085,51 +1085,44 @@ export default function Cv() {
       <footer>
         <section>
           <div id="peu">
-            <div id="xxss">
-              <a
-                href="https://linkedin.com/in/jordialonso"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="./img/linkedin.svg" alt="LinkedIn" />
-              </a>
-              <a
-                href="https://twitter.com/jordialonso"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="./img/twitter.svg" alt="twitter" />
-              </a>
-              <a
-                href="https://instagram.com/jordialonso"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="./img/instagram.svg" alt="instagram" />
-              </a>
-              <a
-                href="https://facebook.com/jordi.alonso"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="./img/facebook.svg" alt="facebook" />
-              </a>
-              <a
-                href="https://youtube.com/user/cine3Dtv/videos"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="./img/youtube.svg" alt="youtube" />
-              </a>
-            </div>
-            <div id="contacte">
-              <a href="mailto:info@synthespian.net?subject=Web de Jordi Alonso">
-                <img src="./img/wechat.svg" alt="email" width="40" />
-              </a>
-              <a href="tel:+34-905-115-050">
-                <img src="./img/wechat.svg" alt="tel" width="40" />
-              </a>
-            </div>
+            <a
+              href="https://linkedin.com/in/jordialonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/linkedin.svg" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://twitter.com/jordialonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/twitter.svg" alt="twitter" />
+            </a>
+            <a
+              href="https://instagram.com/jordialonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/instagram.svg" alt="instagram" />
+            </a>
+            <a
+              href="https://facebook.com/jordi.alonso"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              href="https://youtube.com/user/cine3Dtv/videos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./img/youtube.svg" alt="youtube" />
+            </a>
+            <a href="mailto:info@synthespian.net?subject=Web de Jordi Alonso">
+              <img id="email" src="./img/email.svg" alt="email" width="45" />
+            </a>
           </div>
           <div className="break"></div>
           <div id="copy">
