@@ -320,7 +320,7 @@ export default function Cv() {
               <img src="./img/LOGO.png" alt="Logo" />
             </div>
           </nav>
-          <div id="titol"> JordiAlonso.com </div>
+          <div id="titol"> {nom[0][language]} </div>
           <div id="idioma" onClick={() => changeLanguage()}>
             {" "}
             {language}{" "}
