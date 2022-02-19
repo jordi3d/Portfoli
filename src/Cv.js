@@ -392,7 +392,25 @@ export default function Cv() {
         <div id="barraMenu">
           <nav>
             <div id="logo">
-              <img src="./img/LOGO.png" alt="Logo" />
+              <div class="dropdownbis">
+                <div class="dropbtnbis">
+                  <img src="./img/LOGO60x60.png" alt="Logo" />
+                </div>
+                <div class="dropdown-contentbis">
+                  <a
+                    href="https://www.jordialonso.com"
+                    target="_self"
+                    rel="noreferrer"
+                  >
+                    Anar al Blog Veni Vidi Vici
+                  </a>
+                  <a href="#0bis">Experiència Professional</a>
+                  <a href="#0ter">Entrevistes i Conferències</a>
+                  <a href="#0quad">Educació</a>
+                  <a href="#0penta">Altres</a>
+                  <a href="#0hexa">Descarregar CV</a>
+                </div>
+              </div>
             </div>
           </nav>
           <div id="titol"> {nom[0][language]} </div>
@@ -454,8 +472,43 @@ export default function Cv() {
           <div class="dropbtn">{feines[1][language]}</div>
           <div class="dropdown-content">
             <a href="#4">NEOM The Line 2020</a>
+            <figure>
+              <img
+                src="./img/theline.jpg"
+                alt="NEOM The Line"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>
+                Mapa de The Line a NEOM, Noroest de l'Aràbia Saudita
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./img/theline2.jpg"
+                alt="NEOM The Line Detalls"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>Detalls de The Line a NEOM</figcaption>
+            </figure>
             <a href="#5">TZoH v2 2020</a>
-            <a href="#6">Messi10 by Cirque du Soleil 2019</a>
+            <a
+              href="https://mediaproexhibitions.com/ca/project/messi-challenge"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Messi Challenge: sigues Messi per un dia
+            </a>
+            <figure>
+              <img
+                src="./img/messi10.jpg"
+                alt="Messi10 by Cirque du Soleil"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>Messi10 by Cirque du Soleil</figcaption>
+            </figure>
             <a href="#7">BTS Woody Allen's visit to Spain 2019</a>
             <a href="#8">NEOM Tourism Book &amp; Map 2019</a>
             <a href="#9">NEOM Immersive 2019</a>
