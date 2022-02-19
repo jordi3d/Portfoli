@@ -551,13 +551,14 @@ export default function Cv() {
               HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio
               personal
             </a>
-            <a href="#37">SEO, SEM, Wordpress, PHP per webs pròpies</a>
+            <a href="#37">SEO, SEM, Wordpress, PHP, MySQL per webs pròpies</a>
             <a href="#38">
-              HTML, CSS, JS, AJAX, JQuery, PHP, MariaDB, plugin 360 per Mediapro
+              HTML5, CSS2, JS, Ajax, jQuery, PHP, MariaDB, plugin 360 per
+              Mediapro
             </a>
             <a href="#39">Macromedia Flash per Webs de clients</a>
-            <a href="#40">HTML, CSS, JS, PHP per video online a cine.com</a>
-            <a href="#41">HTML, CSS, JS per e-commerce a reg2.net</a>
+            <a href="#40">HTML4, CSS2, JS per video online a cine.com</a>
+            <a href="#41">HTML4, CSS2, JS per e-commerce a reg2.net</a>
           </div>
         </div>
         {/*<h2> -{feines[5][language]} </h2>
@@ -662,16 +663,16 @@ export default function Cv() {
               Serveis de formació CGI, 3D, XR, web, Presentacions en públic
             </a>
             <a href="#43">SEO, SEM, Optimització de webs</a>
-            <a href="#43b">
+            <a href="#44">
               Blockchain/NFT: Projecte OpenVino.org &amp; OpenCava.org (2017)
             </a>
-            <a href="#44">Crypto mining (2013)</a>
-            <a href="#45">Domainer: +1.000 dominis (actualment +100)</a>
-            <a href="#46">cine.com descàrregues legals de vídeo (1999)</a>
-            <a href="#47">Iberseller e-commerce solutions (1997)</a>
-            <a href="#47b">AI: Sistema Expert en PDC-PROLOG/UNIX</a>
-            <a href="#48">CADAT Informàtica: importacions, muntatge de PC's</a>
-            <a href="#48b">Desenvolupament aplicacions en Clipper/MS-DOS</a>
+            <a href="#45">Crypto: mineria &amp; trading (2013)</a>
+            <a href="#46">Domainer: +1.000 dominis (actualment +100)</a>
+            <a href="#47">VoD: cine.com descàrregues legals (1999)</a>
+            <a href="#48">Iberseller e-commerce solutions (1997)</a>
+            <a href="#49">AI: Sistema Expert en PDC-PROLOG/UNIX</a>
+            <a href="#50">CADAT Informàtica: importacions, muntatge de PC's</a>
+            <a href="#51">Desenvolupament aplicacions en Clipper/MS-DOS</a>
           </div>
         </div>
         {/*<h2> +{titolsH2[0][language]} </h2>
@@ -689,14 +690,14 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH2[2][language]}</div>
             <div class="dropdown-content">
-              <a href="#54">VR</a>
-              <a href="#55">3D als Matins de Catradio</a>
-              <a href="#56">Canal + Estrena simultània</a>
-              <a href="#57">TV3 Telenotícies</a>
-              <a href="#58">CadenaSER @cine.com</a>
-              <a href="#59">CATRADIO internet video @cine.com</a>
-              <a href="#60">internet video @cine.com</a>
-              <a href="#61">e-commerce @reg2.net</a>
+              <a href="#52">VR</a>
+              <a href="#53">3D als Matins de Catradio</a>
+              <a href="#54">Canal+ Estrena simultània</a>
+              <a href="#55">TV3 Telenotícies</a>
+              <a href="#56">CadenaSER @cine.com</a>
+              <a href="#57">CATRADIO internet video @cine.com</a>
+              <a href="#58">Internet video @cine.com</a>
+              <a href="#59">e-commerce @reg2.net</a>
             </div>
           </div>
           {/* <h2> +{titolsH2[2][language]} </h2>
@@ -711,14 +712,14 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH2[3][language]}</div>
             <div class="dropdown-content">
-              <a href="#62">5º Congreso APD, XR: the next big thing?</a>
-              <a href="#63">GITEX 1998. Huawei 5G Keynote</a>
-              <a href="#64">La Liga Technology Showcase Shanghai</a>
-              <a href="#65">La Liga Technology Showcase BCN</a>
-              <a href="#66">COEIC media &amp; IT</a>
-              <a href="#67">Auditori Mediapro 2020 3D Media</a>
-              <a href="#68">IBC 2020 3D Media</a>
-              <a href="#69">CGIx Glory Day</a>
+              <a href="#60">5º Congreso APD, XR: the next big thing?</a>
+              <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
+              <a href="#62">La Liga Technology Showcase Shanghai</a>
+              <a href="#63">La Liga Technology Showcase BCN</a>
+              <a href="#64">COEIC media &amp; IT</a>
+              <a href="#65">Auditori Mediapro 2020 3D Media</a>
+              <a href="#66">IBC 2020 3D Media</a>
+              <a href="#67">CGIx Glory Day</a>
               <figure>
                 <img
                   src="./img/CGIx.jpg"
@@ -730,8 +731,8 @@ export default function Cv() {
                   04-02-1999
                 </figcaption>
               </figure>
-              <a href="#70">Festival de cinema de Sitges cine.com</a>
-              <a href="#71">Torre Agbar cine.com</a>
+              <a href="#68">Festival de cinema de Sitges cine.com</a>
+              <a href="#69">Torre Agbar cine.com</a>
               <figure>
                 <img
                   src="./img/CPAC_24-04-2008-Agbar.jpg"
@@ -744,7 +745,7 @@ export default function Cv() {
                   digital(cine.com)
                 </figcaption>
               </figure>
-              <a href="#72">Santiago de Compostela cine.com</a>
+              <a href="#70">Santiago de Compostela cine.com</a>
             </div>
           </div>
           {/*<h2> +{titolsH2[3][language]} </h2>
@@ -790,10 +791,10 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH1[2][language]}</div>
             <div class="dropdown-content">
-              <a href="#62">MSc Photonics a UPC</a>
-              <a href="#63">MBA a ESADE</a>
-              <a href="#64">MA Computer Animation a ESCAC</a>
-              <a href="#65">BSc Computer Graphics a UAB</a>
+              <a href="#71">MSc Photonics a UPC</a>
+              <a href="#72">MBA a ESADE -no acabat-</a>
+              <a href="#73">MA Computer Animation a ESCAC</a>
+              <a href="#74">BSc Computer Graphics a UAB</a>
             </div>
           </div>
           {/*<h1> + titolsH1[2][language]}</h1>
@@ -804,20 +805,20 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH2[4][language]}</div>
             <div class="dropdown-content">
-              <a href="#66">Front-end web developer</a>
+              <a href="#75">Front-end web developer</a>
               <h4>Certificació Tecnocampus</h4>
-              <a href="#67">Machine Learning</a>
+              <a href="#76">Machine Learning</a>
               <h4>Certificació Coursera/Stanford</h4>
-              <a href="#68">ITIL Essentials</a>
+              <a href="#77">ITIL Essentials</a>
               <h4>Certificació EXIN</h4>
-              <a href="#69">Project Manager</a>
+              <a href="#78">Project Manager</a>
               <h4>Certificació PMI</h4>
-              <a href="#70">Arduino</a>
+              <a href="#79">Arduino</a>
               <h4>Certificació UPC</h4>
-              <a href="#71">Softimage 3D</a>
-              <h4>Certificació Softimage 101-501</h4>
-              <a href="#72">Avid DS</a>
+              <a href="#80">Avid DS</a>
               <h4>Certificació Avid DS 101-501</h4>
+              <a href="#81">Softimage 3D</a>
+              <h4>Certificació Softimage 101-501</h4>
             </div>
           </div>
           {/*<h2> +{titolsH2[4][language]} </h2>
@@ -838,11 +839,17 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH3[0][language]}</div>
             <div class="dropdown-content">
-              <a href="#73">SIGGRAPH</a>
-              <a href="#74">NAB</a>
-              <a href="#75">IBC</a>
-              <a href="#76">MWC</a>
-              <a href="#77">EU COST Action. 2018 Stockholm - Helsinki</a>
+              <a href="#82">SIGGRAPH</a>
+              <a href="#83">NAB</a>
+              <a href="#84">IBC</a>
+              <a href="#85">MWC</a>
+              <a
+                href="https://3dtv-con.org/silja-serenade/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                3DTV-CON Training School IEEE. 2018 Stockholm-Helsinki
+              </a>
               <a
                 href="https://www.3d-contournet.eu/cost-training-school-3d-avcom-2015/"
                 target="_blank"
@@ -884,30 +891,30 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH1[3][language]}</div>
             <div class="dropdown-content">
-              <a href="#81">{llengues[0][language]}</a>
+              <a href="#86">{llengues[0][language]}</a>
               <h3>Idioma Matern</h3>
               <h3>Certificació C1</h3>
-              <a href="#82">{llengues[1][language]}</a>
+              <a href="#87">{llengues[1][language]}</a>
               <h3>Idioma Matern</h3>
-              <a href="#83">{llengues[2][language]}</a>
+              <a href="#88">{llengues[2][language]}</a>
               <h3>Nivell negociació</h3>
               <h3>Michigan Proficiency</h3>
-              <a href="#84">{llengues[3][language]}</a>
+              <a href="#89">{llengues[3][language]}</a>
               <h3>Estudiat durant 7 anys a l'escola</h3>
               <h3>Cal refrescar-lo</h3>
-              <a href="#85">{llengues[4][language]}</a>
+              <a href="#90">{llengues[4][language]}</a>
               <h3>Principiant</h3>
               <h3>Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
-              <a href="#86">{llengues[5][language]}</a>
+              <a href="#91">{llengues[5][language]}</a>
               <h3>Principiant</h3>
               <h3>Curs online d'iniciació</h3>
-              <a href="#87">{llengues[6][language]}</a>
+              <a href="#92">{llengues[6][language]}</a>
               <h3>Principiant</h3>
               <h3>Curs online d'iniciació</h3>
-              <a href="#88">{llengues[7][language]}</a>
+              <a href="#93">{llengues[7][language]}</a>
               <h3>Principiant</h3>
               <h3>Curs online d'iniciació</h3>
-              <a href="#89">{llengues[8][language]}</a>
+              <a href="#94">{llengues[8][language]}</a>
               <h3>Principiant</h3>
               <h3>Curs online d'iniciació</h3>
               <h3>Classes particulars</h3>
@@ -949,12 +956,13 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH1[4][language]}</div>
             <div class="dropdown-content">
-              <a href="#90">SIGGRAPH</a>
-              <a href="#91">COEIC</a>
-              <a href="#92">VRARA</a>
-              <a href="#93">MENSA</a>
-              <a href="#94">CT Barcino</a>
-              <a href="#95">ACPJG</a>
+              <a href="#95">SIGGRAPH</a>
+              <a href="#96">COEIC</a>
+              <a href="#97">VRARA</a>
+              <a href="#98">OPenNeuralink</a>
+              <a href="#99">MENSA</a>
+              <a href="#100">CT Barcino</a>
+              <a href="#101">ACPJG</a>
             </div>
           </div>
           {/*<h1> +{titolsH1[4][language]} </h1>
@@ -967,24 +975,26 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{titolsH2[5][language]}</div>
             <div class="dropdown-content">
-              <a href="#96">Tennis</a>
+              <a href="#102">Tennis</a>
               <h4>3ª Categoria Grup 8</h4>
-              <a href="#97">Tennis taula</a>
+              <a href="#103">Tennis taula</a>
               <h4>3ª Categoria</h4>
-              <a href="#98">Golf</a>
+              <a href="#104">Golf</a>
               <h4>Handicap 19.9</h4>
-              <a href="#99">Esquí</a>
-              <a href="#100">Trekking</a>
-              <a href="#101">Beat Saber</a>
+              <a href="#105">Esquí</a>
+              <a href="#106">Submarinisme</a>
+              <h4>FEDAS 1*</h4>
+              <a href="#107">Trekking</a>
+              <a href="#108">Beat Saber</a>
               <h4>Nivell Expert</h4>
-              <a href="#102">Guitarra</a>
+              <a href="#109">Guitarra</a>
               <h4>Cursos online</h4>
-              <a href="#103">Piano</a>
+              <a href="#110">Piano</a>
               <h4>Classes Particulars</h4>
               <h4>4rt de Solfeig</h4>
-              <a href="#104">Lectura</a>
+              <a href="#111">Lectura</a>
               <h4>Darrer llibre: 01/2022 A Thousand Minds</h4>
-              <a href="#105">Cinema</a>
+              <a href="#112">Cinema</a>
               <h4>Veig totes les pelis en 3D i d'altres</h4>
               <a
                 href="https://www.fototurismo.net"
