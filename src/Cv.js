@@ -562,7 +562,24 @@ export default function Cv() {
               />
               <figcaption>VR Live: Gulf Fooball League. Dubai, EAU</figcaption>
             </figure>
-            <a href="#13">AutomaticTV 2014</a>
+            <a
+              href="https://www.youtube.com/watch?v=5M49dCMpQJw"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vídeo: AutomaticTV 2014
+            </a>
+            <figure>
+              <img
+                src="./img/automatictv.jpg"
+                alt="AutomaticTV"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>
+                AutomaticTV: producció automàtica de continguts en directe
+              </figcaption>
+            </figure>
             <a href="#14">Immersive TV 2010</a>
             <a href="#15">Project FINE 2010</a>
             <a href="#16">Fútbol 3D 2010</a>
