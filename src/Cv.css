@@ -64,14 +64,11 @@ body {
 figcaption {
     font-style: italic;
     font-size: small;
-    text-align: center;
-    margin-left: -1rem;
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     align-content: stretch;
     justify-content: center;
@@ -81,7 +78,7 @@ footer {
 #xxss {
     background-color: red;
     border: 2px solid black;
-    flex-grow: 0;
+    ;
     height: 60px;
     width: 280px;
 }
