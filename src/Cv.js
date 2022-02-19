@@ -335,9 +335,9 @@ export default function Cv() {
             <br />
             -conferències
             <br />
-            -formació i congressos
+            -formació, cursos i congressos
             <br />
-            -afeccions
+            -aficions
           </div>
         </div>
       </header>
@@ -399,7 +399,8 @@ export default function Cv() {
         <h3> --Capçalera Festival de Sitges </h3>
         <h3> --Anunci Catalunya Música </h3>
         <h3> --Anunci La Agenda </h3>
-        <h3> --Short Film </h3> <h2> -{feines[4][language]} </h2>
+        <h3> --Dobles: Short Film </h3>
+        <h2> -{feines[4][language]} </h2>
         <h3>
           --HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio personal
         </h3>
@@ -422,7 +423,7 @@ export default function Cv() {
       <section>
         <h2> +{titolsH2[1][language]} </h2>
         <h3> -VR </h3>
-        <h3> -3 D als Matins de Catradio </h3>
+        <h3> -3D als Matins de Catradio </h3>
         <h3> -Canal + Estrena simultània </h3>
         <h3> -TV3 Telenotícies </h3>
         <h3> -CadenaSER @cine.com </h3>
@@ -474,8 +475,8 @@ export default function Cv() {
       </section>
       <section>
         <h2> +{titolsH2[3][language]} </h2>
-        <h3> -APD XR: the next big thing? </h3>
-        <h3> -GITEX Huawei 5G Keynote </h3>
+        <h3> -5º Congreso APD, XR: the next big thing? </h3>
+        <h3> -GITEX 1998. Huawei 5G Keynote </h3>
         <h3> -La Liga Technology Showcase Shanghai </h3>
         <h3> -La Liga Technology Showcase BCN </h3>
         <h3> -COEIC media &amp; IT </h3>
@@ -529,8 +530,11 @@ export default function Cv() {
         <h4> --Certificació Avid DS 101 - 501 </h4>
       </section>
       <section>
-        <h3> +{titolsH3[0][language]} </h3> <h4> -SIGGRAPH </h4> <h4> -NAB </h4>
-        <h4> -IBC </h4> <h4> -MWC </h4>
+        <h3> +{titolsH3[0][language]} </h3>
+        <h4> -SIGGRAPH </h4>
+        <h4> -NAB </h4>
+        <h4> -IBC </h4>
+        <h4> -MWC </h4>
         <h4> EU COST Action. 2018 Stockholm - Helsinki </h4>
         <a
           href="https://www.3d-contournet.eu/cost-training-school-3d-avcom-2015/"
@@ -566,10 +570,10 @@ export default function Cv() {
         <h3> --Michigan Proficiency </h3>
         <h2> -{llengues[3][language]} </h2>
         <h3> --Estudiat durant 7 anys a l'escola</h3>
-        <h3> --Cal refrescar - lo </h3>
+        <h3> --Cal refrescar-lo </h3>
         <h2> -{llengues[4][language]} </h2>
         <h3> --Principiant </h3>
-        <h3> --Estudiat fins 2 on curs a l'EOI Barcelona-Drassanes</h3>
+        <h3> --Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
         <h2> -{llengues[5][language]} </h2>
         <h3> --Principiant </h3>
         <h3> --Curs online d'iniciació</h3>
