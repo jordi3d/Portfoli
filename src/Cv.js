@@ -33,11 +33,11 @@ let feines = [
     CAT: "Director Tècnic",
     ES: "Director Técnico",
     EN: "CTO",
-    FR: "Directeur technique",
+    FR: "Directeur Technique",
     RU: "Технический директор",
     DE: "Technischer Direktor",
-    IT: "Direttore tecnico",
-    PT: "Diretor técnico",
+    IT: "Direttore Tecnico",
+    PT: "Diretor Técnico",
     ZH: "技术总监",
   },
   {
@@ -52,14 +52,14 @@ let feines = [
     ZH: "专案经理",
   },
   {
-    CAT: "Responsable de servei al client",
-    ES: "Responsable de servicio al cliente",
+    CAT: "Responsable de Servei al Client",
+    ES: "Responsable de Servicio al Cliente",
     EN: "Service Account Manager",
-    FR: "Gestionnaire de service de comptes",
+    FR: "Gestionnaire de Service de Comptes",
     RU: "Менеджер по обслуживанию учетной записи",
     DE: "Service Account Manager",
-    IT: "Amministratore dei servizio del conteggi",
-    PT: "Gerente de serviço de conta",
+    IT: "Amministratore dei Servizio del Conteggi",
+    PT: "Gerente de Serviço de Conta",
     ZH: "服务客户经理",
   },
   {
@@ -67,11 +67,33 @@ let feines = [
     ES: "Profesor",
     EN: "Teacher",
     FR: "Prof",
-    RU: "Учитель",
+    RU: "Преподаватель",
     DE: "Lehrer",
     IT: "Professore",
     PT: "Professor",
     ZH: "老师",
+  },
+  {
+    CAT: "Responsable de Producte",
+    ES: "Jefe de Producto",
+    EN: "Product Manager",
+    FR: "Responsable du produit",
+    RU: "Менеджер по продукту",
+    DE: "Produktmanager",
+    IT: "Gestione del prodotto",
+    PT: "Gerente de produto",
+    ZH: "负责产品",
+  },
+  {
+    CAT: "Delegat Regional",
+    ES: "Delegado Regional",
+    EN: "Branch Manager",
+    FR: "Délégué Régional",
+    RU: "Менеджер филиала",
+    DE: "Manager der Niederlassung",
+    IT: "Delegato regionale",
+    PT: "Gerente de Branch",
+    ZH: "区域代表",
   },
   {
     CAT: "Supervisor d'Efectes Visuals",
@@ -439,6 +461,43 @@ export default function Cv() {
         <div class="dropdown">
           <div class="dropbtn">{feines[0][language]}</div>
           <div class="dropdown-content">
+            <a
+              href="https://www.youtube.com/watch?v=aPbVrFLgIgE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              El clásico en VR
+            </a>
+            <figure>
+              <img
+                src="./img/"
+                alt="Prova de concepte de Fútbol en VR des del Santiago Bernabéu"
+                width="500"
+              />
+              <figcaption>
+                Prova de concepte de fútbol VR. El Clásico 2018.
+              </figcaption>
+            </figure>
+            <a
+              href="https://www.mundodeportivo.com/futbol/laliga/20180302/441187363437/la-tecnologia-que-hay-detras-de-laliga-explicada-al-detalle.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Notícia a El Mundo Deportivo
+            </a>
+            <a href="#2">
+              <figure>
+                <img
+                  src="./img/obvan_ext2.jpg"
+                  alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
+                  width="500"
+                />
+                <figcaption>
+                  Unitat mòbil 3D de Medialuso. Klepth Live 3D a Casa da Música
+                  de Porto
+                </figcaption>
+              </figure>
+            </a>
             <a href="#1">Afegir foto a Stadio da luz</a>
             <a href="#2">
               <figure>
@@ -453,6 +512,9 @@ export default function Cv() {
                 </figcaption>
               </figure>
             </a>
+            <a href="#3">Abrunhosa des del Coliseo de Porto</a>
+            <a href="#3">Deolinda des de Lisboa</a>
+            <a href="#3">Mundial de surf des d'Aveiro</a>
             <a href="#3">
               <figure>
                 <img
@@ -465,6 +527,13 @@ export default function Cv() {
                   Primera retransmissió d'El Clásico en 3D en directe
                 </figcaption>
               </figure>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=ZYNbuYREyeE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              La Rosa de Foc 3D
             </a>
           </div>
         </div>
@@ -612,6 +681,29 @@ export default function Cv() {
         <div class="dropdown">
           <div class="dropbtn">{feines[4][language]}</div>
           <div class="dropdown-content">
+            <a href="#23">Brainstorm Studio</a>
+            <a href="#23">Softimage 3D</a>
+            <a
+              href="https://www.youtube.com/watch?v=Crq3--XXwxc"
+              alt="Vídeo demo Accom Elset any 1999 a Broadcat Madrid"
+              rel="noreferrer"
+            >
+              Accom Elset Live NT
+            </a>
+            <a href="#25">Avid DS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropbtn">{feines[5][language]}</div>
+          <div class="dropdown-content">
+            <a href="#23">The VR/AR Association Catalonia Chapter</a>
+            <figure>Posar fotos sopar MWC</figure>
+            <a href="#23">Promovisa Catalunya</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropbtn">{feines[6][language]}</div>
+          <div class="dropdown-content">
             <a href="#31">Glory Day</a>
             <a href="#32">Capçalera Festival de Sitges</a>
             <a href="#33">Anunci Catalunya Música</a>
@@ -620,7 +712,7 @@ export default function Cv() {
           </div>
         </div>
         <div class="dropdown">
-          <div class="dropbtn">{feines[5][language]}</div>
+          <div class="dropbtn">{feines[7][language]}</div>
           <div class="dropdown-content">
             <a href="#36">
               HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio
@@ -637,7 +729,7 @@ export default function Cv() {
           </div>
         </div>
         <div class="dropdown">
-          <div class="dropbtn">{feines[6][language]}</div>
+          <div class="dropbtn">{feines[8][language]}</div>
           <div class="dropdown-content">
             <a href="#49">Blog Veni Vidi Vici</a>
             <a href="#50">Blog cine3D.com</a>
@@ -681,7 +773,7 @@ export default function Cv() {
           </div>
         </div>
         <div class="dropdown">
-          <div class="dropbtn">{feines[7][language]}</div>
+          <div class="dropbtn">{feines[9][language]}</div>
           <div class="dropdown-content">
             <a href="#42">
               Serveis de formació CGI, 3D, XR, web, Presentacions en públic
@@ -722,7 +814,7 @@ export default function Cv() {
               <a href="#60">5º Congreso APD, XR: the next big thing?</a>
               <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
               <a href="#62">La Liga Technology Showcase Shanghai</a>
-              <a href="#63">La Liga Technology Showcase BCN</a>
+              <a href="#63">La Liga Technology Showcase BCN. 02-03-2018</a>
               <a href="#64">COEIC media &amp; IT</a>
               <a href="#65">Auditori Mediapro 2020 3D Media</a>
               <a href="#66">IBC 2020 3D Media</a>
