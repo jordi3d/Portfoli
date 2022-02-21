@@ -1,7 +1,7 @@
 import "./Cv.css";
 import { useState } from "react";
 
-let idiomes_web = ["CAT", "ES", "EN", "FR", "RU", "DE", "IT", "PT", "ZH"];
+let idiomes_web = ["CAT", "ES", "EN", "FR", "RU", "DE", "IT", "PT", "NL", "ZH"];
 let nom = [
   {
     CAT: "Jordi Alonso",
@@ -12,6 +12,7 @@ let nom = [
     DE: "George Alonso",
     IT: "Giorgio Alonso",
     PT: "Jorge Alonso",
+    NL: "Jordi Alonso",
     ZH: "安桥笛",
   },
 ];
@@ -25,6 +26,7 @@ let experiencia_profesional = [
     DE: "Berufserfahrung",
     IT: "Esperienza Professionale",
     PT: "Experiência Profissional",
+    NL: "Professionele ervaring",
     ZH: "专业经验",
   },
 ];
@@ -38,6 +40,7 @@ let feines = [
     DE: "Technischer Direktor",
     IT: "Direttore Tecnico",
     PT: "Diretor Técnico",
+    NL: "Technisch Directeur",
     ZH: "技术总监",
   },
   {
@@ -49,6 +52,7 @@ let feines = [
     DE: "Projektmanager",
     IT: "Manager di Proyecto",
     PT: "Gestor de projeto",
+    NL: "Projectleider",
     ZH: "专案经理",
   },
   {
@@ -60,6 +64,7 @@ let feines = [
     DE: "Service Account Manager",
     IT: "Amministratore dei Servizio del Conteggi",
     PT: "Gerente de Serviço de Conta",
+    NL: "Service Account Manager",
     ZH: "服务客户经理",
   },
   {
@@ -71,6 +76,7 @@ let feines = [
     DE: "Lehrer",
     IT: "Professore",
     PT: "Professor",
+    NL: "Docent",
     ZH: "老师",
   },
   {
@@ -82,6 +88,7 @@ let feines = [
     DE: "Produktmanager",
     IT: "Gestione del prodotto",
     PT: "Gerente de produto",
+    NL: "Verantwoordelijk voor product",
     ZH: "负责产品",
   },
   {
@@ -93,6 +100,7 @@ let feines = [
     DE: "Manager der Niederlassung",
     IT: "Delegato regionale",
     PT: "Gerente de Branch",
+    NL: "Regionale afgevaardigde",
     ZH: "区域代表",
   },
   {
@@ -104,6 +112,7 @@ let feines = [
     DE: "Supervisor für visuelle Effekte",
     IT: "Supervisore degli effetti visivi",
     PT: "Supervisor de efeitos visuais",
+    NL: "Supervisor van visuele effecten",
     ZH: "视觉效果的主管",
   },
   {
@@ -115,6 +124,7 @@ let feines = [
     DE: "Web-Entwickler",
     IT: "Sviluppatore web",
     PT: "Desenvolvedor da Web",
+    NL: "Webontwikkelaar",
     ZH: "Web开发人员",
   },
   {
@@ -126,6 +136,7 @@ let feines = [
     DE: "Journalist",
     IT: "Giornalista",
     PT: "Jornalista",
+    NL: "Journalist",
     ZH: "记者",
   },
   {
@@ -137,6 +148,7 @@ let feines = [
     DE: "Geschäftsmann",
     IT: "Uomo d'affari",
     PT: "Homem de negocios",
+    NL: "Zakenman",
     ZH: "商人",
   },
 ];
@@ -150,6 +162,7 @@ let entrevistes_i_conferencies = [
     DE: "Interviews und Konferenzen",
     IT: "Interviste e conferenze",
     PT: "Entrevistas e Conferências",
+    NL: "Interviews en conferenties",
     ZH: "访谈和会议",
   },
 ];
@@ -163,6 +176,7 @@ let entrevistes = [
     DE: "Interviews",
     IT: "Colloquio",
     PT: "Entrevistas",
+    NL: "Sollicitatiegesprekken",
     ZH: "面试",
   },
 ];
@@ -176,6 +190,7 @@ let conferencies = [
     DE: "Konferenzen",
     IT: "Conferenze",
     PT: "Conferências",
+    NL: "Conferenties",
     ZH: "会议",
   },
 ];
@@ -189,6 +204,7 @@ let educacio = [
     DE: "Bildung",
     IT: "Formazione scolastica",
     PT: "Educação",
+    NL: "Opleiding",
     ZH: "教育",
   },
 ];
@@ -202,6 +218,7 @@ let formacio_reglada = [
     DE: "Reguliertes Training",
     IT: "Formazione Regolata",
     PT: "Formação Regulada",
+    NL: "Gereguleerde training",
     ZH: "监管培训",
   },
 ];
@@ -215,6 +232,7 @@ let cursos = [
     DE: "Kurse",
     IT: "Corsi",
     PT: "Cursos",
+    NL: "Cursussen",
     ZH: "培训班",
   },
 ];
@@ -228,6 +246,7 @@ let congressos = [
     DE: "Kongresse",
     IT: "Congressi",
     PT: "Congressos",
+    NL: "Congressen",
     ZH: "国会",
   },
 ];
@@ -241,6 +260,7 @@ let idiomes = [
     DE: "Sprachen",
     IT: "Idiomas",
     PT: "Línguas",
+    NL: "Talen",
     ZH: "语言",
   },
 ];
@@ -254,6 +274,7 @@ let altres = [
     DE: "Andere",
     IT: "Ottros",
     PT: "Outras",
+    NL: "Andere",
     ZH: "其他",
   },
 ];
@@ -267,6 +288,7 @@ let afiliacions = [
     DE: "Angelegenheiten",
     IT: "Affiliazioni",
     PT: "Afiliações",
+    NL: "Affiliaties",
     ZH: "隶属关系",
   },
 ];
@@ -280,6 +302,7 @@ let aficions = [
     DE: "Hobbys",
     IT: "Africations",
     PT: "Hobbies",
+    NL: "Hobby's",
     ZH: "爱好",
   },
 ];
@@ -293,6 +316,7 @@ let llengues = [
     DE: "Katalanisch",
     IT: "Catalano",
     PT: "Catalão",
+    NL: "Catalaans",
     ZH: "加泰罗尼亚州",
   },
   {
@@ -304,6 +328,7 @@ let llengues = [
     DE: "Spanisch",
     IT: "Spagnolo",
     PT: "Espanhol",
+    NL: "Spaans",
     ZH: "西班牙语",
   },
   {
@@ -315,6 +340,7 @@ let llengues = [
     DE: "Englisch",
     IT: "Inglese",
     PT: "Inglês",
+    NL: "Engels",
     ZH: "英语",
   },
   {
@@ -326,6 +352,7 @@ let llengues = [
     DE: "Französisch",
     IT: "Francese",
     PT: "Francês",
+    NL: "Frans",
     ZH: "法语",
   },
   {
@@ -337,6 +364,7 @@ let llengues = [
     DE: "Russisch",
     IT: "Ruso",
     PT: "Russo",
+    NL: "Russisch",
     ZH: "俄语",
   },
   {
@@ -348,6 +376,7 @@ let llengues = [
     DE: "Deutsch",
     IT: "Tedesco",
     PT: "Alemão",
+    NL: "Duits",
     ZH: "德语",
   },
   {
@@ -359,6 +388,7 @@ let llengues = [
     DE: "Italienisch",
     IT: "Italiano",
     PT: "Italiano",
+    NL: "Italiaans",
     ZH: "意大利人",
   },
   {
@@ -370,6 +400,7 @@ let llengues = [
     DE: "Portugiesisch",
     IT: "Portoghese",
     PT: "Português",
+    NL: "Portugees",
     ZH: "葡萄牙语",
   },
   {
@@ -381,6 +412,7 @@ let llengues = [
     DE: "Chinesisch",
     IT: "Chino",
     PT: "Chinês",
+    NL: "Portugees",
     ZH: "中国人",
   },
 ];
@@ -394,6 +426,7 @@ let copyright = [
     DE: "Alle Rechte vorbehalten",
     IT: "Tutti i diritti riservati",
     PT: "Todos os direitos reservados",
+    NL: "Alle rechten voorbehouden",
     ZH: "版权所有",
   },
 ];
