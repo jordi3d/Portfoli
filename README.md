@@ -29,4 +29,4 @@ que em permeti seleccionar els items i l'idioma i de sortida, generés un CV en 
 ### Notes v2.0
 
 Caldria usar els desplegables fets servir al curs
-També el Carrousel
+També el Carrousel, Slider
