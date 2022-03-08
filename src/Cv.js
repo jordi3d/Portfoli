@@ -753,7 +753,9 @@ export default function Cv() {
               HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio
               personal
             </a>
-            <a href="#37">SEO, SEM, Wordpress, PHP, MySQL per webs pròpies</a>
+            <a href="#37">
+              SEO, SEM, Wordpress, PHP, Python, MySQL per webs pròpies
+            </a>
             <a href="#38">
               HTML5, CSS2, JS, Ajax, jQuery, PHP, MariaDB, plugin 360 per
               Mediapro
