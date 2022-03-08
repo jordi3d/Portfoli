@@ -985,12 +985,16 @@ export default function Cv() {
           <div class="dropdown">
             <div class="dropbtn">{afiliacions[0][language]}</div>
             <div class="dropdown-content">
-              <a href="#95">SIGGRAPH</a>
+              <a href="#95">SIGGRAPH Pioneers</a>
+              <a href="#95bis">ACM</a>
+              <a href="#95ter">Advanced Imaging Society</a>
               <a href="#96">COEIC</a>
-              <a href="#97">VRARA</a>
-              <a href="#98">OPenNeuralink</a>
+              <a href="#97">The VR/AR Association</a>
+              <a href="#98">Open Neuralink</a>
               <a href="#99">MENSA</a>
+              <a href="#99bis">Barcelon@ Connection</a>
               <a href="#100">CT Barcino</a>
+              <a href="#100bis">FCG</a>
               <a href="#101">ACPJG</a>
             </div>
           </div>
