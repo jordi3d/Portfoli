@@ -622,11 +622,13 @@ export default function Cv() {
             <figure>
               <img
                 src="./img/messi10.jpg"
-                alt="Messi10 by Cirque du Soleil"
+                alt="Messi Challenge"
                 width="500"
                 heigth="375"
               />
-              <figcaption>Messi10 by Cirque du Soleil</figcaption>
+              <figcaption>
+                Messi Challenge at Messi10 by Cirque du Soleil. Setembre 2019
+              </figcaption>
             </figure>
             <a href="#7">BTS Woody Allen's visit to Spain 2019</a>
             <a href="#8">NEOM Tourism Book &amp; Map 2019</a>
@@ -846,8 +848,8 @@ export default function Cv() {
             <div class="dropdown-content">
               <a href="#60">5º Congreso APD, XR: the next big thing?</a>
               <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
-              <a href="#62">La Liga Technology Showcase Shanghai</a>
-              <a href="#63">La Liga Technology Showcase BCN. 02-03-2018</a>
+              <a href="#62">La Liga Technology Showcase Shanghai. 15-07-2019</a>
+              <a href="#63">La Liga Technology Showcase BCN. 04-03-2019</a>
               <a href="#64">COEIC media &amp; IT</a>
               <a href="#65">Auditori Mediapro 2020 3D Media</a>
               <a href="#66">IBC 2020 3D Media</a>
