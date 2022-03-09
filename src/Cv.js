@@ -302,7 +302,7 @@ let aficions = [
     DE: "Hobbys",
     IT: "Africations",
     PT: "Hobbies",
-    NL: "Hobby's",
+    NL: "Hobby&apos;s",
     ZH: "爱好",
   },
 ];
@@ -447,11 +447,11 @@ export default function Cv() {
         <div id="barraMenu">
           <nav>
             <div id="logo">
-              <div class="dropdownbis">
-                <div class="dropbtnbis">
+              <div className="dropdownbis">
+                <div className="dropbtnbis">
                   <img src="./img/LOGO60x60.png" alt="Logo" />
                 </div>
-                <div class="dropdown-contentbis">
+                <div className="dropdown-contentbis">
                   <a
                     href="https://www.jordialonso.com"
                     target="_self"
@@ -483,7 +483,7 @@ export default function Cv() {
             <br />
             (Lisboa, Futbol3D)
             <br />
-            (Logos d'empreses -CV visual-)
+            (Logos d&apos;empreses -CV visual-)
             <br />
             (Obi Wan, Rambo)
           </div>
@@ -491,9 +491,9 @@ export default function Cv() {
       </header>
       <section>
         <h1 className="main"> {experiencia_profesional[0][language]} </h1>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[0][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[0][language]}</div>
+          <div className="dropdown-content">
             <a
               href="https://www.youtube.com/watch?v=aPbVrFLgIgE"
               target="_blank"
@@ -547,7 +547,7 @@ export default function Cv() {
             </a>
             <a href="#3">Abrunhosa des del Coliseo de Porto</a>
             <a href="#3">Deolinda des de Lisboa</a>
-            <a href="#3">Mundial de surf des d'Aveiro</a>
+            <a href="#3">Mundial de surf des d&apos;Aveiro</a>
             <a href="#3">
               <figure>
                 <img
@@ -557,7 +557,7 @@ export default function Cv() {
                   heigth="375"
                 />
                 <figcaption>
-                  Primera retransmissió d'El Clásico en 3D en directe
+                  Primera retransmissió d&apos;El Clásico en 3D en directe
                 </figcaption>
               </figure>
             </a>
@@ -570,9 +570,9 @@ export default function Cv() {
             </a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[1][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[1][language]}</div>
+          <div className="dropdown-content">
             <a href="#4">NEOM The Line 2020</a>
             <figure>
               <img
@@ -582,7 +582,7 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Mapa de The Line a NEOM, Noroest de l'Aràbia Saudita
+                Mapa de The Line a NEOM, Noroest de l&apos;Aràbia Saudita
               </figcaption>
             </figure>
             <figure>
@@ -630,7 +630,7 @@ export default function Cv() {
                 Messi Challenge at Messi10 by Cirque du Soleil. Setembre 2019
               </figcaption>
             </figure>
-            <a href="#7">BTS Woody Allen's visit to Spain 2019</a>
+            <a href="#7">BTS Woody Allen&apos;s visit to Spain 2019</a>
             <a href="#8">NEOM Tourism Book &amp; Map 2019</a>
             <a href="#9">NEOM Immersive 2019</a>
             <a href="#10">NEOM Smart City 2019</a>
@@ -684,7 +684,7 @@ export default function Cv() {
                 AutomaticTV: producció automàtica de continguts en directe
               </figcaption>
             </figure>
-            <a href="#14">Immersive TV 2010</a>
+            <a href="#14">ImmersiveTV 2010</a>
             <a href="#15">Project FINE 2010</a>
             <a href="#16">Fútbol 3D 2010</a>
             <a href="#17">2020 3D Media 2008</a>
@@ -692,17 +692,17 @@ export default function Cv() {
             <a href="#19">IPRacine 2008</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[2][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[2][language]}</div>
+          <div className="dropdown-content">
             <a href="#20">VRARA President del capítol de Catalunya</a>
             <a href="#21">Sun Microsystems</a>
             <a href="#22">Netscape</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[3][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[3][language]}</div>
+          <div className="dropdown-content">
             <a href="#23">ESADE Mentor alumnes del Màster</a>
             <a href="#24">La Salle</a>
             <a href="#25">ERAM</a>
@@ -713,9 +713,9 @@ export default function Cv() {
             <a href="#30">ESCAC</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[4][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[4][language]}</div>
+          <div className="dropdown-content">
             <a href="#23">Brainstorm Studio</a>
             <a href="#23">Softimage 3D</a>
             <a
@@ -728,17 +728,17 @@ export default function Cv() {
             <a href="#25">Avid DS</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[5][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[5][language]}</div>
+          <div className="dropdown-content">
             <a href="#23">The VR/AR Association Catalonia Chapter</a>
             <figure>Posar fotos sopar MWC</figure>
             <a href="#23">Promovisa Catalunya</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[6][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[6][language]}</div>
+          <div className="dropdown-content">
             <a href="#31">Glory Day</a>
             <a href="#32">Capçalera Festival de Sitges</a>
             <a href="#33">Anunci Catalunya Música</a>
@@ -746,9 +746,9 @@ export default function Cv() {
             <a href="#35">Dobles: Curtmetratge</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[7][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[7][language]}</div>
+          <div className="dropdown-content">
             <a href="#36">
               HTML5, CSS3, JS, SVG, ReactJS, ThreeJS, Web3D per Portfolio
               personal
@@ -765,9 +765,9 @@ export default function Cv() {
             <a href="#41">HTML4, CSS2, JS per e-commerce a reg2.net</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[8][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[8][language]}</div>
+          <div className="dropdown-content">
             <a href="#49">Blog Veni Vidi Vici</a>
             <a href="#50">Blog cine3D.com</a>
             <a href="#51">Blog cine.com</a>
@@ -809,9 +809,9 @@ export default function Cv() {
             <a href="#53">3D Magazine</a>
           </div>
         </div>
-        <div class="dropdown">
-          <div class="dropbtn">{feines[9][language]}</div>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <div className="dropbtn">{feines[9][language]}</div>
+          <div className="dropdown-content">
             <a href="#42">
               Serveis de formació CGI, 3D, XR, web, Presentacions en públic
             </a>
@@ -824,17 +824,21 @@ export default function Cv() {
             <a href="#47">VoD: cine.com descàrregues legals (1999)</a>
             <a href="#48">Iberseller e-commerce solutions (1997)</a>
             <a href="#49">AI: Sistema Expert en PDC-PROLOG/UNIX</a>
-            <a href="#50">CADAT Informàtica: importacions, muntatge de PC's</a>
-            <a href="#51">Desenvolupament aplicacions en Clipper/MS-DOS</a>
+            <a href="#50">
+              CADAT Informàtica: importacions, muntatge de PC&apos;s
+            </a>
+            <a href="#51">
+              Desenvolupament d&apos;aplicacions en Clipper/MS-DOS
+            </a>
           </div>
         </div>
       </section>
       <section>
         <h1 className="main">{entrevistes_i_conferencies[0][language]}</h1>
         <section>
-          <div class="dropdown">
-            <div class="dropbtn">{entrevistes[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{entrevistes[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#52">VR</a>
               <a href="#53">3D als Matins de Catradio</a>
               <a href="#54">Canal+ Estrena simultània</a>
@@ -845,9 +849,9 @@ export default function Cv() {
               <a href="#59">e-commerce @reg2.net</a>
             </div>
           </div>
-          <div class="dropdown">
-            <div class="dropbtn">{conferencies[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{conferencies[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#60">5º Congreso APD, XR: the next big thing?</a>
               <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
               <a href="#62">La Liga Technology Showcase Shanghai. 15-07-2019</a>
@@ -889,18 +893,18 @@ export default function Cv() {
       <section>
         <section>
           <h1 className="main">{educacio[0][language]}</h1>
-          <div class="dropdown">
-            <div class="dropbtn">{formacio_reglada[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{formacio_reglada[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#71">MSc Photonics a UPC</a>
               <a href="#72">MBA a ESADE -no acabat-</a>
               <a href="#73">MA Computer Animation a ESCAC</a>
               <a href="#74">BSc Computer Graphics a UAB</a>
             </div>
           </div>
-          <div class="dropdown">
-            <div class="dropbtn">{cursos[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{cursos[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#75">Front-end web developer</a>
               <h4>Certificació Tecnocampus</h4>
               <a href="#76">Machine Learning</a>
@@ -917,9 +921,9 @@ export default function Cv() {
               <h4>Certificació Softimage 101-501</h4>
             </div>
           </div>
-          <div class="dropdown">
-            <div class="dropbtn">{congressos[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{congressos[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#82">SIGGRAPH</a>
               <a href="#83">NAB</a>
               <a href="#84">IBC</a>
@@ -947,9 +951,9 @@ export default function Cv() {
               </a>
             </div>
           </div>
-          <div class="dropdown">
-            <div class="dropbtn">{idiomes[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{idiomes[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#86">{llengues[0][language]}</a>
               <h3>Idioma Matern</h3>
               <h3>Certificació C1</h3>
@@ -959,23 +963,23 @@ export default function Cv() {
               <h3>Nivell negociació</h3>
               <h3>Michigan Proficiency</h3>
               <a href="#89">{llengues[3][language]}</a>
-              <h3>Estudiat durant 7 anys a l'escola</h3>
+              <h3>Estudiat durant 7 anys a l&apos;escola</h3>
               <h3>Cal refrescar-lo</h3>
               <a href="#90">{llengues[4][language]}</a>
               <h3>Principiant</h3>
-              <h3>Estudiat fins 2on curs a l'EOI Barcelona-Drassanes</h3>
+              <h3>Estudiat fins 2on curs a l&apos;EOI Barcelona-Drassanes</h3>
               <a href="#91">{llengues[5][language]}</a>
               <h3>Principiant</h3>
-              <h3>Curs online d'iniciació</h3>
+              <h3>Curs online d&apos;iniciació</h3>
               <a href="#92">{llengues[6][language]}</a>
               <h3>Principiant</h3>
-              <h3>Curs online d'iniciació</h3>
+              <h3>Curs online d&apos;iniciació</h3>
               <a href="#93">{llengues[7][language]}</a>
               <h3>Principiant</h3>
-              <h3>Curs online d'iniciació</h3>
+              <h3>Curs online d&apos;iniciació</h3>
               <a href="#94">{llengues[8][language]}</a>
               <h3>Principiant</h3>
-              <h3>Curs online d'iniciació</h3>
+              <h3>Curs online d&apos;iniciació</h3>
               <h3>Classes particulars</h3>
             </div>
           </div>
@@ -984,9 +988,9 @@ export default function Cv() {
       <section>
         <h1 className="main">{altres[0][language]}</h1>
         <section>
-          <div class="dropdown">
-            <div class="dropbtn">{afiliacions[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{afiliacions[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#95">SIGGRAPH Pioneers</a>
               <a href="#95bis">ACM</a>
               <a href="#95ter">Advanced Imaging Society</a>
@@ -1000,9 +1004,9 @@ export default function Cv() {
               <a href="#101">ACPJG</a>
             </div>
           </div>
-          <div class="dropdown">
-            <div class="dropbtn">{aficions[0][language]}</div>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <div className="dropbtn">{aficions[0][language]}</div>
+            <div className="dropdown-content">
               <a href="#102">Tennis</a>
               <h4>3ª Categoria Grup 8</h4>
               <a href="#103">Tennis taula</a>
@@ -1023,7 +1027,7 @@ export default function Cv() {
               <a href="#111">Lectura</a>
               <h4>Darrer llibre: 01/2022 A Thousand Minds</h4>
               <a href="#112">Cinema</a>
-              <h4>Veig totes les pelis en 3D i d'altres</h4>
+              <h4>Veig totes les pelis en 3D i d&apos;altres</h4>
               <a
                 href="https://www.fototurismo.net"
                 target="_blank"
