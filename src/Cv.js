@@ -500,6 +500,16 @@ export default function Cv() {
               rel="noreferrer"
             >
               El clásico en VR
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
             <figure>
               <img
@@ -567,6 +577,16 @@ export default function Cv() {
               rel="noreferrer"
             >
               La Rosa de Foc 3D
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
           </div>
         </div>
@@ -600,6 +620,16 @@ export default function Cv() {
               rel="noreferrer"
             >
               Vídeo: The Zone of Hope
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
             <figure>
               <img
@@ -656,6 +686,16 @@ export default function Cv() {
               rel="noreferrer"
             >
               Video promo: VR Live Gulf League 2018
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
             <figure>
               <img
@@ -724,6 +764,11 @@ export default function Cv() {
               rel="noreferrer"
             >
               Accom Elset Live NT
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
             <a href="#25">Avid DS</a>
           </div>
@@ -855,11 +900,51 @@ export default function Cv() {
             <div className="dropdown-content">
               <a href="#60">
                 5º Congreso APD. XR: the next big thing?
-                <img src="./img/yt.png" alt="youtube" />
+                <img
+                  src="./img/yt20.png"
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
               </a>
-              <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
-              <a href="#62">La Liga Technology Showcase Shanghai. 15-07-2019</a>
-              <a href="#63">La Liga Technology Showcase BCN. 04-03-2019</a>
+              <a href="#61">
+                GITEX 1998. Huawei 5G Keynote
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
+              <a href="#62">
+                La Liga Technology Showcase Shanghai. 15-07-2019
+                <img
+                  src="./img/yt20.png"
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
+              <a href="#63">
+                La Liga Technology Showcase BCN. 04-03-2019
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
+              <figure>
+                <img
+                  src="./img/LaLigaBCN.jpg"
+                  alt="LaLiga Technology Showcase. RCD Stadium"
+                  width="500"
+                />
+              </figure>
+              <figcaption>
+                Presentació de la prova de concepte de VR per LaLiga
+              </figcaption>
               <a href="#64">COEIC media &amp; IT</a>
               <a href="#65">Auditori Mediapro 2020 3D Media</a>
               <a href="#66">IBC 2020 3D Media</a>
@@ -910,19 +995,19 @@ export default function Cv() {
             <div className="dropbtn">{cursos[0][language]}</div>
             <div className="dropdown-content">
               <a href="#75">Front-end web developer</a>
-              <h4>Certificació Tecnocampus</h4>
+              <figure>Certificació Tecnocampus</figure>
               <a href="#76">Machine Learning</a>
-              <h4>Certificació Coursera/Stanford</h4>
+              <figure>Certificació Coursera/Stanford</figure>
               <a href="#77">ITIL Essentials</a>
-              <h4>Certificació EXIN</h4>
+              <figure>Certificació EXIN</figure>
               <a href="#78">Project Manager</a>
-              <h4>Certificació PMI</h4>
+              <figure>Certificació PMI</figure>
               <a href="#79">Arduino</a>
-              <h4>Certificació UPC</h4>
+              <figure>Certificació UPC</figure>
               <a href="#80">Avid DS</a>
-              <h4>Certificació Avid DS 101-501</h4>
+              <figure>Certificació Avid DS 101-501</figure>
               <a href="#81">Softimage 3D</a>
-              <h4>Certificació Softimage 101-501</h4>
+              <figure>Certificació Softimage 101-501</figure>
             </div>
           </div>
           <div className="dropdown">
@@ -959,32 +1044,34 @@ export default function Cv() {
             <div className="dropbtn">{idiomes[0][language]}</div>
             <div className="dropdown-content">
               <a href="#86">{llengues[0][language]}</a>
-              <h3>Idioma Matern</h3>
-              <h3>Certificació C1</h3>
+              <figure>Idioma Nadiu</figure>
+              <figure>Certificació C1</figure>
               <a href="#87">{llengues[1][language]}</a>
-              <h3>Idioma Matern</h3>
+              <figure>Idioma Nadiu</figure>
               <a href="#88">{llengues[2][language]}</a>
-              <h3>Nivell negociació</h3>
-              <h3>Michigan Proficiency</h3>
+              <figure>Nivell negociació</figure>
+              <figure>Michigan Proficiency</figure>
               <a href="#89">{llengues[3][language]}</a>
-              <h3>Estudiat durant 7 anys a l&apos;escola</h3>
-              <h3>Cal refrescar-lo</h3>
+              <figure>Estudiat durant 7 anys a l&apos;escola</figure>
+              <figure>Cal refrescar-lo</figure>
               <a href="#90">{llengues[4][language]}</a>
-              <h3>Principiant</h3>
-              <h3>Estudiat fins 2on curs a l&apos;EOI Barcelona-Drassanes</h3>
+              <figure>Principiant</figure>
+              <figure>
+                Estudiat fins 2on curs a l&apos;EOI Barcelona-Drassanes
+              </figure>
               <a href="#91">{llengues[5][language]}</a>
-              <h3>Principiant</h3>
-              <h3>Curs online d&apos;iniciació</h3>
+              <figure>Principiant</figure>
+              <figure>Curs online d&apos;iniciació</figure>
               <a href="#92">{llengues[6][language]}</a>
-              <h3>Principiant</h3>
-              <h3>Curs online d&apos;iniciació</h3>
+              <figure>Principiant</figure>
+              <figure>Curs online d&apos;iniciació</figure>
               <a href="#93">{llengues[7][language]}</a>
-              <h3>Principiant</h3>
-              <h3>Curs online d&apos;iniciació</h3>
+              <figure>Principiant</figure>
+              <figure>Curs online d&apos;iniciació</figure>
               <a href="#94">{llengues[8][language]}</a>
-              <h3>Principiant</h3>
-              <h3>Curs online d&apos;iniciació</h3>
-              <h3>Classes particulars</h3>
+              <figure>Principiant</figure>
+              <figure>Curs online d&apos;iniciació</figure>
+              <figure>Classes particulars</figure>
             </div>
           </div>
         </section>
@@ -1016,7 +1103,7 @@ export default function Cv() {
               <a href="#103">Tennis taula</a>
               <figure>3ª Categoria</figure>
               <a href="#104">Golf</a>
-              <figure>Handicap 19.9</figure>
+              <figure>Millor h&agrave;ndicap 15.5</figure>
               <a href="#105">Esquí</a>
               <a href="#106">Submarinisme</a>
               <figure>FEDAS 1*</figure>
@@ -1029,7 +1116,11 @@ export default function Cv() {
               <figure>M&apos;han donat classes particulars</figure>
               <figure>4rt de solfeig</figure>
               <a href="#111">Lectura</a>
-              <figure>Darrer llibre: 01/2022 A Thousand Minds</figure>
+              <figure>Darrers llibres:</figure>
+              <figure>04/2022 The Cerebral Cortex</figure>
+              <figure>03/2022 A Thousand Minds</figure>
+              <figure>02/2022 JavaScript The Definitive Guide</figure>
+              <figure>01/2022 LifeSpan</figure>
               <a href="#112">Cinema</a>
               <figure>Veig totes les pelis en 3D i també d&apos;altres</figure>
               <a
