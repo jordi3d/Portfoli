@@ -803,7 +803,8 @@ export default function Cv() {
                 width="500"
               />
               <figcaption>
-                Andrés Iniesta va cedir la seva imatge al projecte
+                Andrés Iniesta va cedir la seva imatge al projecte de recerca
+                Europeu
               </figcaption>
             </figure>
             <a href="#15">Fútbol 3D 2010</a>
