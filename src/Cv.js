@@ -1316,7 +1316,9 @@ export default function Cv() {
               <figure>12/2021 El Mecanisme</figure>
               <a href="#112">Cuina</a>
               <a href="#113">Cinema</a>
-              <figure>Veig totes les pelis en 3D i també d&apos;altres</figure>
+              <figure>
+                Veig totes les pel·lis en 3D i tamb&eacute; d&apos;altres
+              </figure>
               <a
                 href="https://www.fototurismo.net"
                 target="_blank"
@@ -1331,7 +1333,7 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Sol de mitjanit+Superlluna a Kiruna (Suècia) 23-06-2013
+                  Sol de mitjanit+Superlluna a Kiruna (Su&egrave;cia) 23-06-2013
                 </figcaption>
               </figure>
               <figure>
@@ -1341,7 +1343,7 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Giorgios Wreckage NEOM (Arabia Saudita), 30-09-2018
+                  Giorgios Wreckage a NEOM (Ar&agrave;bia Saudita), 30-09-2018
                 </figcaption>
               </figure>
               <figure>
