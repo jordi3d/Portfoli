@@ -474,20 +474,7 @@ export default function Cv() {
           </div>
         </div>
         <div id="separador"> </div>
-        <div id="fotoMain">
-          <div id="texte">
-            Foto de perfil, amb una animació que va canviant-la segons temàtica
-            i fent servir el component Carrousel:
-            <br />
-            (APD, Huawei, NEOM)
-            <br />
-            (Lisboa, Futbol3D)
-            <br />
-            (Logos d&apos;empreses -CV visual-)
-            <br />
-            (Obi Wan, Rambo)
-          </div>
-        </div>
+        <div id="fotoMain"></div>
       </header>
       <section>
         <h1 className="main"> {experiencia_profesional[0][language]} </h1>
@@ -639,6 +626,14 @@ export default function Cv() {
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
+            <figure>
+              <img
+                src="./img/Larosadefoc.jpg"
+                alt="Cartell de La Rosa de Foc"
+                width="500"
+              />
+              <figcaption>Cartell de la pel·l&iacute;cula</figcaption>
+            </figure>
           </div>
         </div>
         <div className="dropdown">
@@ -670,15 +665,10 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Vídeo: The Zone of Hope
+              The Zone of Hope
               <img
                 src="./img/yt20.png"
                 alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
@@ -698,7 +688,7 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Vídeo de Messi Challenge: sigues Messi per un dia
+              Messi Challenge: sigues Messi per un dia
             </a>
             <figure>
               <img
@@ -736,15 +726,10 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Video promo: VR Live Gulf League 2018
+              VR Live Gulf League 2018
               <img
                 src="./img/yt20.png"
                 alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
@@ -762,7 +747,12 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Vídeo: AutomaticTV 2014
+              AutomaticTV 2014
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
             <figure>
               <img
@@ -776,8 +766,30 @@ export default function Cv() {
               </figcaption>
             </figure>
             <a href="#14">ImmersiveTV 2010</a>
-            <a href="#15">Project FINE 2010</a>
-            <a href="#16">Fútbol 3D 2010</a>
+            <a
+              href="https://vimeo.com/41780222"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Project FINE 2010
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <figure>
+              <img
+                src="./img/ProjectFINE.jpg"
+                alt="Roll up de ProjectFINE"
+                width="500"
+              />
+              <figcaption>
+                Andrés Iniesta va cedir la seva imatge al projecte
+              </figcaption>
+            </figure>
+            <a href="#15">Fútbol 3D 2010</a>
+            <a href="#16">APIDIS 2009</a>
             <a href="#17">2020 3D Media 2008</a>
             <a href="#18">i3media 2008</a>
             <a href="#19">IPRacine 2008</a>
@@ -837,7 +849,7 @@ export default function Cv() {
           <div className="dropbtn">{feines[6][language]}</div>
           <div className="dropdown-content">
             <a href="#31">Glory Day</a>
-            <a href="#32">Capçalera Festival de Sitges</a>
+            <a href="#32">Capçalera Sitges Film Festival</a>
             <a href="#33">Anunci Catalunya Música</a>
             <a href="#34">Anunci La Agenda</a>
             <a href="#35">Dobles: Curtmetratge</a>
@@ -865,8 +877,16 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[8][language]}</div>
           <div className="dropdown-content">
-            <a href="#49">Blog Veni Vidi Vici</a>
-            <a href="#50">Blog cine3D.com</a>
+            <a
+              href="https://www.jordialonso.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog Veni Vidi Vici
+            </a>
+            <a href="https://www.cine3d.com" target="_blank" rel="noreferrer">
+              Blog cine3D.com
+            </a>
             <a href="#51">Blog cine.com</a>
             <figure>
               <img
@@ -880,7 +900,13 @@ export default function Cv() {
                 cine.com
               </figcaption>
             </figure>
-            <a href="#52">El Periódico de Catalunya</a>
+            <a
+              href="https://www.elperiodico.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              El Periódico de Catalunya
+            </a>
             <figure>
               <img
                 src="./img/Elperiodico1.jpg"
@@ -903,7 +929,13 @@ export default function Cv() {
                 Article a El Periódico de Catalunya (suplement de tecnologia)
               </figcaption>
             </figure>
-            <a href="#53">3D Magazine</a>
+            <a
+              href="https://www.3dmagazine.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              3D Magazine
+            </a>
           </div>
         </div>
         <div className="dropdown">
@@ -913,7 +945,7 @@ export default function Cv() {
               Serveis de formació CGI, 3D, XR, web, Presentacions en públic
             </a>
             <a href="#43">SEO, SEM, Optimització de webs</a>
-            <a href="#44">
+            <a href="https://www.openvino.org" target="_blank" rel="noreferrer">
               Blockchain/NFT: Projecte OpenVino.org &amp; OpenCava.org (2017)
             </a>
             <a href="#45">Crypto: mineria &amp; trading (2013)</a>
@@ -945,13 +977,13 @@ export default function Cv() {
                 3D als Matins de Catradio
               </a>
               <a href="#54">Canal+ Estrena simultània</a>
-              <a href="#55">TV3 Telenotícies</a>
+              <a href="#55">TV3 Telenotícies @cine.com</a>
               <a
                 href="https://play.cadenaser.com/audio/20060404csrcsr_5.Aes/"
                 target="_blank"
                 rel="noreferrer"
               >
-                CadenaSER @cine.com
+                HoyPorHoy, CadenaSER @cine.com
               </a>
               <a href="#57">CATRADIO internet video @cine.com</a>
               <a href="#58">Internet video @cine.com</a>
@@ -980,6 +1012,14 @@ export default function Cv() {
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
+                <figure>
+                  <img
+                    src="./img/huawei.jpg"
+                    alt="keynote 5G per Huawei a GITEX Dubai"
+                    width="500"
+                  />
+                  <figcaption>Posar foto</figcaption>
+                </figure>
               </a>
               <a href="#62">
                 La Liga Technology Showcase Shanghai. 15-07-2019
@@ -994,6 +1034,16 @@ export default function Cv() {
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
+              <figure>
+                <img
+                  src="./img/LaLigaASIA.png"
+                  alt="LaLiga Technology Showcase. Shanghai"
+                  width="500"
+                />
+                <figcaption>
+                  Presentació de la prova de concepte de futbol en VR per LaLiga
+                </figcaption>
+              </figure>
               <a href="#63">
                 La Liga Technology Showcase BCN. 04-03-2019
                 <img
@@ -1012,10 +1062,38 @@ export default function Cv() {
                   Presentació de la prova de concepte de futbol en VR per LaLiga
                 </figcaption>
               </figure>
-              <a href="#64">COEIC media &amp; IT</a>
-              <a href="#65">Auditori Mediapro 2020 3D Media</a>
-              <a href="#66">IBC 2020 3D Media</a>
-              <a href="#67">REBUILD 2018. Construcci&oacute; 4.0</a>
+              <a href="#64">
+                COEIC media &amp; IT
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
+              <a href="#65">
+                Auditori Mediapro 2020 3D Media
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
+              <a href="#66">
+                IBC 2020 3D Media
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
+              <a href="#67">
+                REBUILD 2018. Construcci&oacute; 4.0
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
               <a href="#68">Festival de cinema de Sitges cine.com</a>
               <a href="#69">Torre Agbar cine.com</a>
               <figure>
