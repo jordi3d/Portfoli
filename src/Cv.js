@@ -704,13 +704,13 @@ export default function Cv() {
           <div className="dropbtn">{feines[3][language]}</div>
           <div className="dropdown-content">
             <a href="#23">ESADE Mentor alumnes del Màster</a>
-            <a href="#24">La Salle</a>
-            <a href="#25">ERAM</a>
+            <a href="#24">La Salle*</a>
+            <a href="#25">ERAM UdG</a>
             <a href="#26">MSc UPC</a>
             <a href="#27">Mediapro AutomaticTV</a>
             <a href="#28">Mediapro 3D</a>
             <a href="#29">RTVE Catalunya</a>
-            <a href="#30">ESCAC</a>
+            <a href="#30">ESCAC Escola Superior de Cinema</a>
           </div>
         </div>
         <div className="dropdown">
@@ -733,6 +733,7 @@ export default function Cv() {
           <div className="dropdown-content">
             <a href="#23">The VR/AR Association Catalonia Chapter</a>
             <figure>Posar fotos sopar MWC</figure>
+            <figcaption></figcaption>
             <a href="#23">Promovisa Catalunya</a>
           </div>
         </div>
@@ -852,7 +853,7 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{conferencies[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#60">5º Congreso APD, XR: the next big thing?</a>
+              <a href="#60">5º Congreso APD. XR: the next big thing?</a>
               <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
               <a href="#62">La Liga Technology Showcase Shanghai. 15-07-2019</a>
               <a href="#63">La Liga Technology Showcase BCN. 04-03-2019</a>
