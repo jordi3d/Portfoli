@@ -515,19 +515,6 @@ export default function Cv() {
             >
               Notícia a El Mundo Deportivo
             </a>
-            <a href="#2">
-              <figure>
-                <img
-                  src="./img/obvan_ext2.jpg"
-                  alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
-                  width="500"
-                />
-                <figcaption>
-                  Unitat mòbil 3D de Medialuso. Klepth Live 3D a Casa da Música
-                  de Porto
-                </figcaption>
-              </figure>
-            </a>
             <a href="#1">Benfica-Sporting de Lisboa 3D</a>
             <figure>
               <img
@@ -554,6 +541,17 @@ export default function Cv() {
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
+            <figure>
+              <img
+                src="./img/obvan_ext2.jpg"
+                alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
+                width="500"
+              />
+              <figcaption>
+                Unitat mòbil 3D de Medialuso. Klepth Live 3D a Casa da Música de
+                Porto
+              </figcaption>
+            </figure>
             <a
               href="https://www.youtube.com/watch?v=AlTtevooKGE"
               target="_blank"
@@ -964,7 +962,7 @@ export default function Cv() {
             <a href="#42">
               Serveis de formació CGI, 3D, XR, web, Presentacions en públic
             </a>
-            <a href="#43">SEO, SEM, Optimització de webs</a>
+            <a href="#43">SEO, SEM, Optimització de webs WordPress</a>
             <a href="https://www.openvino.org" target="_blank" rel="noreferrer">
               Blockchain/NFT: Projecte OpenVino.org &amp; OpenCava.org (2017)
             </a>
@@ -972,12 +970,12 @@ export default function Cv() {
             <a href="#46">Domainer: +1.000 dominis (actualment +100)</a>
             <a href="#47">VoD: cine.com descàrregues legals (1999)</a>
             <a href="#48">Iberseller e-commerce solutions (1997)</a>
-            <a href="#49">AI: Sistema Expert en PDC-PROLOG/UNIX</a>
+            <a href="#49">AI: Sistema Expert en PDC-PROLOG/UNIX (1992)</a>
             <a href="#50">
-              CADAT Informàtica: importacions, muntatge de PC&apos;s
+              CADAT Informàtica: importacions, muntatge de PC&apos;s (1988)
             </a>
             <a href="#51">
-              Desenvolupament d&apos;aplicacions en Clipper/MS-DOS
+              Desenvolupament d&apos;aplicacions en Clipper/MS-DOS (1987)
             </a>
           </div>
         </div>
@@ -988,7 +986,13 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{entrevistes[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#52">VR</a>
+              <a
+                href="https://www.youtube.com/watch?v=XadyIOiavgk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                VR al 360 Film Fest de Barcelona
+              </a>
               <a
                 href="https://www.ccma.cat/catradio/alacarta/el-mat-de-catalunya-rdio-manel-fuentes/avatar/audio/398359/"
                 target="_blank"
