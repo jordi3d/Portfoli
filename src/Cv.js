@@ -528,7 +528,15 @@ export default function Cv() {
                 </figcaption>
               </figure>
             </a>
-            <a href="#1">Afegir foto a Stadio da luz</a>
+            <a href="#1">Benfica-Sporting de Lisboa 3D</a>
+            <figure>
+              <img
+                src="./img"
+                alt="Est&aacute;dio da Luz, Lisboa"
+                width="500"
+              />
+              <figcaption>Afegir foto</figcaption>
+            </figure>
             <a
               href="https://www.youtube.com/watch?v=NU2ZXZFZhY4"
               target="_blank"
@@ -597,18 +605,30 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              <figure>
-                <img
-                  src="./img/cartell3d_elclasico.png"
-                  alt="Cartell de promoció del Clásico en 3D"
-                  width="500"
-                  heigth="375"
-                />
-                <figcaption>
-                  Primera retransmissió d&apos;El Clásico en 3D en directe
-                </figcaption>
-              </figure>
+              Fútbol 3D Live
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
+            <figure>
+              <img
+                src="./img/cartell3d_elclasico.png"
+                alt="Cartell de promoció del Clásico en 3D"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>
+                Primera retransmissió d&apos;El Clásico en 3D en directe
+              </figcaption>
+            </figure>
+
             <a
               href="https://www.youtube.com/watch?v=ZYNbuYREyeE"
               target="_blank"
@@ -1006,7 +1026,7 @@ export default function Cv() {
                 />
               </a>
               <a href="#61">
-                GITEX 2018. Huawei 5G Keynote
+                GITEX 2019. Huawei 5G Keynote
                 <img
                   src="./img/mediapro.png"
                   alt="mediapro"
@@ -1014,11 +1034,13 @@ export default function Cv() {
                 />
                 <figure>
                   <img
-                    src="./img/huawei.jpg"
+                    src="./img/huawei2.jpg"
                     alt="keynote 5G per Huawei a GITEX Dubai"
                     width="500"
                   />
-                  <figcaption>Posar foto</figcaption>
+                  <figcaption>
+                    Xerrada sobre 5G per Huawei durant el GITEX 2019 de Dubai
+                  </figcaption>
                 </figure>
               </a>
               <a href="#62">
@@ -1144,15 +1166,19 @@ export default function Cv() {
               <figure>Certificació Tecnocampus</figure>
               <a href="#76">Machine Learning</a>
               <figure>Certificació Coursera/Stanford</figure>
-              <a href="#77">ITIL Essentials</a>
+              <a href="#77">SCRUM/Agile</a>
+              <figure>Certificació Mediapro</figure>
+              <a href="#78">ITIL Essentials</a>
               <figure>Certificació EXIN</figure>
-              <a href="#78">Project Manager</a>
+              <a href="#79">Project Manager</a>
               <figure>Certificació PMI</figure>
-              <a href="#79">Arduino</a>
+              <a href="#79">6-sigma</a>
+              <figure>Certificació Sun Microsystems</figure>
+              <a href="#80">Arduino</a>
               <figure>Certificació UPC</figure>
-              <a href="#80">Avid DS</a>
+              <a href="#81">Avid DS</a>
               <figure>Certificació Avid DS 101-501</figure>
-              <a href="#81">Softimage 3D</a>
+              <a href="#82">Softimage 3D</a>
               <figure>Certificació Softimage 101-501</figure>
             </div>
           </div>
@@ -1287,7 +1313,9 @@ export default function Cv() {
               <figure>03/2022 A Thousand Minds</figure>
               <figure>02/2022 JavaScript The Definitive Guide</figure>
               <figure>01/2022 LifeSpan</figure>
-              <a href="#112">Cinema</a>
+              <figure>12/2021 El Mecanisme</figure>
+              <a href="#112">Cuina</a>
+              <a href="#113">Cinema</a>
               <figure>Veig totes les pelis en 3D i també d&apos;altres</figure>
               <a
                 href="https://www.fototurismo.net"
@@ -1308,8 +1336,8 @@ export default function Cv() {
               </figure>
               <figure>
                 <img
-                  src="./img/kiruna.jpg"
-                  alt="Sol de mitjanit a Kiruna"
+                  src="./img/Giorgios.jpg"
+                  alt="Giorgios Wreckage by Ben Thouard"
                   width="500"
                 />
                 <figcaption>
