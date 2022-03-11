@@ -961,7 +961,11 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{conferencies[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#60">
+              <a
+                href="https://www.youtube.com/watch?v=einYD7AtS2M"
+                target="_blank"
+                rel="noreferrer"
+              >
                 5º Congreso APD. XR: the next big thing?
                 <img
                   src="./img/yt20.png"
@@ -1052,7 +1056,7 @@ export default function Cv() {
               <a href="#71">MSc Photonics a UPC</a>
               <a href="#72">MBA a ESADE -no acabat-</a>
               <a href="#73">MA Computer Animation a ESCAC</a>
-              <a href="#74">BSc Computer Graphics a UAB</a>
+              <a href="#74">BSc Computer Science a UAB</a>
             </div>
           </div>
           <div className="dropdown">
@@ -1077,10 +1081,30 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{congressos[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#82">SIGGRAPH</a>
-              <a href="#83">NAB</a>
-              <a href="#84">IBC</a>
-              <a href="#85">MWC</a>
+              <a
+                href="https://www.siggraph.org"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SIGGRAPH
+              </a>
+              <a
+                href="https://www.nabshow.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                NAB
+              </a>
+              <a href="https://www.ibc.org" target="_blank" rel="noreferrer">
+                IBC
+              </a>
+              <a
+                href="https://www.mwcbarcelona.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                MWC
+              </a>
               <a
                 href="https://3dtv-con.org/silja-serenade/"
                 target="_blank"
