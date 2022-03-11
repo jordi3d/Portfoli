@@ -542,23 +542,74 @@ export default function Cv() {
               </figure>
             </a>
             <a href="#1">Afegir foto a Stadio da luz</a>
-            <a href="#2">
-              <figure>
-                <img
-                  src="./img/obvan_ext2.jpg"
-                  alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
-                  width="500"
-                />
-                <figcaption>
-                  Unitat mòbil 3D de Medialuso. Klepth Live 3D a Casa da Música
-                  de Porto
-                </figcaption>
-              </figure>
+            <a
+              href="https://www.youtube.com/watch?v=NU2ZXZFZhY4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Klepth Live 3D a Casa da M&uacute;sica de Porto
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
-            <a href="#3">Abrunhosa des del Coliseo de Porto</a>
-            <a href="#3">Deolinda des de Lisboa</a>
-            <a href="#3">Mundial de surf des d&apos;Aveiro</a>
-            <a href="#3">
+            <a
+              href="https://www.youtube.com/watch?v=AlTtevooKGE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Abrunhosa 3D des del Coliseu de Porto
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <a
+              href="https://www.live-production.tv/news/4k-8k-arising/mediapro-group-produced-live-3d-concert-portuguese-group-deolinda.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Deolinda 3D des de Lisboa
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=zEckoGCYMkY"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RIP Curl World Cup of surfing des de Peniche, Portugal
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <a
+              href="https://www.live-production.tv/news/4k-8k-arising/3d-screening-bar%C3%A7a-%E2%80%93-madrid-match-was-big-success.html"
+              target="_blank"
+              rel="noreferrer"
+            >
               <figure>
                 <img
                   src="./img/cartell3d_elclasico.png"
@@ -886,10 +937,22 @@ export default function Cv() {
             <div className="dropbtn">{entrevistes[0][language]}</div>
             <div className="dropdown-content">
               <a href="#52">VR</a>
-              <a href="#53">3D als Matins de Catradio</a>
+              <a
+                href="https://www.ccma.cat/catradio/alacarta/el-mat-de-catalunya-rdio-manel-fuentes/avatar/audio/398359/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                3D als Matins de Catradio
+              </a>
               <a href="#54">Canal+ Estrena simultània</a>
               <a href="#55">TV3 Telenotícies</a>
-              <a href="#56">CadenaSER @cine.com</a>
+              <a
+                href="https://play.cadenaser.com/audio/20060404csrcsr_5.Aes/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CadenaSER @cine.com
+              </a>
               <a href="#57">CATRADIO internet video @cine.com</a>
               <a href="#58">Internet video @cine.com</a>
               <a href="#59">e-commerce @reg2.net</a>
@@ -907,7 +970,7 @@ export default function Cv() {
                 />
               </a>
               <a href="#61">
-                GITEX 1998. Huawei 5G Keynote
+                GITEX 2018. Huawei 5G Keynote
                 <img
                   src="./img/mediapro.png"
                   alt="mediapro"
@@ -941,25 +1004,14 @@ export default function Cv() {
                   alt="LaLiga Technology Showcase. RCD Stadium"
                   width="500"
                 />
+                <figcaption>
+                  Presentació de la prova de concepte de futbol en VR per LaLiga
+                </figcaption>
               </figure>
-              <figcaption>
-                Presentació de la prova de concepte de VR per LaLiga
-              </figcaption>
               <a href="#64">COEIC media &amp; IT</a>
               <a href="#65">Auditori Mediapro 2020 3D Media</a>
               <a href="#66">IBC 2020 3D Media</a>
-              <a href="#67">CGIx Glory Day</a>
-              <figure>
-                <img
-                  src="./img/CGIx.jpg"
-                  alt="CGIx a Barcelona el 1999"
-                  width="500"
-                />
-                <figcaption>
-                  Presentació del projecte "Glory Day" al CGIx de Barcelona
-                  04-02-1999
-                </figcaption>
-              </figure>
+              <a href="#67">REBUILD 2018. Construcci&oacute; 4.0</a>
               <a href="#68">Festival de cinema de Sitges cine.com</a>
               <a href="#69">Torre Agbar cine.com</a>
               <figure>
@@ -975,6 +1027,18 @@ export default function Cv() {
                 </figcaption>
               </figure>
               <a href="#70">Santiago de Compostela cine.com</a>
+              <a href="#70bis">CGIx Glory Day</a>
+              <figure>
+                <img
+                  src="./img/CGIx.jpg"
+                  alt="CGIx a Barcelona el 1999"
+                  width="500"
+                />
+                <figcaption>
+                  Presentació del projecte "Glory Day" al CGIx de Barcelona
+                  04-02-1999
+                </figcaption>
+              </figure>
             </div>
           </div>
         </section>
