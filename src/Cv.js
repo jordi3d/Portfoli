@@ -853,7 +853,10 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{conferencies[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#60">5º Congreso APD. XR: the next big thing?</a>
+              <a href="#60">
+                5º Congreso APD. XR: the next big thing?
+                <img src="./img/yt.png" alt="youtube" />
+              </a>
               <a href="#61">GITEX 1998. Huawei 5G Keynote</a>
               <a href="#62">La Liga Technology Showcase Shanghai. 15-07-2019</a>
               <a href="#63">La Liga Technology Showcase BCN. 04-03-2019</a>
@@ -1009,26 +1012,26 @@ export default function Cv() {
             <div className="dropbtn">{aficions[0][language]}</div>
             <div className="dropdown-content">
               <a href="#102">Tennis</a>
-              <h4>3ª Categoria Grup 8</h4>
+              <figure>3ª Categoria Grup 8</figure>
               <a href="#103">Tennis taula</a>
-              <h4>3ª Categoria</h4>
+              <figure>3ª Categoria</figure>
               <a href="#104">Golf</a>
-              <h4>Handicap 19.9</h4>
+              <figure>Handicap 19.9</figure>
               <a href="#105">Esquí</a>
               <a href="#106">Submarinisme</a>
-              <h4>FEDAS 1*</h4>
+              <figure>FEDAS 1*</figure>
               <a href="#107">Trekking</a>
               <a href="#108">Beat Saber</a>
-              <h4>Nivell Expert</h4>
+              <figure>Nivell Expert</figure>
               <a href="#109">Guitarra</a>
-              <h4>Cursos online</h4>
+              <figure>Cursos online</figure>
               <a href="#110">Piano</a>
-              <h4>Classes Particulars</h4>
-              <h4>4rt de Solfeig</h4>
+              <figure>M&apos;han donat classes particulars</figure>
+              <figure>4rt de solfeig</figure>
               <a href="#111">Lectura</a>
-              <h4>Darrer llibre: 01/2022 A Thousand Minds</h4>
+              <figure>Darrer llibre: 01/2022 A Thousand Minds</figure>
               <a href="#112">Cinema</a>
-              <h4>Veig totes les pelis en 3D i d&apos;altres</h4>
+              <figure>Veig totes les pelis en 3D i també d&apos;altres</figure>
               <a
                 href="https://www.fototurismo.net"
                 target="_blank"
