@@ -989,7 +989,7 @@ export default function Cv() {
             <a href="https://www.cine3d.com" target="_blank" rel="noreferrer">
               Blog cine3D.com
             </a>
-            <a href="#51">Blog cine.com</a>
+            <a href="#42">Blog cine.com</a>
             <figure>
               <img
                 src="./img/DougTrumbull_Sitges.jpg"
@@ -1038,27 +1038,28 @@ export default function Cv() {
             >
               3D Magazine
             </a>
+            <a href="#43">Onda Cero Radio. Març 2010</a>
           </div>
         </div>
         <div className="dropdown">
           <div className="dropbtn">{feines[9][language]}</div>
           <div className="dropdown-content">
-            <a href="#42">
+            <a href="#44">
               Serveis de formació CGI, 3D, XR, web, Presentacions en públic
             </a>
-            <a href="#43">SEO, SEM, Optimització de webs WordPress</a>
+            <a href="#45">SEO, SEM, Optimització de webs WordPress</a>
             <a href="https://www.openvino.org" target="_blank" rel="noreferrer">
               Blockchain/NFT: Projecte OpenVino.org &amp; OpenCava.org (2017)
             </a>
-            <a href="#45">Crypto: mineria &amp; trading (2013)</a>
-            <a href="#46">Domainer: +1.000 dominis (actualment +100)</a>
-            <a href="#47">VoD: cine.com descàrregues legals (1999)</a>
-            <a href="#48">Iberseller e-commerce solutions (1997)</a>
-            <a href="#49">AI: Sistema Expert en PDC-PROLOG/UNIX (1992)</a>
-            <a href="#50">
+            <a href="#46">Crypto: mineria &amp; trading (2013)</a>
+            <a href="#47">Domainer: +1.000 dominis (actualment +100)</a>
+            <a href="#48">VoD: cine.com descàrregues legals (1999)</a>
+            <a href="#49">Iberseller e-commerce solutions (1997)</a>
+            <a href="#50">AI: Sistema Expert en PDC-PROLOG/UNIX (1992)</a>
+            <a href="#51">
               CADAT Informàtica: importacions, muntatge de PC&apos;s (1988)
             </a>
-            <a href="#51">
+            <a href="#52">
               Desenvolupament d&apos;aplicacions en Clipper/MS-DOS (1987)
             </a>
           </div>
@@ -1095,7 +1096,18 @@ export default function Cv() {
                 />
               </a>
               <a href="#54">Canal+ Estrena simultània</a>
-              <a href="#55">TV3 Telenotícies @cine.com</a>
+              <a
+                href="http://www.tv3.cat/videos/2843310/Telenoticies-vespre"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TV3 Telenotícies 16/04/2010 cine3D (minut 37)
+                <img
+                  src="./img/yt20.png"
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
               <a
                 href="https://play.cadenaser.com/audio/20060404csrcsr_5.Aes/"
                 target="_blank"
@@ -1109,7 +1121,6 @@ export default function Cv() {
                 />
               </a>
               <a href="#57">CATRADIO internet video @cine.com</a>
-              <a href="#58">Internet video @cine.com</a>
               <a href="#59">e-commerce @reg2.net</a>
             </div>
           </div>
@@ -1223,7 +1234,7 @@ export default function Cv() {
               <a href="#69">Torre Agbar cine.com</a>
               <figure>
                 <img
-                  src="./img/CPAC_24-04-2008-Agbar.jpg"
+                  src="./img/cpac02.jpg"
                   alt="CPAC r-evolució difital 24-04-08 a Torre Agbar"
                   width="500"
                   heigth="375"
@@ -1233,7 +1244,24 @@ export default function Cv() {
                   digital(cine.com)
                 </figcaption>
               </figure>
-              <a href="#70">Santiago de Compostela cine.com</a>
+              <a
+                href="https://jordialonso.wordpress.com/2008/10/11/jornadas-agapi-en-santiago-ultimo-dia/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AGAPI Santiago de Compostela 10/10/2008 @cine.com
+              </a>
+              <figure>
+                <img
+                  src="./img/AGAPI.jpg"
+                  alt="Conferencia sobre vídeo per internet a AGAPI"
+                  width="500"
+                />
+                <figcaption>
+                  Xerrada sobre v&iacute;deo per internet a Santiago de
+                  Compostela, 9 i 10/10/2008
+                </figcaption>
+              </figure>
               <a href="#70bis">CGIx Glory Day</a>
               <figure>
                 <img
