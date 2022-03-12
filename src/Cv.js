@@ -1,7 +1,19 @@
 import "./Cv.css";
 import { useState } from "react";
 
-let idiomes_web = ["CAT", "ES", "EN", "FR", "RU", "DE", "IT", "PT", "NL", "ZH"];
+let idiomes_web = [
+  "CAT",
+  "ES",
+  "EN",
+  "FR",
+  "RU",
+  "DE",
+  "IT",
+  "PT",
+  "NL",
+  "AR",
+  "ZH",
+];
 let nom = [
   {
     CAT: "Jordi Alonso",
@@ -13,6 +25,7 @@ let nom = [
     IT: "Giorgio Alonso",
     PT: "Jorge Alonso",
     NL: "Jordi Alonso",
+    AR: "جوردي ألونسو",
     ZH: "安桥笛",
   },
 ];
@@ -27,6 +40,7 @@ let experiencia_profesional = [
     IT: "Esperienza Professionale",
     PT: "Experiência Profissional",
     NL: "Professionele ervaring",
+    AR: "أون",
     ZH: "专业经验",
   },
 ];
@@ -41,6 +55,7 @@ let feines = [
     IT: "Direttore Tecnico",
     PT: "Diretor Técnico",
     NL: "Technisch Directeur",
+    AR: "مؤتمرات",
     ZH: "技术总监",
   },
   {
@@ -53,6 +68,7 @@ let feines = [
     IT: "Manager di Proyecto",
     PT: "Gestor de projeto",
     NL: "Projectleider",
+    AR: "مدير فرع",
     ZH: "专案经理",
   },
   {
@@ -65,6 +81,7 @@ let feines = [
     IT: "Amministratore dei Servizio del Conteggi",
     PT: "Gerente de Serviço de Conta",
     NL: "Service Account Manager",
+    AR: "مدير المشروع",
     ZH: "服务客户经理",
   },
   {
@@ -77,6 +94,7 @@ let feines = [
     IT: "Professore",
     PT: "Professor",
     NL: "Docent",
+    AR: "المدير الفني",
     ZH: "老师",
   },
   {
@@ -89,6 +107,7 @@ let feines = [
     IT: "Gestione del prodotto",
     PT: "Gerente de produto",
     NL: "Verantwoordelijk voor product",
+    AR: "معلم",
     ZH: "负责产品",
   },
   {
@@ -101,6 +120,7 @@ let feines = [
     IT: "Delegato regionale",
     PT: "Gerente de Branch",
     NL: "Regionale afgevaardigde",
+    AR: "مدير الإنتاج",
     ZH: "区域代表",
   },
   {
@@ -113,6 +133,7 @@ let feines = [
     IT: "Supervisore degli effetti visivi",
     PT: "Supervisor de efeitos visuais",
     NL: "Supervisor van visuele effecten",
+    AR: "مدير حساب الخدمة",
     ZH: "视觉效果的主管",
   },
   {
@@ -125,6 +146,7 @@ let feines = [
     IT: "Sviluppatore web",
     PT: "Desenvolvedor da Web",
     NL: "Webontwikkelaar",
+    AR: "كل الحقوق محفوظة",
     ZH: "Web开发人员",
   },
   {
@@ -137,6 +159,7 @@ let feines = [
     IT: "Giornalista",
     PT: "Jornalista",
     NL: "Journalist",
+    AR: "المشرف على المؤثرات المرئية",
     ZH: "记者",
   },
   {
@@ -149,6 +172,7 @@ let feines = [
     IT: "Uomo d'affari",
     PT: "Homem de negocios",
     NL: "Zakenman",
+    AR: "هوايات",
     ZH: "商人",
   },
 ];
@@ -163,6 +187,7 @@ let entrevistes_i_conferencies = [
     IT: "Interviste e conferenze",
     PT: "Entrevistas e Conferências",
     NL: "Interviews en conferenties",
+    AR: "اللغات",
     ZH: "访谈和会议",
   },
 ];
@@ -177,6 +202,7 @@ let entrevistes = [
     IT: "Colloquio",
     PT: "Entrevistas",
     NL: "Sollicitatiegesprekken",
+    AR: "المؤتمرات",
     ZH: "面试",
   },
 ];
@@ -191,6 +217,7 @@ let conferencies = [
     IT: "Conferenze",
     PT: "Conferências",
     NL: "Conferenties",
+    AR: "المقابلات والمؤتمرات",
     ZH: "会议",
   },
 ];
@@ -205,6 +232,7 @@ let educacio = [
     IT: "Formazione scolastica",
     PT: "Educação",
     NL: "Opleiding",
+    AR: "الخبرة العملية",
     ZH: "教育",
   },
 ];
@@ -219,6 +247,7 @@ let formacio_reglada = [
     IT: "Formazione Regolata",
     PT: "Formação Regulada",
     NL: "Gereguleerde training",
+    AR: "آحرون",
     ZH: "监管培训",
   },
 ];
@@ -233,6 +262,7 @@ let cursos = [
     IT: "Corsi",
     PT: "Cursos",
     NL: "Cursussen",
+    AR: "مقابلات",
     ZH: "培训班",
   },
 ];
@@ -247,6 +277,7 @@ let congressos = [
     IT: "Congressi",
     PT: "Congressos",
     NL: "Congressen",
+    AR: "رجل اعمال",
     ZH: "国会",
   },
 ];
@@ -261,6 +292,7 @@ let idiomes = [
     IT: "Idiomas",
     PT: "Línguas",
     NL: "Talen",
+    AR: "الانتماءات",
     ZH: "语言",
   },
 ];
@@ -275,6 +307,7 @@ let altres = [
     IT: "Ottros",
     PT: "Outras",
     NL: "Andere",
+    AR: "تعليم",
     ZH: "其他",
   },
 ];
@@ -289,6 +322,7 @@ let afiliacions = [
     IT: "Affiliazioni",
     PT: "Afiliações",
     NL: "Affiliaties",
+    AR: "التدريب المنظم",
     ZH: "隶属关系",
   },
 ];
@@ -303,6 +337,7 @@ let aficions = [
     IT: "Africations",
     PT: "Hobbies",
     NL: "Hobby&apos;s",
+    AR: "الدورات",
     ZH: "爱好",
   },
 ];
@@ -317,6 +352,7 @@ let llengues = [
     IT: "Catalano",
     PT: "Catalão",
     NL: "Catalaans",
+    AR: "صحافي",
     ZH: "加泰罗尼亚州",
   },
   {
@@ -329,6 +365,7 @@ let llengues = [
     IT: "Spagnolo",
     PT: "Espanhol",
     NL: "Spaans",
+    AR: "الكاتالونية",
     ZH: "西班牙语",
   },
   {
@@ -341,6 +378,7 @@ let llengues = [
     IT: "Inglese",
     PT: "Inglês",
     NL: "Engels",
+    AR: "الأسبانية",
     ZH: "英语",
   },
   {
@@ -353,6 +391,7 @@ let llengues = [
     IT: "Francese",
     PT: "Francês",
     NL: "Frans",
+    AR: "إنجليزي",
     ZH: "法语",
   },
   {
@@ -365,6 +404,7 @@ let llengues = [
     IT: "Ruso",
     PT: "Russo",
     NL: "Russisch",
+    AR: "الفرنسية",
     ZH: "俄语",
   },
   {
@@ -377,6 +417,7 @@ let llengues = [
     IT: "Tedesco",
     PT: "Alemão",
     NL: "Duits",
+    AR: "الروسية",
     ZH: "德语",
   },
   {
@@ -389,6 +430,7 @@ let llengues = [
     IT: "Italiano",
     PT: "Italiano",
     NL: "Italiaans",
+    AR: "ألمانية",
     ZH: "意大利人",
   },
   {
@@ -401,6 +443,7 @@ let llengues = [
     IT: "Portoghese",
     PT: "Português",
     NL: "Portugees",
+    AR: "الإيطالية",
     ZH: "葡萄牙语",
   },
   {
@@ -412,7 +455,8 @@ let llengues = [
     DE: "Chinesisch",
     IT: "Chino",
     PT: "Chinês",
-    NL: "Portugees",
+    NL: "Chinese",
+    AR: "البرتغالية",
     ZH: "中国人",
   },
 ];
@@ -427,6 +471,7 @@ let copyright = [
     IT: "Tutti i diritti riservati",
     PT: "Todos os direitos reservados",
     NL: "Alle rechten voorbehouden",
+    AR: "صينى",
     ZH: "版权所有",
   },
 ];
@@ -515,7 +560,7 @@ export default function Cv() {
             >
               Notícia a El Mundo Deportivo
             </a>
-            <a href="#1">Benfica-Sporting de Lisboa 3D</a>
+            <a href="#1">Benfica-Sporting de Lisboa 3D 28/11/2009</a>
             <figure>
               <img
                 src="./img"
@@ -603,7 +648,7 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Fútbol 3D Live
+              Fútbol 3D Live 29/11/2010
               <img
                 src="./img/yt20.png"
                 alt="youtube"
@@ -657,10 +702,12 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[1][language]}</div>
           <div className="dropdown-content">
-            <a href="#4">NEOM The Line 2020</a>
+            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+              NEOM The Line 2020
+            </a>
             <figure>
               <img
-                src="./img/theline.jpg"
+                src="./img/NEOM_theline.jpg"
                 alt="NEOM The Line"
                 width="500"
                 heigth="375"
@@ -671,7 +718,7 @@ export default function Cv() {
             </figure>
             <figure>
               <img
-                src="./img/theline2.jpg"
+                src="./img/NEOM_theline2.jpg"
                 alt="NEOM The Line Detalls"
                 width="500"
                 heigth="375"
@@ -721,8 +768,22 @@ export default function Cv() {
               </figcaption>
             </figure>
             <a href="#7">BTS Woody Allen&apos;s visit to Spain 2019</a>
-            <a href="#8">NEOM Tourism Book &amp; Map 2019</a>
-            <a href="#9">NEOM Immersive 2019</a>
+            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+              NEOM Tourism Book &amp; Map 2019
+            </a>
+            <figure>
+              <img
+                src="./img/NEOM_tourism.jpg"
+                alt="Book and Tourism map"
+                width="500"
+              />
+              <figcaption>
+                Primer llibre i mapa tur&iacute;stic de NEOM
+              </figcaption>
+            </figure>
+            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+              NEOM Immersive 2019
+            </a>
             <figure>
               <img
                 src="./img/NEOM_immersive.jpg"
@@ -734,7 +795,9 @@ export default function Cv() {
                 turisme de Londres
               </figcaption>
             </figure>
-            <a href="#10">NEOM Smart City 2019</a>
+            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+              NEOM Smart City 2019
+            </a>
             <a
               href="https://mediaproexhibitions.com/ca/project/mep"
               target="_blank"
@@ -830,12 +893,21 @@ export default function Cv() {
               <img src="./img/futbol3d.jpg" alt="Logo Fútbol 3D" />
             </figure>
             <a href="#16">APIDIS 2009</a>
+            <figure>
+              <img src="./img/apidis.jpg" alt="Logo APIDIS" />
+            </figure>
             <a href="#17">2020 3D Media 2008</a>
             <figure>
               <img src="./img/20203DMedia.jpg" alt="Logo 2020 3D Media" />
             </figure>
             <a href="#18">i3media 2008</a>
-            <a href="#19">IPRacine 2008</a>
+            <figure>
+              <img src="./img/i3media.png" alt="Logo i3media" width="250" />
+            </figure>
+            <a href="#19">IP-racine 2008</a>
+            <figure>
+              <img src="./img/ipracine.jpg" alt="Logo IP-racine" width="250" />
+            </figure>
           </div>
         </div>
         <div className="dropdown">
@@ -1002,6 +1074,13 @@ export default function Cv() {
                 cine.com
               </figcaption>
             </figure>
+            <a
+              href="https://jordialonso.wordpress.com/2011/02/04/entrevista-a-steve-schklair-ceo-de-3ality-en-ibc-2010/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Entreviista a Steve Schklair, CEO de 3ALITY
+            </a>
             <a
               href="https://www.elperiodico.com"
               target="_blank"
