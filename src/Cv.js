@@ -1538,12 +1538,12 @@ export default function Cv() {
               </figure>
               <figure>
                 <img
-                  src="./img/Giorgios.jpg"
-                  alt="Giorgios Wreckage by Ben Thouard"
+                  src="./img/Georgios.jpg"
+                  alt="Georgios G Wreck at NEOM by Ben Thouard"
                   width="500"
                 />
                 <figcaption>
-                  Giorgios Wreckage a NEOM (Ar&agrave;bia Saudita), 30-09-2018
+                  Georgios G Wreck a NEOM (Ar&agrave;bia Saudita), 30-09-2018
                 </figcaption>
               </figure>
               <figure>
