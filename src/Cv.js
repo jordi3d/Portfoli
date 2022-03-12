@@ -716,12 +716,24 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Messi Challenge at Messi10 by Cirque du Soleil. Setembre 2019
+                Messi Challenge a la representació Messi10 de Cirque du Soleil.
+                Setembre 2019
               </figcaption>
             </figure>
             <a href="#7">BTS Woody Allen&apos;s visit to Spain 2019</a>
             <a href="#8">NEOM Tourism Book &amp; Map 2019</a>
             <a href="#9">NEOM Immersive 2019</a>
+            <figure>
+              <img
+                src="./img/NEOM_immersive.jpg"
+                alt="World Tourism Expo a Londres"
+                width="500"
+              />
+              <figcaption>
+                NEOM Immersive, presentat amb motiu de la fira mundial de
+                turisme de Londres
+              </figcaption>
+            </figure>
             <a href="#10">NEOM Smart City 2019</a>
             <a
               href="https://mediaproexhibitions.com/ca/project/mep"
@@ -784,6 +796,10 @@ export default function Cv() {
               </figcaption>
             </figure>
             <a href="#14">ImmersiveTV 2010</a>
+            <figure>
+              <img src="./img/immersivetv.jpg" alt="ImmersiveTV" width="500" />
+              <figcaption>ImmersiveTV: projecte de recerca nacional</figcaption>
+            </figure>
             <a
               href="https://vimeo.com/41780222"
               target="_blank"
@@ -825,16 +841,40 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[2][language]}</div>
           <div className="dropdown-content">
-            <a href="#20">VRARA President del capítol de Catalunya</a>
-            <a href="#21">Sun Microsystems</a>
-            <a href="#22">Netscape</a>
+            <a href="https://www.thevrara.com" target="_blank" rel="noreferrer">
+              VRARA: The VR/AR Association
+            </a>
+            <figure>
+              <img src="./img/vrara.png" alt="VR/AR Association" width="250" />
+              <figcaption>Chapter President</figcaption>
+            </figure>
+            <a href="https://www.sun.com" target="_blank" rel="noreferrer">
+              Sun Microsystems
+            </a>
+            <figure>
+              <img src="./img/sun.jpg" alt="Sun Microsystems" width="250" />
+              <figcaption>
+                Technical Account Manager for Strategic Accounts
+              </figcaption>
+            </figure>
+            <a href="https://www.netscape.com" target="_blank" rel="noreferrer">
+              Netscape
+            </a>
+            <figure>
+              <img src="./img/netscape.png" alt="Netscape" width="250" />
+              <figcaption>
+                Enterprise Service Account Manager iPlanet products
+              </figcaption>
+            </figure>
           </div>
         </div>
         <div className="dropdown">
           <div className="dropbtn">{feines[3][language]}</div>
           <div className="dropdown-content">
             <a href="#23">ESADE Mentor alumnes del Màster</a>
-            <a href="#24">La Salle*</a>
+            <a href="#24">
+              <i>La Salle*</i>
+            </a>
             <a href="#25">ERAM UdG</a>
             <a href="#26">MSc UPC</a>
             <a href="#27">Mediapro AutomaticTV</a>
@@ -866,33 +906,51 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[5][language]}</div>
           <div className="dropdown-content">
-            <a href="#23">The VR/AR Association Catalonia Chapter</a>
+            <a
+              href="https://www.thevrara.com/barcelona"
+              target="_blank"
+              rel="noreferrer"
+            >
+              The VR/AR Association Catalonia Chapter
+            </a>
             <figure>
               <img
                 src="./img/VRARA1.jpg"
                 alt="Sopar gala VRARA foto1"
                 width="500"
               />
+              <figcaption>Sopar de Gala anual durant el MWC</figcaption>
             </figure>
-            <figcaption>Sopar de Gala anual durant el MWC</figcaption>
             <figure>
               <img
                 src="./img/VRARA2.jpg"
                 alt="Sopar gala VRARA foto2"
                 width="500"
               />
+              <figcaption>Sopar de Gala anual durant el MWC</figcaption>
             </figure>
-            <figcaption>Sopar de Gala anual durant el MWC</figcaption>
             <a href="#23">Promovisa Catalunya</a>
             <figure>
               <img src="./img/promovisa.jpg" alt="Logo Promovisa" />
+              <figcaption>Delegat regional per Catalunya i Balears</figcaption>
             </figure>
           </div>
         </div>
         <div className="dropdown">
           <div className="dropbtn">{feines[6][language]}</div>
           <div className="dropdown-content">
-            <a href="#31">Glory Day</a>
+            <a href="#31">Glory Day: The mystery of the Sagrada Familia</a>
+            <figure>
+              <img
+                src="./img/gloryday.jpg"
+                alt="Caixa CD-ROM de Glory Day"
+                width="500"
+              />
+              <figcaption>
+                La pel·lícula mai no es va acabar, per&agrave; es va editar un
+                CD-ROM
+              </figcaption>
+            </figure>
             <a href="#32">Capçalera Sitges Film Festival</a>
             <a href="#33">Anunci Catalunya Música</a>
             <a href="#34">Anunci La Agenda</a>
@@ -907,14 +965,14 @@ export default function Cv() {
               personal
             </a>
             <a href="#37">
-              SEO, SEM, Wordpress, PHP, Python, MySQL per webs pròpies
+              SEO, SEM, Wordpress, Python, Keras, PHP, MySQL per webs pròpies
             </a>
             <a href="#38">
               HTML5, CSS2, JS, Ajax, jQuery, PHP, MariaDB, plugin 360 per
               Mediapro
             </a>
             <a href="#39">Macromedia Flash per Webs de clients</a>
-            <a href="#40">HTML4, CSS2, JS per video online a cine.com</a>
+            <a href="#40">HTML4, CSS2, JS, PHP per video online a cine.com</a>
             <a href="#41">HTML4, CSS2, JS per e-commerce a reg2.net</a>
           </div>
         </div>
@@ -1018,6 +1076,11 @@ export default function Cv() {
                 rel="noreferrer"
               >
                 VR al 360 Film Fest de Barcelona
+                <img
+                  src="./img/yt20.png"
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
               </a>
               <a
                 href="https://www.ccma.cat/catradio/alacarta/el-mat-de-catalunya-rdio-manel-fuentes/avatar/audio/398359/"
@@ -1025,6 +1088,11 @@ export default function Cv() {
                 rel="noreferrer"
               >
                 3D als Matins de Catradio
+                <img
+                  src="./img/yt20.png"
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
               </a>
               <a href="#54">Canal+ Estrena simultània</a>
               <a href="#55">TV3 Telenotícies @cine.com</a>
@@ -1033,7 +1101,12 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                HoyPorHoy, CadenaSER @cine.com
+                CadenaSER @cine.com
+                <img
+                  src="./img/yt20.png"
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
               </a>
               <a href="#57">CATRADIO internet video @cine.com</a>
               <a href="#58">Internet video @cine.com</a>
@@ -1183,13 +1256,34 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{formacio_reglada[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#71">MSc Photonics a UPC</a>
-              <a href="#72">MBA a ESADE -no acabat-</a>
+              <a
+                href="https://photonics.masters.upc.edu/en"
+                target="_blank"
+                rel="noreferrer"
+              >
+                MSc Photonics a UPC
+              </a>
+              <figure>
+                <img src="./img/logoUPC.png" alt="Logo UPC" width="250" />
+              </figure>
+              <a href="https://www.esade.edu" target="_blank" rel="noreferrer">
+                MBA a ESADE -no acabat-
+              </a>
               <figure>
                 <img src="./img/esade.jpg" alt="Logo ESADE" width="250" />
               </figure>
-              <a href="#73">MA Computer Animation a ESCAC</a>
-              <a href="#74">BSc Computer Science a UAB</a>
+              <a href="https://www.escac.com" target="_blank" rel="noreferrer">
+                MA Computer Animation a ESCAC
+              </a>
+              <figure>
+                <img src="./img/escac.jpg" alt="Logo ESCAC" width="250" />
+              </figure>
+              <a href="https://www.uab.cat" target="_blank" rel="noreferrer">
+                BSc Computer Science a UAB
+              </a>
+              <figure>
+                <img src="./img/uab.png" alt="Logo UAB" width="250" />
+              </figure>
             </div>
           </div>
           <div className="dropdown">
@@ -1207,9 +1301,19 @@ export default function Cv() {
               </figure>
               <figure>Certificació EXIN</figure>
               <a href="#79">Project Manager</a>
-              <figure>Certificació PMI</figure>
-              <a href="#79">6-sigma</a>
-              <figure>Certificació Sun Microsystems</figure>
+              <figure>
+                <img src="./img/PMI_logo.gif" alt="Logo PMI" width="250" />
+                <figcaption>Certificació PMI</figcaption>
+              </figure>
+              <a href="#79">Lean 6-sigma</a>
+              <figure>
+                <img
+                  src="./img/lean6sigma.png"
+                  alt="Logo Lean 6 Sigma"
+                  width="250"
+                />
+                <figcaption>Certificació Sun Microsystems</figcaption>
+              </figure>
               <a href="#80">Arduino</a>
               <figure>Certificació UPC</figure>
               <a href="#81">Avid DS</a>
@@ -1318,9 +1422,23 @@ export default function Cv() {
           <div className="dropdown">
             <div className="dropbtn">{afiliacions[0][language]}</div>
             <div className="dropdown-content">
-              <a href="#95">SIGGRAPH Pioneers</a>
-              <a href="#95bis">ACM</a>
-              <a href="#95ter">Advanced Imaging Society</a>
+              <a
+                href="https://www.siggraph.org/connect/computer-graphics-pioneers/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SIGGRAPH Pioneers
+              </a>
+              <a href="https://www.acm.org/" target="_blank" rel="noreferrer">
+                ACM
+              </a>
+              <a
+                href="https://theadvancedimagingsociety.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Advanced Imaging Society
+              </a>
               <a
                 href="https://enginyeriainformatica.cat/"
                 target="_blank"
@@ -1332,9 +1450,15 @@ export default function Cv() {
                 <img src="./img/COEIC.png" alt="Logo COEIC" />
                 <figcaption>Col·legiat 444</figcaption>
               </figure>
-              <a href="#97">The VR/AR Association</a>
+              <a
+                href="https://www.thevrara.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                The VR/AR Association
+              </a>
               <figure>
-                <img src="./img/VRARA.png" alt="Logo VRARA" width="500" />
+                <img src="./img/VRARA.png" alt="Logo VRARA" width="250" />
               </figure>
               <a
                 href="https://www.neuralink.com"
@@ -1347,12 +1471,18 @@ export default function Cv() {
                 <img
                   src="./img/Neuralink.jpg"
                   alt="Logo NeuraLink"
-                  width="500"
+                  width="250"
                 />
               </figure>
               <a href="#99">MENSA</a>
               <a href="#99bis">Barcelon@ Connection</a>
-              <a href="#100">CT Barcino</a>
+              <a
+                href="https://www.ctbarcino.cat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CT Barcino
+              </a>
               <a href="#100bis">FCG</a>
               <a href="#101">ACPJG</a>
             </div>
