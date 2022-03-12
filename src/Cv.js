@@ -807,9 +807,17 @@ export default function Cv() {
                 Europeu
               </figcaption>
             </figure>
-            <a href="#15">Fútbol 3D 2010</a>
+            <a href="https://www.futbol3d.com" target="_blank" rel="noreferrer">
+              Fútbol 3D 2010
+            </a>
+            <figure>
+              <img src="./img/futbol3d.jpg" alt="Logo Fútbol 3D" />
+            </figure>
             <a href="#16">APIDIS 2009</a>
             <a href="#17">2020 3D Media 2008</a>
+            <figure>
+              <img src="./img/20203DMedia.jpg" alt="Logo 2020 3D Media" />
+            </figure>
             <a href="#18">i3media 2008</a>
             <a href="#19">IPRacine 2008</a>
           </div>
@@ -859,9 +867,26 @@ export default function Cv() {
           <div className="dropbtn">{feines[5][language]}</div>
           <div className="dropdown-content">
             <a href="#23">The VR/AR Association Catalonia Chapter</a>
-            <figure>Posar fotos sopar MWC</figure>
-            <figcaption></figcaption>
+            <figure>
+              <img
+                src="./img/VRARA1.jpg"
+                alt="Sopar gala VRARA foto1"
+                width="500"
+              />
+            </figure>
+            <figcaption>Sopar de Gala anual durant el MWC</figcaption>
+            <figure>
+              <img
+                src="./img/VRARA2.jpg"
+                alt="Sopar gala VRARA foto2"
+                width="500"
+              />
+            </figure>
+            <figcaption>Sopar de Gala anual durant el MWC</figcaption>
             <a href="#23">Promovisa Catalunya</a>
+            <figure>
+              <img src="./img/promovisa.jpg" alt="Logo Promovisa" />
+            </figure>
           </div>
         </div>
         <div className="dropdown">
@@ -1160,6 +1185,9 @@ export default function Cv() {
             <div className="dropdown-content">
               <a href="#71">MSc Photonics a UPC</a>
               <a href="#72">MBA a ESADE -no acabat-</a>
+              <figure>
+                <img src="./img/esade.jpg" alt="Logo ESADE" width="250" />
+              </figure>
               <a href="#73">MA Computer Animation a ESCAC</a>
               <a href="#74">BSc Computer Science a UAB</a>
             </div>
@@ -1174,6 +1202,9 @@ export default function Cv() {
               <a href="#77">SCRUM/Agile</a>
               <figure>Certificació Mediapro</figure>
               <a href="#78">ITIL Essentials</a>
+              <figure>
+                <img src="./img/itil.jpg" alt="Logo ITIL" width="250" />
+              </figure>
               <figure>Certificació EXIN</figure>
               <a href="#79">Project Manager</a>
               <figure>Certificació PMI</figure>
@@ -1185,6 +1216,10 @@ export default function Cv() {
               <figure>Certificació Avid DS 101-501</figure>
               <a href="#82">Softimage 3D</a>
               <figure>Certificació Softimage 101-501</figure>
+              <a href="#82bis">VR amb SGI</a>
+              <figure>
+                <img src="./img/sgi.jpg" alt="Curs VR al 1993" width="500" />
+              </figure>
             </div>
           </div>
           <div className="dropdown">
@@ -1197,6 +1232,10 @@ export default function Cv() {
               >
                 SIGGRAPH
               </a>
+              <figure>
+                <img src="./img/Siggraph.png" alt="Logo SIGGRAPH" width="500" />
+                <figcaption>Atenent ininterrompudament des de 1994</figcaption>
+              </figure>
               <a
                 href="https://www.nabshow.com"
                 target="_blank"
@@ -1282,9 +1321,35 @@ export default function Cv() {
               <a href="#95">SIGGRAPH Pioneers</a>
               <a href="#95bis">ACM</a>
               <a href="#95ter">Advanced Imaging Society</a>
-              <a href="#96">COEIC</a>
+              <a
+                href="https://enginyeriainformatica.cat/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                COEIC
+              </a>
+              <figure>
+                <img src="./img/COEIC.png" alt="Logo COEIC" />
+                <figcaption>Col·legiat 444</figcaption>
+              </figure>
               <a href="#97">The VR/AR Association</a>
-              <a href="#98">Open Neuralink</a>
+              <figure>
+                <img src="./img/VRARA.png" alt="Logo VRARA" width="500" />
+              </figure>
+              <a
+                href="https://www.neuralink.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Neuralink
+              </a>
+              <figure>
+                <img
+                  src="./img/Neuralink.jpg"
+                  alt="Logo NeuraLink"
+                  width="500"
+                />
+              </figure>
               <a href="#99">MENSA</a>
               <a href="#99bis">Barcelon@ Connection</a>
               <a href="#100">CT Barcino</a>
