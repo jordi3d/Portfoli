@@ -1294,12 +1294,19 @@ export default function Cv() {
               <a href="#76">Machine Learning</a>
               <figure>Certificació Coursera/Stanford</figure>
               <a href="#77">SCRUM/Agile</a>
-              <figure>Certificació Mediapro</figure>
+              <figure>
+                <img
+                  src="./img/scrum-agile.png"
+                  alt="Logo SCRUM Agile"
+                  width="250"
+                />
+                <figcaption>Certificació Mediapro</figcaption>
+              </figure>
               <a href="#78">ITIL Essentials</a>
               <figure>
                 <img src="./img/itil.jpg" alt="Logo ITIL" width="250" />
+                <figcaption>Certificació EXIN</figcaption>
               </figure>
-              <figure>Certificació EXIN</figure>
               <a href="#79">Project Manager</a>
               <figure>
                 <img src="./img/PMI_logo.gif" alt="Logo PMI" width="250" />
