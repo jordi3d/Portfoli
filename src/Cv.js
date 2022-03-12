@@ -917,7 +917,7 @@ export default function Cv() {
               VRARA: The VR/AR Association
             </a>
             <figure>
-              <img src="./img/vrara.png" alt="VR/AR Association" width="250" />
+              <img src="./img/VRARA.png" alt="VR/AR Association" width="250" />
               <figcaption>Chapter President</figcaption>
             </figure>
             <a href="https://www.sun.com" target="_blank" rel="noreferrer">
@@ -933,7 +933,7 @@ export default function Cv() {
               Netscape
             </a>
             <figure>
-              <img src="./img/netscape.png" alt="Netscape" width="250" />
+              <img src="./img/Netscape.png" alt="Netscape" width="250" />
               <figcaption>
                 Enterprise Service Account Manager iPlanet products
               </figcaption>
@@ -1227,7 +1227,7 @@ export default function Cv() {
                 />
                 <figure>
                   <img
-                    src="./img/huawei2.jpg"
+                    src="./img/Huawei2.jpg"
                     alt="keynote 5G per Huawei a GITEX Dubai"
                     width="500"
                   />
