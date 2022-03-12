@@ -1079,7 +1079,7 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Entreviista a Steve Schklair, CEO de 3ALITY
+              Entrevista a Steve Schklair, CEO de 3ALITY
             </a>
             <a
               href="https://www.elperiodico.com"
