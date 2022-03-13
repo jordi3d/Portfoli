@@ -1254,7 +1254,7 @@ export default function Cv() {
                 COMRadio internet video 25/01/2006 @cine.com
                 <figure>
                   <figcaption>
-                    Entrevista al programa La Malla de COM R%agrave;dio
+                    Entrevista al programa La Malla de COM R&agrave;dio
                   </figcaption>
                 </figure>
               </a>
@@ -1694,7 +1694,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                 SIGGRAPH Pioneers
               </a>
               <figure>
-                <img src="./img/siggraph.png" alt="Logo Siggraph" width="250" />
+                <img src="./img/Siggraph.png" alt="Logo Siggraph" width="250" />
               </figure>
               <a href="https://www.acm.org/" target="_blank" rel="noreferrer">
                 ACM
