@@ -1287,7 +1287,7 @@ export default function Cv() {
 
 · El Periódico de Catalunya. Artículo sobre lanzamiento del servicio online http://www.elperiodico.com (Página 37 de la edición del 18-01-06)
 
--MSM Fútbol 3D: barça-madrid 29-11-2010 9 posiicones al palacio de congresos de madrid
+-MSM Fútbol 3D: barça-madrid 29-11-2010 9 posiciones al palacio de congresos de madrid
 barça-málaga
 at madrid-at bilbao
 barça-valència
@@ -1593,7 +1593,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                 SIGGRAPH
               </a>
               <figure>
-                <img src="./img/Siggraph.png" alt="Logo SIGGRAPH" width="500" />
+                <img src="./img/Siggraph.jpg" alt="SIGGRAPH 2016" width="500" />
                 <figcaption>Atenent ininterrompudament des de 1994</figcaption>
               </figure>
               <a
@@ -1603,6 +1603,14 @@ madrid-barça 9-12-2011 6 cámaras 3d
               >
                 NAB
               </a>
+              <figure>
+                <img
+                  src="./img/NABAutomaticTV.jpg"
+                  alt="NAB 2018"
+                  width="500"
+                />
+                <figcaption>Stand d&apos;AutomaticTV al NAB Show</figcaption>
+              </figure>
               <a href="https://www.ibc.org" target="_blank" rel="noreferrer">
                 IBC
               </a>
@@ -1685,6 +1693,9 @@ madrid-barça 9-12-2011 6 cámaras 3d
               >
                 SIGGRAPH Pioneers
               </a>
+              <figure>
+                <img src="./img/siggraph.png" alt="Logo Siggraph" width="250" />
+              </figure>
               <a href="https://www.acm.org/" target="_blank" rel="noreferrer">
                 ACM
               </a>
