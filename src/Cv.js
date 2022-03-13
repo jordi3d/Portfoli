@@ -545,7 +545,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/"
+                src="./img/clasicoVR.jpg"
                 alt="Prova de concepte de Fútbol en VR des del Santiago Bernabéu"
                 width="500"
               />
@@ -574,7 +574,7 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Klepth Live 3D a Casa da M&uacute;sica de Porto
+              Klepth Live 3D
               <img
                 src="./img/yt20.png"
                 alt="youtube"
@@ -593,8 +593,7 @@ export default function Cv() {
                 width="500"
               />
               <figcaption>
-                Unitat mòbil 3D de Medialuso. Klepth Live 3D a Casa da Música de
-                Porto
+                Unitat mòbil 3D de Medialuso. Casa da Música de Porto 30/10/2010
               </figcaption>
             </figure>
             <a
@@ -642,6 +641,17 @@ export default function Cv() {
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
+              <figure>
+                <img
+                  src="./img/RIPCurlPeniche.jpg"
+                  alt="Mundial de Surf a Peniche"
+                  width="500"
+                  heigth="375"
+                />
+                <figcaption>
+                  RIP Curl World Cup of Surfing 2010 des de Peniche, Portugal
+                </figcaption>
+              </figure>
             </a>
             <a
               href="https://www.live-production.tv/news/4k-8k-arising/3d-screening-bar%C3%A7a-%E2%80%93-madrid-match-was-big-success.html"
@@ -662,7 +672,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/cartell3d_elclasico.png"
+                src="./img/cartellFutbol3D.jpg"
                 alt="Cartell de promoció del Clásico en 3D"
                 width="500"
                 heigth="375"
@@ -671,7 +681,6 @@ export default function Cv() {
                 Primera retransmissió d&apos;El Clásico en 3D en directe
               </figcaption>
             </figure>
-
             <a
               href="https://www.youtube.com/watch?v=ZYNbuYREyeE"
               target="_blank"
@@ -787,12 +796,22 @@ export default function Cv() {
             <figure>
               <img
                 src="./img/NEOM_immersive.jpg"
-                alt="World Tourism Expo a Londres"
+                alt="Interior al World Tourism Expo a Londres"
                 width="500"
               />
               <figcaption>
-                NEOM Immersive, presentat amb motiu de la fira mundial de
+                NEOM Immersive, presentat amb motiu de la fira mundial del
                 turisme de Londres
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./img/NEOM_immersive2.jpg"
+                alt="Stand al World Tourism Expo a Londres"
+                width="500"
+              />
+              <figcaption>
+                Stand de NEOM a la fira mundial del turisme de Londres
               </figcaption>
             </figure>
             <a href="https://www.neom.com" target="_blank" rel="noreferrer">
@@ -863,6 +882,16 @@ export default function Cv() {
               <img src="./img/immersivetv.jpg" alt="ImmersiveTV" width="500" />
               <figcaption>ImmersiveTV: projecte de recerca nacional</figcaption>
             </figure>
+            <figure>
+              <img
+                src="./img/immersivetv2.jpg"
+                alt="ImmersiveTV #2"
+                width="500"
+              />
+              <figcaption>
+                Us de diferents tecnologies immersives 2D i 3D
+              </figcaption>
+            </figure>
             <a
               href="https://vimeo.com/41780222"
               target="_blank"
@@ -885,6 +914,10 @@ export default function Cv() {
                 Andrés Iniesta va cedir la seva imatge al projecte de recerca
                 Europeu
               </figcaption>
+            </figure>
+            <figure>
+              <img src="./img/FINE_IBC2012.jpg" alt="IBC2012" width="500" />
+              <figcaption>Guanyadors del premi: What Caught My Eye</figcaption>
             </figure>
             <a href="https://www.futbol3d.com" target="_blank" rel="noreferrer">
               Fútbol 3D 2010
@@ -1188,19 +1221,79 @@ export default function Cv() {
                 />
               </a>
               <a
+                href="http://www.catradio.com/pcatradio/crPrograma.jsp?hiPrograma=156908479&amp;hiEmissora=cr"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CATRADIO internet video 17/06/2006 @cine.com
+              </a>
+              <figure>
+                <figcaption>
+                  Menció al final del programa la finestra indiscreta amb Alex
+                  Gorina
+                </figcaption>
+              </figure>
+              <a
+                href="
+              http://www.catradio.com/pcatradio/crPrograma.jsp?hiPrograma=109447807&amp;hiEmissora=cr"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CATRADIO internet video 28/01/2006 @cine.com
+              </a>
+              <figure>
+                <figcaption>
+                  Entrevista a l&apos;Internauta amb Vicent Partal
+                </figcaption>
+              </figure>
+              <a
+                href="http://www.comradio.com/programes/programa.asp?id=10"
+                target="_blank"
+                rel="noreferrer"
+              >
+                COMRadio internet video 25/01/2006 @cine.com
+                <figure>
+                  <figcaption>
+                    Entrevista al programa La Malla de COM R%agrave;dio
+                  </figcaption>
+                </figure>
+              </a>
+              <a
                 href="https://play.cadenaser.com/audio/20060404csrcsr_5.Aes/"
                 target="_blank"
                 rel="noreferrer"
               >
-                CadenaSER @cine.com
+                CadenaSER: Hoy por Hoy 4/04/2006 @cine.com
                 <img
                   src="./img/yt20.png"
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
-              <a href="#57">CATRADIO internet video @cine.com</a>
               <a href="#59">e-commerce @reg2.net</a>
+              {/* 
+              
+· BTV (Barcelona TV) (17-05-06) en el Infonit Noticies a las 21:50 cuando se habló de descargas por internet.
+
+· El País. Mención en www.elpais.es 04-04-2006. Suplemento de tecnología. "PASO A PASO. Cine legal en la Red" Bajarse películas de Internet.
+
+· Telediario de TVE (14-03-06) en sus ediciones de mediodía (15:00) y noche (21:00) – además tuvo su emisión en el canal internacional con un feedback positivo desde Suiza - Génève
+
+· El Mundo del siglo XXI. Artículo sobre cine a través de internet de Quico Alsedo en la sección de cultura publicado el 9-03-06, con motivo del estreno simultáneo de "Catarsis".
+
+· La Vanguardia el 12-02-06 en el artículo de Alex Barnet "El ocaso de la gran pantalla: Internet y las nuevas tecnologías arrebatan espectadores a las salas de cine".
+
+· http://www.canalmp.com/new-main.php3?notID=28902
+
+· El Periódico de Catalunya. Artículo sobre lanzamiento del servicio online http://www.elperiodico.com (Página 37 de la edición del 18-01-06)
+
+-MSM Fútbol 3D: barça-madrid 29-11-2010 9 posiicones al palacio de congresos de madrid
+barça-málaga
+at madrid-at bilbao
+barça-valència
+madrid-barça 9-12-2011 6 cámaras 3d
+16-04-11 250 personas en el auditorio mediapro para ver clásico 3d
+              */}
             </div>
           </div>
           <div className="dropdown">
@@ -1236,8 +1329,12 @@ export default function Cv() {
                   </figcaption>
                 </figure>
               </a>
-              <a href="#62">
-                La Liga Technology Showcase Shanghai. 15-07-2019
+              <a
+                href="https://www.youtube.com/watch?v=B1ZwJULAiBU&amp;t=1203s"
+                target="_blank"
+                rel="noreferrer"
+              >
+                La Liga Technology Showcase Shanghai 15/07/2019
                 <img
                   src="./img/yt20.png"
                   alt="youtube"
@@ -1260,7 +1357,7 @@ export default function Cv() {
                 </figcaption>
               </figure>
               <a href="#63">
-                La Liga Technology Showcase BCN. 04-03-2019
+                La Liga Technology Showcase BCN 4/03/2019
                 <img
                   src="./img/mediapro.png"
                   alt="mediapro"
@@ -1277,6 +1374,14 @@ export default function Cv() {
                   Presentació de la prova de concepte de futbol en VR per LaLiga
                 </figcaption>
               </figure>
+              <a href="#63bis">
+                REBUILD 2018. Construcci&oacute; 4.0
+                <img
+                  src="./img/mediapro.png"
+                  alt="mediapro"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </a>
               <a href="#64">
                 COEIC media &amp; IT
                 <img
@@ -1285,6 +1390,17 @@ export default function Cv() {
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
+              <a href="#64bis">IBC Project FINE 20/09/2012</a>
+              <figure>
+                <img
+                  src="./img/FINE_IBC2012bis.jpg"
+                  alt="IBC 2020 3D Media"
+                  width="500"
+                />
+                <figcaption>
+                  Xerrada a l&apos;equip de What Caught My Eye
+                </figcaption>
+              </figure>
               <a href="#65">
                 Auditori Mediapro 2020 3D Media
                 <img
@@ -1294,41 +1410,21 @@ export default function Cv() {
                 />
               </a>
               <a href="#66">
-                IBC 2020 3D Media
+                IBC 2020 3D Media 03/09/2011
                 <img
                   src="./img/mediapro.png"
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
-              <a href="#67">
-                REBUILD 2018. Construcci&oacute; 4.0
-                <img
-                  src="./img/mediapro.png"
-                  alt="mediapro"
-                  style={{ margin: "0px 0px 0px 15px" }}
-                />
-              </a>
-              <a href="#68">Festival de cinema de Sitges cine.com</a>
-              <a href="#69">Torre Agbar cine.com</a>
-              <figure>
-                <img
-                  src="./img/cpac02.jpg"
-                  alt="CPAC r-evolució difital 24-04-08 a Torre Agbar"
-                  width="500"
-                  heigth="375"
-                />
-                <figcaption>
-                  Conferència a la Torre Agbar 24-04-2008 per CPAC: r-evolució
-                  digital(cine.com)
-                </figcaption>
-              </figure>
+              <a href="#67">Radio +QueCine 12/12/2011</a>
+              <a href="#68">Expo 3D 23-29/05/2011 a Madrid</a>
               <a
                 href="https://jordialonso.wordpress.com/2008/10/11/jornadas-agapi-en-santiago-ultimo-dia/"
                 target="_blank"
                 rel="noreferrer"
               >
-                AGAPI Santiago de Compostela 10/10/2008 @cine.com
+                AGAPI a Santiago de Compostela 10/10/2008 @cine.com
               </a>
               <figure>
                 <img
@@ -1338,10 +1434,51 @@ export default function Cv() {
                 />
                 <figcaption>
                   Xerrada sobre v&iacute;deo per internet a Santiago de
-                  Compostela, 9 i 10/10/2008
+                  Compostela, 9-10/10/2008
                 </figcaption>
               </figure>
-              <a href="#70bis">CGIx Glory Day</a>
+              <a href="#69">Torre Agbar 24/04/2008 @cine.com</a>
+              <figure>
+                <img
+                  src="./img/cpac02.jpg"
+                  alt="CPAC r-evolució difital 24/04/2008 a Torre Agbar"
+                  width="500"
+                  heigth="375"
+                />
+                <figcaption>
+                  Conferència a la Torre Agbar 24/04/2008 pel CPAC: r-evolució
+                  digital (cine.com)
+                </figcaption>
+              </figure>
+              <a href="#70">
+                Todos en Alta (TeA06) 14-18/06/2006
+                <figure>
+                  <figcaption>
+                    Xerrada sobre la distribuci&oacute; de v&iacute;deo HD a
+                    trav&eacute;s d&apos;IP
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="#71">
+                Festival de cinema Zoom Igualada 10/11/2005
+                <figure>
+                  <figcaption>
+                    Xerrada sobre la distribuci&oacute; de cinema a
+                    trav&eacute;s d&apos;internet
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="#72">
+                Foro HD en Barcelona 11/10/2005 @cine.com
+                <figure>
+                  <figcaption>
+                    Xerrada sobre la distribuci&oacute; de v&iacute;deo HD a
+                    trav&eacute;s d&apos;internet
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="#72bis">Festival de cinema de Sitges cine.com</a>
+              <a href="#73">CGIx Glory Day</a>
               <figure>
                 <img
                   src="./img/CGIx.jpg"
@@ -1430,6 +1567,11 @@ export default function Cv() {
               </figure>
               <a href="#80">Arduino</a>
               <figure>Certificació UPC</figure>
+              <a href="#80bis">S3 Campus Juny 2012</a>
+              <figure>
+                Stage a Par&iacute;s amb el gran estereoscopista Alain
+                D&eacute;robe
+              </figure>
               <a href="#81">Avid DS</a>
               <figure>Certificació Avid DS 101-501</figure>
               <a href="#82">Softimage 3D</a>
@@ -1590,6 +1732,13 @@ export default function Cv() {
               </figure>
               <a href="#99">MENSA</a>
               <a href="#99bis">Barcelon@ Connection</a>
+              <figure>
+                <img
+                  src="./img/bcnconnection.png"
+                  alt="Barcelona Connection"
+                  width="250"
+                />
+              </figure>
               <a
                 href="https://www.ctbarcino.cat"
                 target="_blank"
@@ -1657,7 +1806,7 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Georgios G Wreck a NEOM (Ar&agrave;bia Saudita), 30-09-2018
+                  Georgios G. Wreck a NEOM (Ar&agrave;bia Saudita), 30-09-2018
                 </figcaption>
               </figure>
               <figure>
