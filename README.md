@@ -26,7 +26,25 @@ Per la v1.1, voldria separar les seccions del CV en components
 En versions posteriors molaria MOLT, poder fer "click" en les parts dels items que es volen incloure en el CV, i convertir el Portfoli en un configurador de CV,
 que em permeti seleccionar els items i l'idioma i de sortida, generés un CV en pdf customitzat.
 
+### Notes v1.5
+
+Data de publicació: 12-03-2022
+Actualitzat l'àrab i afegida molta informació d'entrevistes i fotos
+Afegir els textos multiidioma en arxius externs a l'App.js, que es vagin cridant
+
 ### Notes v2.0
 
-Caldria usar els desplegables fets servir al curs
-També el Carrousel, Slider
+Caldria usar els desplegables fets servir al curs (slider), no m'agrada com es comporten els que tinc actualment
+També usar el Carrousel
+El carrusel, ha de mostrar transicions d'0animació al passar d'una imatge a una altra
+La versió de mòbil, s'ha de repensar pq funcioni millor
+Cal fer animació del logo quan s'està :hover
+El desplegable principal, podria fer que filtrés per temàtiques o per anys?
+Mirar d'agrupar temes amb els tags semàntics side, main i content
+Els items que tenen link activat, mostrar-los amb una icona del món, similar a la de Mediapro?
+Traduir els continguts dels submenús als diferents idiomes
+Caldria identificar per IP el país de connexió, i donar per defecte l'idioma principal:
+Andorra, País Valencià, Catalunya i Balears: català.
+Sudamèrica i Espanya: castellà.
+Fer servir cookies per visites repetides.
+Potser estaria bé fixar la posició de l'idioma per si vols anar canviant d'idioma al fer click
