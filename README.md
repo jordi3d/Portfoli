@@ -36,15 +36,22 @@ Afegir els textos multiidioma en arxius externs a l'App.js, que es vagin cridant
 
 Caldria usar els desplegables fets servir al curs (slider), no m'agrada com es comporten els que tinc actualment
 També usar el Carrousel
-El carrusel, ha de mostrar transicions d'0animació al passar d'una imatge a una altra
-La versió de mòbil, s'ha de repensar pq funcioni millor
+El carrusel, ha de mostrar transicions d'animació al passar d'una imatge a una altra
+La versió de mòbil, s'ha de repensar perquè funcioni millor
 Cal fer animació del logo quan s'està :hover
 El desplegable principal, podria fer que filtrés per temàtiques o per anys?
 Mirar d'agrupar temes amb els tags semàntics side, main i content
 Els items que tenen link activat, mostrar-los amb una icona del món, similar a la de Mediapro?
+Potser estaria bé fixar la posició de l'idioma per si vols anar canviant d'idioma al fer click
+
+### Notes v3.0
+
+Fer camps ocults/visibles, per activar/desactivar parts del CV
+Activar/Desactivar dates
+Agrupar experiències dient "5 anys d'experiència com a professor"
+Posar explicació de les tasques desenvolupades a cada feina
 Traduir els continguts dels submenús als diferents idiomes
 Caldria identificar per IP el país de connexió, i donar per defecte l'idioma principal:
 Andorra, País Valencià, Catalunya i Balears: català.
 Sudamèrica i Espanya: castellà.
 Fer servir cookies per visites repetides.
-Potser estaria bé fixar la posició de l'idioma per si vols anar canviant d'idioma al fer click
