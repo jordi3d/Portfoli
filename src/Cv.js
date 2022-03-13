@@ -531,7 +531,7 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              El clásico en VR
+              El cl&agrave;sico en VR
               <img
                 src="./img/yt20.png"
                 alt="youtube"
@@ -546,11 +546,11 @@ export default function Cv() {
             <figure>
               <img
                 src="./img/clasicoVR.jpg"
-                alt="Prova de concepte de Fútbol en VR des del Santiago Bernabéu"
+                alt="Prova de concepte de F&ugrave;tbol en VR des del Santiago Bernab&egrave;u"
                 width="500"
               />
               <figcaption>
-                Prova de concepte de fútbol VR. El Clásico 2018.
+                Prova de concepte de f&ugrave;tbol VR. El Cl&agrave;sico 2018.
               </figcaption>
             </figure>
             <a
@@ -558,129 +558,8 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              Notícia a El Mundo Deportivo
+              Not&igrave;cia a El Mundo Deportivo
             </a>
-            <a href="#1">Benfica-Sporting de Lisboa 3D 28/11/2009</a>
-            <figure>
-              <img
-                src="./img"
-                alt="Est&aacute;dio da Luz, Lisboa"
-                width="500"
-              />
-              <figcaption>Afegir foto</figcaption>
-            </figure>
-            <a
-              href="https://www.youtube.com/watch?v=NU2ZXZFZhY4"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Klepth Live 3D
-              <img
-                src="./img/yt20.png"
-                alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-            </a>
-            <figure>
-              <img
-                src="./img/obvan_ext2.jpg"
-                alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
-                width="500"
-              />
-              <figcaption>
-                Unitat mòbil 3D de Medialuso. Casa da Música de Porto 30/10/2010
-              </figcaption>
-            </figure>
-            <a
-              href="https://www.youtube.com/watch?v=AlTtevooKGE"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Abrunhosa 3D des del Coliseu de Porto
-              <img
-                src="./img/yt20.png"
-                alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-            </a>
-            <a
-              href="https://www.live-production.tv/news/4k-8k-arising/mediapro-group-produced-live-3d-concert-portuguese-group-deolinda.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deolinda 3D des de Lisboa
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=zEckoGCYMkY"
-              target="_blank"
-              rel="noreferrer"
-            >
-              RIP Curl World Cup of surfing des de Peniche, Portugal
-              <img
-                src="./img/yt20.png"
-                alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <figure>
-                <img
-                  src="./img/RIPCurlPeniche.jpg"
-                  alt="Mundial de Surf a Peniche"
-                  width="500"
-                  heigth="375"
-                />
-                <figcaption>
-                  RIP Curl World Cup of Surfing 2010 des de Peniche, Portugal
-                </figcaption>
-              </figure>
-            </a>
-            <a
-              href="https://www.live-production.tv/news/4k-8k-arising/3d-screening-bar%C3%A7a-%E2%80%93-madrid-match-was-big-success.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Fútbol 3D Live 29/11/2010
-              <img
-                src="./img/yt20.png"
-                alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-              <img
-                src="./img/mediapro.png"
-                alt="mediapro"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-            </a>
-            <figure>
-              <img
-                src="./img/cartellFutbol3D.jpg"
-                alt="Cartell de promoció del Clásico en 3D"
-                width="500"
-                heigth="375"
-              />
-              <figcaption>
-                Primera retransmissió d&apos;El Clásico en 3D en directe
-              </figcaption>
-            </figure>
             <a
               href="https://www.youtube.com/watch?v=ZYNbuYREyeE"
               target="_blank"
@@ -706,6 +585,136 @@ export default function Cv() {
               />
               <figcaption>Cartell de la pel·l&iacute;cula</figcaption>
             </figure>
+            <a
+              href="https://www.live-production.tv/news/4k-8k-arising/mediapro-group-produced-live-3d-concert-portuguese-group-deolinda.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Deolinda 3D des del Coliseu do Lisboa 28/01/2011
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=AlTtevooKGE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Abrunhosa 3D des del Coliseu de Porto 20/11/2010
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=NU2ZXZFZhY4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Klepth Live 3D des de Casa da M&ugrave;sica de Porto 30/10/2010
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <figure>
+              <img
+                src="./img/obvan_ext2.jpg"
+                alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
+                width="500"
+              />
+              <figcaption>
+                Unitat m&ograve;bil 3D de Medialuso a Casa da M&ugrave;sica de
+                Porto
+              </figcaption>
+            </figure>
+            <a
+              href="https://www.youtube.com/watch?v=zEckoGCYMkY"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RIP Curl World Cup of Surfing 8-10/10/2010
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <figure>
+              <img
+                src="./img/RIPCurlPeniche.jpg"
+                alt="Mundial de Surf a Peniche"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>
+                RIP Curl World Cup of Surfing des de Peniche, Portugal
+              </figcaption>
+            </figure>
+            <a
+              href="https://www.live-production.tv/news/4k-8k-arising/3d-screening-bar%C3%A7a-%E2%80%93-madrid-match-was-big-success.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              F&uacute;tbol 3D Live 10/12/2010
+              <img
+                src="./img/yt20.png"
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+              <img
+                src="./img/mediapro.png"
+                alt="mediapro"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </a>
+            <figure>
+              <img
+                src="./img/cartellFutbol3D.jpg"
+                alt="Cartell de promoci&ograve; del Cl&agrave;sico en 3D"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>
+                Primera retransmissi&ograve; d&apos;El Cl&agrave;sico en 3D en
+                directe
+              </figcaption>
+            </figure>
+            <a href="#1">Benfica-Sporting de Lisboa 3D 28/11/2009</a>
+            <figure>
+              <img
+                src="./img"
+                alt="Est&aacute;dio da Luz, Lisboa"
+                width="500"
+              />
+              <figcaption>Primer partit 3D a Portugal</figcaption>
+            </figure>
+            <a href="#1">Catalunya-Col&ograve;mbia 3D 28/12/2008</a>
+            <figure>
+              <img src="./img" alt="Nou Camp" width="500" />
+              <figcaption>
+                Primeres proves de 3D amb c&agrave;meres de cinema
+              </figcaption>
+            </figure>
           </div>
         </div>
         <div className="dropdown">
@@ -722,7 +731,7 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Mapa de The Line a NEOM, Noroest de l&apos;Aràbia Saudita
+                Mapa de The Line a NEOM, Noroest de l&apos;Ar&agrave;bia Saudita
               </figcaption>
             </figure>
             <figure>
@@ -754,7 +763,7 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                The Zone of Hope v1 per Aigües de Barcelona
+                The Zone of Hope v1 per Aig&uuml;es de Barcelona
               </figcaption>
             </figure>
             <a
@@ -772,8 +781,8 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Messi Challenge a la representació Messi10 de Cirque du Soleil.
-                Setembre 2019
+                Messi Challenge a la representaci&oacute; Messi10 de Cirque du
+                Soleil. Setembre 2019
               </figcaption>
             </figure>
             <a href="#7">BTS Woody Allen&apos;s visit to Spain 2019</a>
@@ -874,7 +883,8 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                AutomaticTV: producció automàtica de continguts en directe
+                AutomaticTV: producci&oacute; autom&agrave;tica de continguts en
+                directe
               </figcaption>
             </figure>
             <a href="#14">ImmersiveTV 2010</a>
@@ -911,8 +921,8 @@ export default function Cv() {
                 width="500"
               />
               <figcaption>
-                Andrés Iniesta va cedir la seva imatge al projecte de recerca
-                Europeu
+                Andr&egrave;s Iniesta va cedir la seva imatge al projecte de
+                recerca Europeu
               </figcaption>
             </figure>
             <figure>
@@ -920,10 +930,26 @@ export default function Cv() {
               <figcaption>Guanyadors del premi: What Caught My Eye</figcaption>
             </figure>
             <a href="https://www.futbol3d.com" target="_blank" rel="noreferrer">
-              Fútbol 3D 2010
+              F&ugrave;tbol 3D Temporades 2010-11 i 2011-12
             </a>
             <figure>
               <img src="./img/futbol3d.jpg" alt="Logo Fútbol 3D" />
+              <figcaption>
+                Transmissions via sat&egrave;l·lit:
+                <br />
+                FCB-RMA 5-0 29/11/2010 9 posicions de c&agrave;mera 3D i
+                visionat al Palacio de Congresos de Madrid
+                <br />
+                FCB-MAL 4-1 15/01/2011 i visionat a M&agrave;laga
+                <br />
+                ATM-ATH 0-2 30/01/2011 i visionat a Bilbao
+                <br />
+                RMA-FCB 1-1 16/04/2011 i visionat a Imagina
+                <br />
+                RMA-FCB 1-3 10/12/2011 6 c&agrave;meres 3D i visionat a Imagina
+                <br />
+                FCB-VAL 5-1 18/02/2012 i visionat a Val&egrave;ncia
+              </figcaption>
             </figure>
             <a href="#16">APIDIS 2009</a>
             <figure>
@@ -976,7 +1002,7 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[3][language]}</div>
           <div className="dropdown-content">
-            <a href="#23">ESADE Mentor alumnes del Màster</a>
+            <a href="#23">ESADE Mentor alumnes del M&agrave;ster</a>
             <a href="#24">
               <i>La Salle*</i>
             </a>
@@ -1052,11 +1078,11 @@ export default function Cv() {
                 width="500"
               />
               <figcaption>
-                La pel·lícula mai no es va acabar, per&agrave; es va editar un
-                CD-ROM
+                La pel·l&igrave;cula mai no es va acabar, per&agrave; es va
+                editar un CD-ROM
               </figcaption>
             </figure>
-            <a href="#32">Capçalera Sitges Film Festival</a>
+            <a href="#32">Cap&ccedil;alera Sitges Film Festival</a>
             <a href="#33">Anunci Catalunya Música</a>
             <a href="#34">Anunci La Agenda</a>
             <a href="#35">Dobles: Curtmetratge</a>
@@ -1119,7 +1145,7 @@ export default function Cv() {
               target="_blank"
               rel="noreferrer"
             >
-              El Periódico de Catalunya
+              El Peri&ograve;dico de Catalunya
             </a>
             <figure>
               <img
@@ -1129,7 +1155,8 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Article a El Periódico de Catalunya (suplement de tecnologia)
+                Article a El Peri&ograve;dico de Catalunya (suplement de
+                tecnologia)
               </figcaption>
             </figure>
             <figure>
@@ -1140,7 +1167,8 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Article a El Periódico de Catalunya (suplement de tecnologia)
+                Article a El Peri&ograve;dico de Catalunya (suplement de
+                tecnologia)
               </figcaption>
             </figure>
             <a
@@ -1150,26 +1178,28 @@ export default function Cv() {
             >
               3D Magazine
             </a>
-            <a href="#43">Onda Cero Radio. Març 2010</a>
+            <a href="#43">Onda Cero Radio. Mar&ccedil; 2010</a>
           </div>
         </div>
         <div className="dropdown">
           <div className="dropbtn">{feines[9][language]}</div>
           <div className="dropdown-content">
             <a href="#44">
-              Serveis de formació CGI, 3D, XR, web, Presentacions en públic
+              Serveis de formaci&ograve; CGI, 3D, XR, web, Presentacions en
+              p&ugrave;blic
             </a>
-            <a href="#45">SEO, SEM, Optimització de webs WordPress</a>
+            <a href="#45">SEO, SEM, Optimitzaci&ograve; de webs WordPress</a>
             <a href="https://www.openvino.org" target="_blank" rel="noreferrer">
               Blockchain/NFT: Projecte OpenVino.org &amp; OpenCava.org (2017)
             </a>
             <a href="#46">Crypto: mineria &amp; trading (2013)</a>
             <a href="#47">Domainer: +1.000 dominis (actualment +100)</a>
-            <a href="#48">VoD: cine.com descàrregues legals (1999)</a>
+            <a href="#48">VoD: cine.com desc&agrave;rregues legals (1999)</a>
             <a href="#49">Iberseller e-commerce solutions (1997)</a>
             <a href="#50">AI: Sistema Expert en PDC-PROLOG/UNIX (1992)</a>
             <a href="#51">
-              CADAT Informàtica: importacions, muntatge de PC&apos;s (1988)
+              CADAT Inform&ograve;tica: importacions, muntatge de PC&apos;s
+              (1988)
             </a>
             <a href="#52">
               Desenvolupament d&apos;aplicacions en Clipper/MS-DOS (1987)
@@ -1200,20 +1230,24 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                3D als Matins de Catradio
+                3D als Matins de Catr&agrave;dio 18/12/2009
                 <img
                   src="./img/yt20.png"
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
-              <a href="#54">Canal+ Estrena simultània</a>
+              <figure>
+                <figcaption>
+                  Als matins de Catalunya R&agrave;dio amb Manel Fuentes
+                </figcaption>
+              </figure>
               <a
                 href="http://www.tv3.cat/videos/2843310/Telenoticies-vespre"
                 target="_blank"
                 rel="noreferrer"
               >
-                TV3 Telenotícies 16/04/2010 cine3D (minut 37)
+                TV3 Telenot&iacute;cies 16/04/2010 cine3D (minut 37)
                 <img
                   src="./img/yt20.png"
                   alt="youtube"
@@ -1229,35 +1263,17 @@ export default function Cv() {
               </a>
               <figure>
                 <figcaption>
-                  Menció al final del programa la finestra indiscreta amb Alex
-                  Gorina
+                  Menci&oacute; al final del programa La Finestra Indiscreta amb
+                  &Agrave;lex Gorina
                 </figcaption>
               </figure>
-              <a
-                href="
-              http://www.catradio.com/pcatradio/crPrograma.jsp?hiPrograma=109447807&amp;hiEmissora=cr"
-                target="_blank"
-                rel="noreferrer"
-              >
-                CATRADIO internet video 28/01/2006 @cine.com
-              </a>
+              <a href="#53">BTV (betev&eacute;) 17/05/2006</a>
               <figure>
                 <figcaption>
-                  Entrevista a l&apos;Internauta amb Vicent Partal
+                  Infonit Not&iacute;cies a les 21:50. Desc&agrave;rregues per
+                  internet
                 </figcaption>
               </figure>
-              <a
-                href="http://www.comradio.com/programes/programa.asp?id=10"
-                target="_blank"
-                rel="noreferrer"
-              >
-                COMRadio internet video 25/01/2006 @cine.com
-                <figure>
-                  <figcaption>
-                    Entrevista al programa La Malla de COM R&agrave;dio
-                  </figcaption>
-                </figure>
-              </a>
               <a
                 href="https://play.cadenaser.com/audio/20060404csrcsr_5.Aes/"
                 target="_blank"
@@ -1270,30 +1286,70 @@ export default function Cv() {
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
-              <a href="#59">e-commerce @reg2.net</a>
-              {/* 
-              
-· BTV (Barcelona TV) (17-05-06) en el Infonit Noticies a las 21:50 cuando se habló de descargas por internet.
-
-· El País. Mención en www.elpais.es 04-04-2006. Suplemento de tecnología. "PASO A PASO. Cine legal en la Red" Bajarse películas de Internet.
-
-· Telediario de TVE (14-03-06) en sus ediciones de mediodía (15:00) y noche (21:00) – además tuvo su emisión en el canal internacional con un feedback positivo desde Suiza - Génève
-
-· El Mundo del siglo XXI. Artículo sobre cine a través de internet de Quico Alsedo en la sección de cultura publicado el 9-03-06, con motivo del estreno simultáneo de "Catarsis".
-
-· La Vanguardia el 12-02-06 en el artículo de Alex Barnet "El ocaso de la gran pantalla: Internet y las nuevas tecnologías arrebatan espectadores a las salas de cine".
-
-· http://www.canalmp.com/new-main.php3?notID=28902
-
-· El Periódico de Catalunya. Artículo sobre lanzamiento del servicio online http://www.elperiodico.com (Página 37 de la edición del 18-01-06)
-
--MSM Fútbol 3D: barça-madrid 29-11-2010 9 posiciones al palacio de congresos de madrid
-barça-málaga
-at madrid-at bilbao
-barça-valència
-madrid-barça 9-12-2011 6 cámaras 3d
-16-04-11 250 personas en el auditorio mediapro para ver clásico 3d
-              */}
+              <a href="#54">El Pa&iacute;s 4/04/2006 @cine.com</a>
+              <figure>
+                <figcaption>
+                  Suplemento de Tecnolog&iacute;a: Paso a Paso. Cine legal en
+                  Internet
+                </figcaption>
+              </figure>
+              <a href="#55">RTVE TVE1 14/03/2006 @cine.com</a>
+              <figure>
+                <figcaption>
+                  Telediario mediod&iacute;a (15:00) y noche (21:00) y Canal
+                  Internacional
+                </figcaption>
+              </figure>
+              <a href="#56">El Mundo del siglo XXI 9/03/2006 @cine.com</a>
+              <figure>
+                <figcaption>
+                  Artículo de Quico Alsedo en la sección de cultura, con motivo
+                  del estreno simultáneo de "Catarsis"
+                </figcaption>
+              </figure>
+              <a href="#57">Canal+ Estrena simult&agrave;nia de Catarsis</a>
+              <a href="#58">La Vanguardia el 12/02/2006 @cine.com</a>
+              <figure>
+                <figcaption>
+                  Artículo de Alex Barnet "El ocaso de la gran pantalla:
+                  Internet y las nuevas tecnologías arrebatan espectadores a las
+                  salas de cine"
+                </figcaption>
+              </figure>
+              <a
+                href="
+              http://www.catradio.com/pcatradio/crPrograma.jsp?hiPrograma=109447807&amp;hiEmissora=cr"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CATRADIO internet video 28/01/2006 @cine.com
+              </a>
+              <figure>
+                <figcaption>
+                  Entrevista al programa L&apos;Internauta amb Vicent Partal
+                </figcaption>
+              </figure>
+              <a
+                href="http://www.comradio.com/programes/programa.asp?id=10"
+                target="_blank"
+                rel="noreferrer"
+              >
+                COMRadio internet video 25/01/2006 @cine.com
+              </a>
+              <figure>
+                <figcaption>
+                  Entrevista al programa La Malla de COM R&agrave;dio
+                </figcaption>
+              </figure>
+              <a href="#59">
+                El Peri&oacute;dico de Catalunya 18/01/2006 @cine.com
+              </a>
+              <figure>
+                <figcaption>
+                  Lanzamiento del servicio online en cine.com P&aacute;gina 37
+                </figcaption>
+              </figure>
+              <a href="#60">e-commerce @reg2.net</a>
             </div>
           </div>
           <div className="dropdown">
@@ -1356,7 +1412,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                   Presentació de la prova de concepte de futbol en VR per LaLiga
                 </figcaption>
               </figure>
-              <a href="#63">
+              <a href="#62">
                 La Liga Technology Showcase BCN 4/03/2019
                 <img
                   src="./img/mediapro.png"
@@ -1374,7 +1430,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                   Presentació de la prova de concepte de futbol en VR per LaLiga
                 </figcaption>
               </figure>
-              <a href="#63bis">
+              <a href="#63">
                 REBUILD 2018. Construcci&oacute; 4.0
                 <img
                   src="./img/mediapro.png"
@@ -1451,7 +1507,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                 </figcaption>
               </figure>
               <a href="#70">
-                Todos en Alta (TeA06) 14-18/06/2006
+                Todos en Alta (TeA06) 14-18/06/2006 @cine.com
                 <figure>
                   <figcaption>
                     Xerrada sobre la distribuci&oacute; de v&iacute;deo HD a
@@ -1460,7 +1516,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                 </figure>
               </a>
               <a href="#71">
-                Festival de cinema Zoom Igualada 10/11/2005
+                Festival de cinema Zoom Igualada 10/11/2005 @cine.com
                 <figure>
                   <figcaption>
                     Xerrada sobre la distribuci&oacute; de cinema a
@@ -1477,7 +1533,7 @@ madrid-barça 9-12-2011 6 cámaras 3d
                   </figcaption>
                 </figure>
               </a>
-              <a href="#72bis">Festival de cinema de Sitges cine.com</a>
+              <a href="#72bis">Festival de cinema de Sitges @cine.com</a>
               <a href="#73">CGIx Glory Day</a>
               <figure>
                 <img
