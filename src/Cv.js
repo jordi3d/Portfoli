@@ -1004,7 +1004,7 @@ export default function Cv() {
           <div className="dropdown-content">
             <a href="#23">ESADE Mentor alumnes del M&agrave;ster</a>
             <a href="#24">
-              <i>La Salle*</i>
+              <em>La Salle*</em>
             </a>
             <a href="#25">ERAM UdG</a>
             <a href="#26">MSc UPC</a>
@@ -1083,7 +1083,7 @@ export default function Cv() {
               </figcaption>
             </figure>
             <a href="#32">Cap&ccedil;alera Sitges Film Festival</a>
-            <a href="#33">Anunci Catalunya Música</a>
+            <a href="#33">Anunci Catalunya M&uacute;sica</a>
             <a href="#34">Anunci La Agenda</a>
             <a href="#35">Dobles: Curtmetratge</a>
           </div>
@@ -1303,17 +1303,18 @@ export default function Cv() {
               <a href="#56">El Mundo del siglo XXI 9/03/2006 @cine.com</a>
               <figure>
                 <figcaption>
-                  Artículo de Quico Alsedo en la sección de cultura, con motivo
-                  del estreno simultáneo de "Catarsis"
+                  Art&iacute;culo de Quico Alsedo en la secci&oacute;n de
+                  cultura, con motivo del estreno simult&aacute;neo de
+                  "Catarsis"
                 </figcaption>
               </figure>
               <a href="#57">Canal+ Estrena simult&agrave;nia de Catarsis</a>
               <a href="#58">La Vanguardia el 12/02/2006 @cine.com</a>
               <figure>
                 <figcaption>
-                  Artículo de Alex Barnet "El ocaso de la gran pantalla:
-                  Internet y las nuevas tecnologías arrebatan espectadores a las
-                  salas de cine"
+                  Art&iacute;culo de Alex Barnet "El ocaso de la gran pantalla:
+                  Internet y las nuevas tecnolog&iacute;as arrebatan
+                  espectadores a las salas de cine"
                 </figcaption>
               </figure>
               <a
@@ -1409,7 +1410,8 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Presentació de la prova de concepte de futbol en VR per LaLiga
+                  Presentaci&ograve; de la prova de concepte de futbol en VR per
+                  LaLiga
                 </figcaption>
               </figure>
               <a href="#62">
@@ -1427,7 +1429,8 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Presentació de la prova de concepte de futbol en VR per LaLiga
+                  Presentaci&oacute; de la prova de concepte de futbol en VR per
+                  LaLiga
                 </figcaption>
               </figure>
               <a href="#63">
@@ -1502,8 +1505,8 @@ export default function Cv() {
                   heigth="375"
                 />
                 <figcaption>
-                  Conferència a la Torre Agbar 24/04/2008 pel CPAC: r-evolució
-                  digital (cine.com)
+                  Confer&egrave;ncia a la Torre Agbar 24/04/2008 pel CPAC:
+                  r-evoluci&oacute; digital (cine.com)
                 </figcaption>
               </figure>
               <a href="#70">
@@ -1542,8 +1545,8 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Presentació del projecte "Glory Day" al CGIx de Barcelona
-                  04-02-1999
+                  Presentaci&oacute; del projecte "Glory Day" al CGIx de
+                  Barcelona 4/02/1999
                 </figcaption>
               </figure>
             </div>
@@ -1590,9 +1593,9 @@ export default function Cv() {
             <div className="dropbtn">{cursos[0][language]}</div>
             <div className="dropdown-content">
               <a href="#75">Front-end web developer</a>
-              <figure>Certificació Tecnocampus</figure>
+              <figure>Certificaci&oacute; Tecnocampus</figure>
               <a href="#76">Machine Learning</a>
-              <figure>Certificació Coursera/Stanford</figure>
+              <figure>Certificaci&oacute; Coursera/Stanford</figure>
               <a href="#77">SCRUM/Agile</a>
               <figure>
                 <img
@@ -1600,17 +1603,17 @@ export default function Cv() {
                   alt="Logo SCRUM Agile"
                   width="250"
                 />
-                <figcaption>Certificació Mediapro</figcaption>
+                <figcaption>Certificaci&oacute; Mediapro</figcaption>
               </figure>
               <a href="#78">ITIL Essentials</a>
               <figure>
                 <img src="./img/itil.jpg" alt="Logo ITIL" width="250" />
-                <figcaption>Certificació EXIN</figcaption>
+                <figcaption>Certificaci&oacute; EXIN</figcaption>
               </figure>
               <a href="#79">Project Manager</a>
               <figure>
                 <img src="./img/PMI_logo.gif" alt="Logo PMI" width="250" />
-                <figcaption>Certificació PMI</figcaption>
+                <figcaption>Certificaci&oacute; PMI</figcaption>
               </figure>
               <a href="#79">Lean 6-sigma</a>
               <figure>
@@ -1619,19 +1622,19 @@ export default function Cv() {
                   alt="Logo Lean 6 Sigma"
                   width="250"
                 />
-                <figcaption>Certificació Sun Microsystems</figcaption>
+                <figcaption>Certificaci&oacute; Sun Microsystems</figcaption>
               </figure>
               <a href="#80">Arduino</a>
-              <figure>Certificació UPC</figure>
+              <figure>Certificaci&oacute; UPC</figure>
               <a href="#80bis">S3 Campus Juny 2012</a>
               <figure>
                 Stage a Par&iacute;s amb el gran estereoscopista Alain
                 D&eacute;robe
               </figure>
               <a href="#81">Avid DS</a>
-              <figure>Certificació Avid DS 101-501</figure>
+              <figure>Certificaci&oacute; Avid DS 101-501</figure>
               <a href="#82">Softimage 3D</a>
-              <figure>Certificació Softimage 101-501</figure>
+              <figure>Certificaci&oacute; Softimage 101-501</figure>
               <a href="#82bis">VR amb SGI</a>
               <figure>
                 <img src="./img/sgi.jpg" alt="Curs VR al 1993" width="500" />
@@ -1705,11 +1708,11 @@ export default function Cv() {
             <div className="dropdown-content">
               <a href="#86">{llengues[0][language]}</a>
               <figure>Idioma Nadiu</figure>
-              <figure>Certificació C1</figure>
+              <figure>Certificaci&oacute; C1</figure>
               <a href="#87">{llengues[1][language]}</a>
               <figure>Idioma Nadiu</figure>
               <a href="#88">{llengues[2][language]}</a>
-              <figure>Nivell negociació</figure>
+              <figure>Nivell negociaci&oacute;</figure>
               <figure>Michigan Proficiency</figure>
               <a href="#89">{llengues[3][language]}</a>
               <figure>Estudiat durant 7 anys a l&apos;escola</figure>
@@ -1721,16 +1724,16 @@ export default function Cv() {
               </figure>
               <a href="#91">{llengues[5][language]}</a>
               <figure>Principiant</figure>
-              <figure>Curs online d&apos;iniciació</figure>
+              <figure>Curs online d&apos;iniciaci&oacute;</figure>
               <a href="#92">{llengues[6][language]}</a>
               <figure>Principiant</figure>
-              <figure>Curs online d&apos;iniciació</figure>
+              <figure>Curs online d&apos;iniciaci&oacute;</figure>
               <a href="#93">{llengues[7][language]}</a>
               <figure>Principiant</figure>
-              <figure>Curs online d&apos;iniciació</figure>
+              <figure>Curs online d&apos;iniciaci&oacute;</figure>
               <a href="#94">{llengues[8][language]}</a>
               <figure>Principiant</figure>
-              <figure>Curs online d&apos;iniciació</figure>
+              <figure>Curs online d&apos;iniciaci&oacute;</figure>
               <figure>Classes particulars</figure>
             </div>
           </div>
@@ -1848,7 +1851,7 @@ export default function Cv() {
               <figure>3ª Categoria</figure>
               <a href="#104">Golf</a>
               <figure>Millor h&agrave;ndicap 15.5</figure>
-              <a href="#105">Esquí</a>
+              <a href="#105">Esqu&iacute;</a>
               <a href="#106">Submarinisme</a>
               <figure>FEDAS 1*</figure>
               <a href="#107">Trekking</a>
@@ -1885,17 +1888,18 @@ export default function Cv() {
                   width="500"
                 />
                 <figcaption>
-                  Sol de mitjanit+Superlluna a Kiruna (Su&egrave;cia) 23-06-2013
+                  Sol de mitjanit+Superlluna a Kiruna (Su&egrave;cia) 23/06/2013
                 </figcaption>
               </figure>
               <figure>
                 <img
                   src="./img/Georgios.jpg"
-                  alt="Georgios G Wreck at NEOM by Ben Thouard"
+                  alt="Georgios G. Shipwreck at NEOM by Ben Thouard"
                   width="500"
                 />
                 <figcaption>
-                  Georgios G. Wreck a NEOM (Ar&agrave;bia Saudita), 30-09-2018
+                  Georgios G. shipwreck a NEOM (Ar&agrave;bia Saudita),
+                  30/09/2018
                 </figcaption>
               </figure>
               <figure>
@@ -1904,7 +1908,9 @@ export default function Cv() {
                   alt="Web personal de fotos de turisme"
                   width="500"
                 />
-                <figcaption>Més fotos a la meva web FotoTurismo.net</figcaption>
+                <figcaption>
+                  M&egrave;s fotos a la meva web FotoTurismo.net
+                </figcaption>
               </figure>
             </div>
           </div>
