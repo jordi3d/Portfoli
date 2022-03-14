@@ -1755,6 +1755,9 @@ export default function Cv() {
               <a href="https://www.acm.org/" target="_blank" rel="noreferrer">
                 ACM
               </a>
+              <figure>
+                <img src="./img/acm.png" alt="Logo ACM" width="250" />
+              </figure>
               <a
                 href="https://theadvancedimagingsociety.com/"
                 target="_blank"
@@ -1762,6 +1765,9 @@ export default function Cv() {
               >
                 Advanced Imaging Society
               </a>
+              <figure>
+                <img src="./img/ais.jpg" alt="Logo AIS" width="250" />
+              </figure>
               <a
                 href="https://enginyeriainformatica.cat/"
                 target="_blank"
@@ -1798,6 +1804,9 @@ export default function Cv() {
                 />
               </figure>
               <a href="#99">MENSA</a>
+              <figure>
+                <img src="./img/mensa.png" alt="Logo Mensa" width="250" />
+              </figure>
               <a href="#99bis">Barcelon@ Connection</a>
               <figure>
                 <img
@@ -1813,8 +1822,21 @@ export default function Cv() {
               >
                 CT Barcino
               </a>
+              <figure>
+                <img
+                  src="./img/ctbarcino.jpg"
+                  alt="Logo CT Barcino"
+                  width="250"
+                />
+              </figure>
               <a href="#100bis">FCG</a>
+              <figure>
+                <img src="./img/fcg.jpg" alt="Logo FCG" width="250" />
+              </figure>
               <a href="#101">ACPJG</a>
+              <figure>
+                <img src="./img/acpjg.jpg" alt="Logo ACPJG" width="250" />
+              </figure>
             </div>
           </div>
           <div className="dropdown">
