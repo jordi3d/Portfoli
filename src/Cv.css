@@ -175,13 +175,14 @@ h4 {
     background-position-y: center;
 }
 
-#texte {
-    /* a borrar /
-    margin: 50px;*/
+
+/*#texte {
+    / * a borrar /
+    margin: 50px;* /
     background-color: gray;
     opacity: 0.5;
-    /*display: none;*/
-}
+    /*display: none;* /
+}*/
 
 figcaption {
     font-style: italic;

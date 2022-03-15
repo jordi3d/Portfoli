@@ -38,6 +38,7 @@ Caldria usar els desplegables fets servir al curs (slider), no m'agrada com es c
 També usar el Carrousel
 El carrusel, ha de mostrar transicions d'animació al passar d'una imatge a una altra
 La versió de mòbil, s'ha de repensar perquè funcioni millor
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 Cal fer animació del logo quan s'està :hover
 El desplegable principal, podria fer que filtrés per temàtiques o per anys?
 Mirar d'agrupar temes amb els tags semàntics side, main i content
@@ -55,3 +56,6 @@ Caldria identificar per IP el país de connexió, i donar per defecte l'idioma p
 Andorra, País Valencià, Catalunya i Balears: català.
 Sudamèrica i Espanya: castellà.
 Fer servir cookies per visites repetides.
+Canviar els numerals a aràbic o a xinès...
+Aràbic: https://www.saitak.com/number
+Xinès: https://chinese.gratis/tools/chinesenumbers/
