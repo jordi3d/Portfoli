@@ -799,13 +799,13 @@ export default function Cv() {
                 Primer llibre i mapa tur&iacute;stic de NEOM
               </figcaption>
             </figure>
-            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+            <a href="https://www.wtm.com/" target="_blank" rel="noreferrer">
               NEOM Immersive 2019
             </a>
             <figure>
               <img
                 src="./img/NEOM_immersive.jpg"
-                alt="Interior al World Tourism Expo a Londres"
+                alt="Interior al World Travel Market de Londres"
                 width="500"
               />
               <figcaption>
@@ -899,7 +899,7 @@ export default function Cv() {
                 width="500"
               />
               <figcaption>
-                Us de diferents tecnologies immersives 2D i 3D
+                &Uacute;s de diferents tecnologies immersives 2D i 3D
               </figcaption>
             </figure>
             <a
@@ -927,7 +927,9 @@ export default function Cv() {
             </figure>
             <figure>
               <img src="./img/FINE_IBC2012.jpg" alt="IBC2012" width="500" />
-              <figcaption>Guanyadors del premi: What Caught My Eye</figcaption>
+              <figcaption>
+                Guanyadors de la distinci&oacute; "What Caught My Eye"
+              </figcaption>
             </figure>
             <a href="https://www.futbol3d.com" target="_blank" rel="noreferrer">
               F&ugrave;tbol 3D Temporades 2010-11 i 2011-12
@@ -940,15 +942,15 @@ export default function Cv() {
                 FCB-RMA 5-0 29/11/2010 9 posicions de c&agrave;mera 3D i
                 visionat al Palacio de Congresos de Madrid
                 <br />
-                FCB-MAL 4-1 15/01/2011 i visionat a M&agrave;laga
+                FCB-MAL 4-1 15/01/2011 Visionat a M&agrave;laga
                 <br />
-                ATM-ATH 0-2 30/01/2011 i visionat a Bilbao
+                ATM-ATH 0-2 30/01/2011 Visionat a Bilbao
                 <br />
-                RMA-FCB 1-1 16/04/2011 i visionat a Imagina
+                RMA-FCB 1-1 16/04/2011 Visionat a Imagina
                 <br />
                 RMA-FCB 1-3 10/12/2011 6 c&agrave;meres 3D i visionat a Imagina
                 <br />
-                FCB-VAL 5-1 18/02/2012 i visionat a Val&egrave;ncia
+                FCB-VAL 5-1 18/02/2012 Visionat a Val&egrave;ncia
               </figcaption>
             </figure>
             <a href="#16">APIDIS 2009</a>
