@@ -46,9 +46,9 @@ export default function Cv() {
                   >
                     Anar al Blog Veni Vidi Vici
                   </a>
-                  <a href="#0bis">Experiència Professional</a>
-                  <a href="#0ter">Entrevistes i Conferències</a>
-                  <a href="#0quad">Educació</a>
+                  <a href="#0bis">Experi&egrave;ncia Professional</a>
+                  <a href="#0ter">Entrevistes i Confer&egrave;ncies</a>
+                  <a href="#0quad">Educaci&oacute;</a>
                   <a href="#0penta">Altres</a>
                   <a href="#0hexa">Descarregar CV</a>
                 </div>
@@ -92,7 +92,7 @@ export default function Cv() {
                 width="500"
               />
               <figcaption>
-                Prova de concepte de f&ugrave;tbol VR. El Cl&agrave;sico 2018.
+                Prova de concepte de futbol VR. El Cl&agrave;sico 2018.
               </figcaption>
             </figure>
             <a
@@ -810,7 +810,7 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                CATRADIO internet video 17/06/2006 @cine.com
+                CATRADIO internet v&iacute;deo 17/06/2006 @cine.com
               </a>
               <figure>
                 <figcaption>
@@ -874,7 +874,7 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                CATRADIO internet video 28/01/2006 @cine.com
+                CATRADIO internet v&iacute;deo 28/01/2006 @cine.com
               </a>
               <figure>
                 <figcaption>
@@ -886,7 +886,7 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                COMRadio internet video 25/01/2006 @cine.com
+                COMRadio internet v&iacute;deo 25/01/2006 @cine.com
               </a>
               <figure>
                 <figcaption>
@@ -1115,7 +1115,7 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                MSc Photonics a UPC
+                MSc Photonics a la UPC
               </a>
               <figure>
                 <img src="./img/logoUPC.png" alt="Logo UPC" width="250" />
@@ -1127,13 +1127,13 @@ export default function Cv() {
                 <img src="./img/esade.jpg" alt="Logo ESADE" width="250" />
               </figure>
               <a href="https://www.escac.com" target="_blank" rel="noreferrer">
-                MA Computer Animation a ESCAC
+                MA Computer Animation a l&apos;ESCAC
               </a>
               <figure>
                 <img src="./img/escac.jpg" alt="Logo ESCAC" width="250" />
               </figure>
               <a href="https://www.uab.cat" target="_blank" rel="noreferrer">
-                BSc Computer Science a UAB
+                BSc Computer Science a la UAB
               </a>
               <figure>
                 <img src="./img/uab.png" alt="Logo UAB" width="250" />
