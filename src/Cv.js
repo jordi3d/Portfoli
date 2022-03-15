@@ -1782,7 +1782,7 @@ export default function Cv() {
                 target="_blank"
                 rel="noreferrer"
               >
-                COEIC
+                COEINF
               </a>
               <figure>
                 <img src="./img/COEIC.png" alt="Logo COEIC" />
