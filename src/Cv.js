@@ -1511,7 +1511,9 @@ export default function Cv() {
           </div>
           <div className="break"></div>
           <div id="copy">
-            <h5>&copy; 2022 Jordi Alonso. {copyright[0][language]}</h5>
+            <h5>
+              &copy; 2022 {nom[0][language]}. {copyright[0][language]}
+            </h5>
           </div>
         </section>
       </footer>
