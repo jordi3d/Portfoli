@@ -731,7 +731,8 @@ export default function Cv() {
                 heigth="375"
               />
               <figcaption>
-                Mapa de The Line a NEOM, Noroest de l&apos;Ar&agrave;bia Saudita
+                Mapa de The Line a NEOM, Nord-oest de l&apos;Ar&agrave;bia
+                Saudita
               </figcaption>
             </figure>
             <figure>
