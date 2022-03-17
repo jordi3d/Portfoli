@@ -79,7 +79,7 @@ h4 {
 }
 
 
-/* The container <div> - needed to position the dropdown content */
+/* Cal el contenidor <div> - per posicionar el contingut del menú dropdown */
 
 .dropdown {
     position: relative;
@@ -93,7 +93,7 @@ h4 {
 }
 
 
-/* Dropdown Content (Hidden by Default) */
+/* Contingut Dropdown (ocult per defecte) */
 
 .dropdown-content {
     display: none;
@@ -114,7 +114,7 @@ h4 {
 }
 
 
-/* Links inside the dropdown */
+/* Links dins del dropdown */
 
 .dropdown-content a {
     color: black;
@@ -131,7 +131,7 @@ h4 {
 }
 
 
-/* Change color of dropdown links on hover */
+/* Canvia color dels enllaços del dropdown al fer hover */
 
 .dropdown-content a:hover {
     background-color: #b1b1b1;
@@ -142,7 +142,7 @@ h4 {
 }
 
 
-/* Show the dropdown menu on hover */
+/* Mostra el menú dropdown menu al fer hover */
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -153,7 +153,7 @@ h4 {
 }
 
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* Canvia el color de background color del botó de dropdown quan el contingut del dropdown es mostra */
 
 .dropdown:hover .dropbtn {
     background-color: gray;
@@ -174,15 +174,6 @@ h4 {
     background-position-x: center;
     background-position-y: center;
 }
-
-
-/*#texte {
-    / * a borrar /
-    margin: 50px;* /
-    background-color: gray;
-    opacity: 0.5;
-    /*display: none;* /
-}*/
 
 figcaption {
     font-style: italic;

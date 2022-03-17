@@ -1369,6 +1369,10 @@ export default function Cv() {
                   width="250"
                 />
               </figure>
+              <a href="#100">Virtual Production @Facebook</a>
+              <figure>
+                <img src="./img/vp.jpg" alt="Virtual Production" width="250" />
+              </figure>
               <a
                 href="https://www.ctbarcino.cat"
                 target="_blank"
