@@ -1,5 +1,5 @@
-
 import "./App.css";
+import React from "react";
 import Cv from "./Cv";
 
 function App() {

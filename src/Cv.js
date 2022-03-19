@@ -1,4 +1,5 @@
 import "./Cv.css";
+import React from "react";
 import { useState } from "react";
 import { idiomes_web, idiomes, llengues } from "./idiomes";
 import { formacio_reglada, educacio, cursos } from "./formacio";
@@ -36,13 +37,40 @@ export default function Cv() {
             <div id="logo">
               <div className="dropdownbis">
                 <div className="dropbtnbis">
-                  <img src="./img/LOGO60x60.png" alt="Logo" />
+                  <svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="60" height="60" fill="#F2B802" />
+                    <path
+                      d="M 29 36
+           A 10 9, 0, 0, 1, 29 14
+           L 29 36"
+                      fill="#040404"
+                    />
+                    <rect
+                      id="cam"
+                      x="30"
+                      y="14"
+                      width="12"
+                      height="10"
+                      fill="#04040"
+                    />
+                    <path
+                      d="M 30 48
+           A 10 9, 0, 0, 0, 30 24
+           L 30 48"
+                      fill="#040404"
+                    />
+                  </svg>
                 </div>
                 <div className="dropdown-contentbis">
                   <a
                     href="https://www.jordialonso.com"
                     target="_self"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     Anar al Blog Veni Vidi Vici
                   </a>
@@ -71,7 +99,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=aPbVrFLgIgE"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               El cl&agrave;sico en VR
               <img
@@ -98,14 +126,14 @@ export default function Cv() {
             <a
               href="https://www.mundodeportivo.com/futbol/laliga/20180302/441187363437/la-tecnologia-que-hay-detras-de-laliga-explicada-al-detalle.html"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Not&igrave;cia a El Mundo Deportivo
             </a>
             <a
               href="https://www.youtube.com/watch?v=ZYNbuYREyeE"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               La Rosa de Foc 3D
               <img
@@ -130,7 +158,7 @@ export default function Cv() {
             <a
               href="https://www.live-production.tv/news/4k-8k-arising/mediapro-group-produced-live-3d-concert-portuguese-group-deolinda.html"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Deolinda 3D des del Coliseu do Lisboa 28/01/2011
               <img
@@ -142,7 +170,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=AlTtevooKGE"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Abrunhosa 3D des del Coliseu de Porto 20/11/2010
               <img
@@ -159,7 +187,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=NU2ZXZFZhY4"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Klepth Live 3D des de Casa da M&ugrave;sica de Porto 30/10/2010
               <img
@@ -187,7 +215,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=zEckoGCYMkY"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               RIP Curl World Cup of Surfing 8-10/10/2010
               <img
@@ -215,9 +243,9 @@ export default function Cv() {
             <a
               href="https://www.live-production.tv/news/4k-8k-arising/3d-screening-bar%C3%A7a-%E2%80%93-madrid-match-was-big-success.html"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              F&uacute;tbol 3D Live 10/12/2010
+              Futbol 3D Live 10/12/2010
               <img
                 src="./img/yt20.png"
                 alt="youtube"
@@ -262,7 +290,11 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[1][language]}</div>
           <div className="dropdown-content">
-            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.neom.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               NEOM The Line 2020
             </a>
             <figure>
@@ -289,7 +321,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=OLIpvPvQ14E"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               The Zone of Hope
               <img
@@ -312,7 +344,7 @@ export default function Cv() {
             <a
               href="https://mediaproexhibitions.com/ca/project/messi-challenge"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Messi Challenge: sigues Messi per un dia
             </a>
@@ -329,7 +361,11 @@ export default function Cv() {
               </figcaption>
             </figure>
             <a href="#7">BTS Woody Allen&apos;s visit to Spain 2019</a>
-            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.neom.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               NEOM Tourism Book &amp; Map 2019
             </a>
             <figure>
@@ -342,7 +378,11 @@ export default function Cv() {
                 Primer llibre i mapa tur&iacute;stic de NEOM
               </figcaption>
             </figure>
-            <a href="https://www.wtm.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.wtm.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               NEOM Immersive 2019
             </a>
             <figure>
@@ -366,13 +406,17 @@ export default function Cv() {
                 Stand de NEOM a la fira mundial del turisme de Londres
               </figcaption>
             </figure>
-            <a href="https://www.neom.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.neom.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               NEOM Smart City 2019
             </a>
             <a
               href="https://mediaproexhibitions.com/ca/project/mep"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               MEP (Messi Experience Park) 2018
             </a>
@@ -388,7 +432,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=bKJ9cW0xRuw"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               VR Live Gulf League 2018
               <img
@@ -409,7 +453,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=5M49dCMpQJw"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               AutomaticTV 2014
               <img
@@ -448,7 +492,7 @@ export default function Cv() {
             <a
               href="https://vimeo.com/41780222"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Project FINE 2010
               <img
@@ -474,8 +518,12 @@ export default function Cv() {
                 Guanyadors de la distinci&oacute; "What Caught My Eye"
               </figcaption>
             </figure>
-            <a href="https://www.futbol3d.com" target="_blank" rel="noreferrer">
-              F&ugrave;tbol 3D Temporades 2010-11 i 2011-12
+            <a
+              href="https://www.futbol3d.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Futbol 3D Temporades 2010-11 i 2011-12
             </a>
             <figure>
               <img src="./img/futbol3d.jpg" alt="Logo Fútbol 3D" />
@@ -517,14 +565,22 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[2][language]}</div>
           <div className="dropdown-content">
-            <a href="https://www.thevrara.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.thevrara.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               VRARA: The VR/AR Association
             </a>
             <figure>
               <img src="./img/VRARA.png" alt="VR/AR Association" width="250" />
               <figcaption>Chapter President</figcaption>
             </figure>
-            <a href="https://www.sun.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.sun.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Sun Microsystems
             </a>
             <figure>
@@ -533,7 +589,11 @@ export default function Cv() {
                 Technical Account Manager for Strategic Accounts
               </figcaption>
             </figure>
-            <a href="https://www.netscape.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.netscape.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Netscape
             </a>
             <figure>
@@ -547,20 +607,32 @@ export default function Cv() {
         <div className="dropdown">
           <div className="dropbtn">{feines[3][language]}</div>
           <div className="dropdown-content">
-            <a href="https://www.esade.edu" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.esade.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               ESADE Mentor alumnes del M&agrave;ster
             </a>
             <a href="#24">
               <em>La Salle*</em>
             </a>
-            <a href="https://www.eram.cat/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.eram.cat/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               ERAM UdG
             </a>
             <a href="#26">MSc UPC</a>
             <a href="#27">Mediapro AutomaticTV</a>
             <a href="#28">Mediapro 3D</a>
             <a href="#29">RTVE Catalunya</a>
-            <a href="https://www.escac.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.escac.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               ESCAC Escola Superior de Cinema
             </a>
           </div>
@@ -573,7 +645,7 @@ export default function Cv() {
             <a
               href="https://www.youtube.com/watch?v=Crq3--XXwxc"
               alt="Vídeo demo Accom Elset any 1999 a Broadcat Madrid"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Accom Elset Live NT
               <img
@@ -591,7 +663,7 @@ export default function Cv() {
             <a
               href="https://www.thevrara.com/barcelona"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               The VR/AR Association Catalonia Chapter
             </a>
@@ -664,11 +736,15 @@ export default function Cv() {
             <a
               href="https://www.jordialonso.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Blog Veni Vidi Vici
             </a>
-            <a href="https://www.cine3d.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.cine3d.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Blog cine3D.com
             </a>
             <a href="#42">Blog cine.com</a>
@@ -687,14 +763,14 @@ export default function Cv() {
             <a
               href="https://jordialonso.wordpress.com/2011/02/04/entrevista-a-steve-schklair-ceo-de-3ality-en-ibc-2010/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Entrevista a Steve Schklair, CEO de 3ALITY
             </a>
             <a
               href="https://www.elperiodico.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               El Peri&ograve;dico de Catalunya
             </a>
@@ -725,7 +801,7 @@ export default function Cv() {
             <a
               href="https://www.3dmagazine.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               3D Magazine
             </a>
@@ -740,7 +816,11 @@ export default function Cv() {
               p&ugrave;blic
             </a>
             <a href="#45">SEO, SEM, Optimitzaci&ograve; de webs WordPress</a>
-            <a href="https://www.openvino.org" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.openvino.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Blockchain/NFT: Projecte OpenVino.org &amp; OpenCava.org (2017)
             </a>
             <a href="#46">Crypto: mineria &amp; trading (2013)</a>
@@ -767,7 +847,7 @@ export default function Cv() {
               <a
                 href="https://www.youtube.com/watch?v=XadyIOiavgk"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 VR al 360 Film Fest de Barcelona
                 <img
@@ -779,7 +859,7 @@ export default function Cv() {
               <a
                 href="https://www.ccma.cat/catradio/alacarta/el-mat-de-catalunya-rdio-manel-fuentes/avatar/audio/398359/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 3D als Matins de Catr&agrave;dio 18/12/2009
                 <img
@@ -796,7 +876,7 @@ export default function Cv() {
               <a
                 href="http://www.tv3.cat/videos/2843310/Telenoticies-vespre"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 TV3 Telenot&iacute;cies 16/04/2010 cine3D (minut 37)
                 <img
@@ -808,7 +888,7 @@ export default function Cv() {
               <a
                 href="http://www.catradio.com/pcatradio/crPrograma.jsp?hiPrograma=156908479&amp;hiEmissora=cr"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 CATRADIO internet v&iacute;deo 17/06/2006 @cine.com
               </a>
@@ -828,7 +908,7 @@ export default function Cv() {
               <a
                 href="https://play.cadenaser.com/audio/20060404csrcsr_5.Aes/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 CadenaSER: Hoy por Hoy 4/04/2006 @cine.com
                 <img
@@ -872,7 +952,7 @@ export default function Cv() {
                 href="
               http://www.catradio.com/pcatradio/crPrograma.jsp?hiPrograma=109447807&amp;hiEmissora=cr"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 CATRADIO internet v&iacute;deo 28/01/2006 @cine.com
               </a>
@@ -884,7 +964,7 @@ export default function Cv() {
               <a
                 href="http://www.comradio.com/programes/programa.asp?id=10"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 COMRadio internet v&iacute;deo 25/01/2006 @cine.com
               </a>
@@ -910,7 +990,7 @@ export default function Cv() {
               <a
                 href="https://www.youtube.com/watch?v=einYD7AtS2M"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 5º Congreso APD. XR: the next big thing?
                 <img
@@ -919,6 +999,17 @@ export default function Cv() {
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
+              <figure>
+                <img
+                  src="./img/apd.jpg"
+                  alt="Xerrada al 5º congreso APD sobre XR"
+                  width="500"
+                />
+                <figcaption>
+                  XR: the next big thing? durant el 5º Congreso APD 2019 al CCIB
+                  de Barcelona
+                </figcaption>
+              </figure>
               <a href="#61">
                 GITEX 2019. Huawei 5G Keynote
                 <img
@@ -926,21 +1017,21 @@ export default function Cv() {
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
-                <figure>
-                  <img
-                    src="./img/Huawei2.jpg"
-                    alt="keynote 5G per Huawei a GITEX Dubai"
-                    width="500"
-                  />
-                  <figcaption>
-                    Xerrada sobre 5G per Huawei durant el GITEX 2019 de Dubai
-                  </figcaption>
-                </figure>
               </a>
+              <figure>
+                <img
+                  src="./img/Huawei2.jpg"
+                  alt="keynote 5G per Huawei a GITEX Dubai"
+                  width="500"
+                />
+                <figcaption>
+                  Xerrada sobre 5G per Huawei durant el GITEX 2019 de Dubai
+                </figcaption>
+              </figure>
               <a
                 href="https://www.youtube.com/watch?v=B1ZwJULAiBU&amp;t=1203s"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 La Liga Technology Showcase Shanghai 15/07/2019
                 <img
@@ -1032,7 +1123,7 @@ export default function Cv() {
               <a
                 href="https://jordialonso.wordpress.com/2008/10/11/jornadas-agapi-en-santiago-ultimo-dia/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 AGAPI a Santiago de Compostela 10/10/2008 @cine.com
               </a>
@@ -1113,26 +1204,38 @@ export default function Cv() {
               <a
                 href="https://photonics.masters.upc.edu/en"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 MSc Photonics a la UPC
               </a>
               <figure>
                 <img src="./img/logoUPC.png" alt="Logo UPC" width="250" />
               </figure>
-              <a href="https://www.esade.edu" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.esade.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 MBA a ESADE -no acabat-
               </a>
               <figure>
                 <img src="./img/esade.jpg" alt="Logo ESADE" width="250" />
               </figure>
-              <a href="https://www.escac.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.escac.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 MA Computer Animation a l&apos;ESCAC
               </a>
               <figure>
                 <img src="./img/escac.jpg" alt="Logo ESCAC" width="250" />
               </figure>
-              <a href="https://www.uab.cat" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.uab.cat"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 BSc Computer Science a la UAB
               </a>
               <figure>
@@ -1198,7 +1301,7 @@ export default function Cv() {
               <a
                 href="https://www.siggraph.org"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 SIGGRAPH
               </a>
@@ -1209,7 +1312,7 @@ export default function Cv() {
               <a
                 href="https://www.nabshow.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 NAB
               </a>
@@ -1221,34 +1324,38 @@ export default function Cv() {
                 />
                 <figcaption>Stand d&apos;AutomaticTV al NAB Show</figcaption>
               </figure>
-              <a href="https://www.ibc.org" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.ibc.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 IBC
               </a>
               <a
                 href="https://www.mwcbarcelona.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 MWC
               </a>
               <a
                 href="https://3dtv-con.org/silja-serenade/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 3DTV-CON Training School IEEE. 2018 Stockholm-Helsinki
               </a>
               <a
                 href="https://www.3d-contournet.eu/cost-training-school-3d-avcom-2015/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 3D-AVCom Training School. EU COST Action. 2015 Lisbon
               </a>
               <a
                 href="https://www.3d-contournet.eu/plenoptics-2013/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 3D-ConTourNet Training School. EU COST Action. 2013 Sundsvall
               </a>
@@ -1299,14 +1406,18 @@ export default function Cv() {
               <a
                 href="https://www.siggraph.org/connect/computer-graphics-pioneers/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 SIGGRAPH Pioneers
               </a>
               <figure>
                 <img src="./img/Siggraph.png" alt="Logo Siggraph" width="250" />
               </figure>
-              <a href="https://www.acm.org/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.acm.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 ACM
               </a>
               <figure>
@@ -1315,7 +1426,7 @@ export default function Cv() {
               <a
                 href="https://theadvancedimagingsociety.com/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Advanced Imaging Society
               </a>
@@ -1325,7 +1436,7 @@ export default function Cv() {
               <a
                 href="https://enginyeriainformatica.cat/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 COEINF
               </a>
@@ -1336,7 +1447,7 @@ export default function Cv() {
               <a
                 href="https://www.thevrara.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 The VR/AR Association
               </a>
@@ -1346,7 +1457,7 @@ export default function Cv() {
               <a
                 href="https://www.neuralink.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Open Neuralink
               </a>
@@ -1376,7 +1487,7 @@ export default function Cv() {
               <a
                 href="https://www.ctbarcino.cat"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 CT Barcino
               </a>
@@ -1432,7 +1543,7 @@ export default function Cv() {
               <a
                 href="https://www.fototurismo.net"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Fotografia de viatges
               </a>
@@ -1477,35 +1588,35 @@ export default function Cv() {
             <a
               href="https://linkedin.com/in/jordialonso"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src="./img/linkedin.svg" alt="LinkedIn" />
             </a>
             <a
               href="https://twitter.com/jordialonso"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src="./img/twitter.svg" alt="twitter" />
             </a>
             <a
               href="https://instagram.com/jordialonso"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src="./img/instagram.svg" alt="instagram" />
             </a>
             <a
               href="https://facebook.com/jordi.alonso"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src="./img/facebook.svg" alt="facebook" />
             </a>
             <a
               href="https://youtube.com/user/cine3Dtv/videos"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src="./img/youtube.svg" alt="youtube" />
             </a>
