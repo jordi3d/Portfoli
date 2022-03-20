@@ -46,9 +46,9 @@ export default function Cv() {
                     <rect width="60" height="60" fill="#F2B802" />
                     <path
                       id="cleft"
-                      d="M 28 36
-           A 11 10, 0, 0, 1, 28 14
-           L 28 34 Z"
+                      d="M 30 40
+           A 11 10, 0, 0, 1, 30 18
+           L 30 38 Z"
                       fill="#040404"
                     />
                     <rect
@@ -61,9 +61,9 @@ export default function Cv() {
                     />
                     <path
                       id="cright"
-                      d="M 30 46
-           A 12 10, 0, 0, 0, 30 26
-           L 30 46 Z"
+                      d="M 30 40
+           A 11 10, 0, 0, 0, 30 18
+           L 30 38 Z"
                       fill="#040404"
                     />
                   </svg>

@@ -36,11 +36,11 @@ h4 {
     cursor: pointer;
 }
 
-#cam {
+#logo:hover #cam {
     animation-name: desplega;
     animation-timing-function: linear;
-    animation-duration: 1s;
-    animation-delay: 1s;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
     animation-fill-mode: forwards;
 }
 
@@ -53,39 +53,39 @@ h4 {
     }
 }
 
-#cleft {
+#logo:hover #cleft {
     animation-name: desplega2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
 @keyframes desplega2 {
     0% {
-        transform: translate(1px, 5px);
-    }
-    50% {
-        transform: translate(1px, 5px);
-    }
-    100% {
         transform: translate(0px, 0px);
+    }
+    /*50% {
+        transform: translate(-1px, -2px);
+    }*/
+    100% {
+        transform: translate(-1px, -4px);
     }
 }
 
-#cright {
+#logo:hover #cright {
     animation-name: desplega3;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
 @keyframes desplega3 {
     0% {
-        transform: translate(-1px, -6px);
-    }
-    50% {
-        transform: translate(-1px, -6px);
-    }
-    100% {
         transform: translate(0px, 0px);
+    }
+    /*50% {
+        transform: translate(0px, 4px);
+    }*/
+    100% {
+        transform: translate(0px, 7px);
     }
 }
 
