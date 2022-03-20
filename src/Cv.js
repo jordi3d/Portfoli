@@ -45,23 +45,25 @@ export default function Cv() {
                   >
                     <rect width="60" height="60" fill="#F2B802" />
                     <path
-                      d="M 29 36
-           A 10 9, 0, 0, 1, 29 14
-           L 29 36"
+                      id="cleft"
+                      d="M 28 36
+           A 11 10, 0, 0, 1, 28 14
+           L 28 34 Z"
                       fill="#040404"
                     />
                     <rect
                       id="cam"
                       x="30"
                       y="14"
-                      width="12"
+                      width="0"
                       height="10"
                       fill="#04040"
                     />
                     <path
-                      d="M 30 48
-           A 10 9, 0, 0, 0, 30 24
-           L 30 48"
+                      id="cright"
+                      d="M 30 46
+           A 12 10, 0, 0, 0, 30 26
+           L 30 46 Z"
                       fill="#040404"
                     />
                   </svg>
@@ -103,19 +105,19 @@ export default function Cv() {
             >
               El cl&agrave;sico en VR
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/clasicoVR.jpg"
+                src={process.env.PUBLIC_URL + "/img/clasicoVR.jpg"}
                 alt="Prova de concepte de F&ugrave;tbol en VR des del Santiago Bernab&egrave;u"
                 width="500"
               />
@@ -137,19 +139,19 @@ export default function Cv() {
             >
               La Rosa de Foc 3D
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/Larosadefoc.jpg"
+                src={process.env.PUBLIC_URL + "/img/Larosadefoc.jpg"}
                 alt="Cartell de La Rosa de Foc"
                 width="500"
               />
@@ -162,7 +164,7 @@ export default function Cv() {
             >
               Deolinda 3D des del Coliseu do Lisboa 28/01/2011
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
@@ -174,12 +176,12 @@ export default function Cv() {
             >
               Abrunhosa 3D des del Coliseu de Porto 20/11/2010
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
@@ -191,19 +193,19 @@ export default function Cv() {
             >
               Klepth Live 3D des de Casa da M&ugrave;sica de Porto 30/10/2010
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/obvan_ext2.jpg"
+                src={process.env.PUBLIC_URL + "/img/obvan_ext2.jpg"}
                 alt="Unitat mòbil 3D de Medialuso. Palacio da Música (Porto)"
                 width="500"
               />
@@ -219,19 +221,19 @@ export default function Cv() {
             >
               RIP Curl World Cup of Surfing 8-10/10/2010
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/RIPCurlPeniche.jpg"
+                src={process.env.PUBLIC_URL + "/img/RIPCurlPeniche.jpg"}
                 alt="Mundial de Surf a Peniche"
                 width="500"
                 heigth="375"
@@ -247,19 +249,19 @@ export default function Cv() {
             >
               Futbol 3D Live 10/12/2010
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
               <img
-                src="./img/mediapro.png"
+                src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                 alt="mediapro"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/cartellFutbol3D.jpg"
+                src={process.env.PUBLIC_URL + "/img/cartellFutbol3D.jpg"}
                 alt="Cartell de promoci&ograve; del Cl&agrave;sico en 3D"
                 width="500"
                 heigth="375"
@@ -272,7 +274,7 @@ export default function Cv() {
             <a href="#1">Benfica-Sporting de Lisboa 3D 28/11/2009</a>
             <figure>
               <img
-                src="./img"
+                src={process.env.PUBLIC_URL + "/img"}
                 alt="Est&aacute;dio da Luz, Lisboa"
                 width="500"
               />
@@ -280,7 +282,11 @@ export default function Cv() {
             </figure>
             <a href="#1">Catalunya-Col&ograve;mbia 3D 28/12/2008</a>
             <figure>
-              <img src="./img" alt="Nou Camp" width="500" />
+              <img
+                src={process.env.PUBLIC_URL + "/img"}
+                alt="Nou Camp"
+                width="500"
+              />
               <figcaption>
                 Primeres proves de 3D amb c&agrave;meres de cinema
               </figcaption>
@@ -299,7 +305,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/NEOM_theline.jpg"
+                src={process.env.PUBLIC_URL + "/img/NEOM_theline.jpg"}
                 alt="NEOM The Line"
                 width="500"
                 heigth="375"
@@ -311,7 +317,7 @@ export default function Cv() {
             </figure>
             <figure>
               <img
-                src="./img/NEOM_theline2.jpg"
+                src={process.env.PUBLIC_URL + "/img/NEOM_theline2.jpg"}
                 alt="NEOM The Line Detalls"
                 width="500"
                 heigth="375"
@@ -325,14 +331,14 @@ export default function Cv() {
             >
               The Zone of Hope
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/tzoh.png"
+                src={process.env.PUBLIC_URL + "/img/tzoh.png"}
                 alt="The Zone oh Hope"
                 width="500"
                 heigth="375"
@@ -350,7 +356,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/messi10.jpg"
+                src={process.env.PUBLIC_URL + "/img/messi10.jpg"}
                 alt="Messi Challenge"
                 width="500"
                 heigth="375"
@@ -370,7 +376,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/NEOM_tourism.jpg"
+                src={process.env.PUBLIC_URL + "/img/NEOM_tourism.jpg"}
                 alt="Book and Tourism map"
                 width="500"
               />
@@ -387,7 +393,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/NEOM_immersive.jpg"
+                src={process.env.PUBLIC_URL + "/img/NEOM_immersive.jpg"}
                 alt="Interior al World Travel Market de Londres"
                 width="500"
               />
@@ -398,7 +404,7 @@ export default function Cv() {
             </figure>
             <figure>
               <img
-                src="./img/NEOM_immersive2.jpg"
+                src={process.env.PUBLIC_URL + "/img/NEOM_immersive2.jpg"}
                 alt="Stand al World Tourism Expo a Londres"
                 width="500"
               />
@@ -422,7 +428,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/mep.jpg"
+                src={process.env.PUBLIC_URL + "/img/mep.jpg"}
                 alt="Messi Experience Park"
                 width="500"
                 heigth="375"
@@ -436,14 +442,14 @@ export default function Cv() {
             >
               VR Live Gulf League 2018
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/vrlive.jpg"
+                src={process.env.PUBLIC_URL + "/img/vrlive.jpg"}
                 alt="VR Live Gulf League 2018"
                 width="500"
                 heigth="375"
@@ -457,14 +463,14 @@ export default function Cv() {
             >
               AutomaticTV 2014
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/automatictv.jpg"
+                src={process.env.PUBLIC_URL + "/img/automatictv.jpg"}
                 alt="AutomaticTV"
                 width="500"
                 heigth="375"
@@ -476,12 +482,16 @@ export default function Cv() {
             </figure>
             <a href="#14">ImmersiveTV 2010</a>
             <figure>
-              <img src="./img/immersivetv.jpg" alt="ImmersiveTV" width="500" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/immersivetv.jpg"}
+                alt="ImmersiveTV"
+                width="500"
+              />
               <figcaption>ImmersiveTV: projecte de recerca nacional</figcaption>
             </figure>
             <figure>
               <img
-                src="./img/immersivetv2.jpg"
+                src={process.env.PUBLIC_URL + "/img/immersivetv2.jpg"}
                 alt="ImmersiveTV #2"
                 width="500"
               />
@@ -496,14 +506,14 @@ export default function Cv() {
             >
               Project FINE 2010
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
             </a>
             <figure>
               <img
-                src="./img/ProjectFINE.jpg"
+                src={process.env.PUBLIC_URL + "/img/ProjectFINE.jpg"}
                 alt="Roll up de ProjectFINE"
                 width="500"
               />
@@ -513,7 +523,11 @@ export default function Cv() {
               </figcaption>
             </figure>
             <figure>
-              <img src="./img/FINE_IBC2012.jpg" alt="IBC2012" width="500" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/FINE_IBC2012.jpg"}
+                alt="IBC2012"
+                width="500"
+              />
               <figcaption>
                 Guanyadors de la distinci&oacute; "What Caught My Eye"
               </figcaption>
@@ -526,7 +540,10 @@ export default function Cv() {
               Futbol 3D Temporades 2010-11 i 2011-12
             </a>
             <figure>
-              <img src="./img/futbol3d.jpg" alt="Logo Fútbol 3D" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/futbol3d.jpg"}
+                alt="Logo Fútbol 3D"
+              />
               <figcaption>
                 Transmissions via sat&egrave;l·lit:
                 <br />
@@ -546,19 +563,33 @@ export default function Cv() {
             </figure>
             <a href="#16">APIDIS 2009</a>
             <figure>
-              <img src="./img/apidis.jpg" alt="Logo APIDIS" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/apidis.jpg"}
+                alt="Logo APIDIS"
+              />
             </figure>
             <a href="#17">2020 3D Media 2008</a>
             <figure>
-              <img src="./img/20203DMedia.jpg" alt="Logo 2020 3D Media" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/20203DMedia.jpg"}
+                alt="Logo 2020 3D Media"
+              />
             </figure>
             <a href="#18">i3media 2008</a>
             <figure>
-              <img src="./img/i3media.png" alt="Logo i3media" width="250" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/i3media.png"}
+                alt="Logo i3media"
+                width="250"
+              />
             </figure>
             <a href="#19">IP-racine 2008</a>
             <figure>
-              <img src="./img/ipracine.jpg" alt="Logo IP-racine" width="250" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/ipracine.jpg"}
+                alt="Logo IP-racine"
+                width="250"
+              />
             </figure>
           </div>
         </div>
@@ -573,7 +604,11 @@ export default function Cv() {
               VRARA: The VR/AR Association
             </a>
             <figure>
-              <img src="./img/VRARA.png" alt="VR/AR Association" width="250" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/VRARA.png"}
+                alt="VR/AR Association"
+                width="250"
+              />
               <figcaption>Chapter President</figcaption>
             </figure>
             <a
@@ -584,7 +619,11 @@ export default function Cv() {
               Sun Microsystems
             </a>
             <figure>
-              <img src="./img/sun.jpg" alt="Sun Microsystems" width="250" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/sun.jpg"}
+                alt="Sun Microsystems"
+                width="250"
+              />
               <figcaption>
                 Technical Account Manager for Strategic Accounts
               </figcaption>
@@ -597,7 +636,11 @@ export default function Cv() {
               Netscape
             </a>
             <figure>
-              <img src="./img/Netscape.png" alt="Netscape" width="250" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/Netscape.png"}
+                alt="Netscape"
+                width="250"
+              />
               <figcaption>
                 Enterprise Service Account Manager iPlanet products
               </figcaption>
@@ -649,7 +692,7 @@ export default function Cv() {
             >
               Accom Elset Live NT
               <img
-                src="./img/yt20.png"
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
                 alt="youtube"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
@@ -669,7 +712,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/VRARA1.jpg"
+                src={process.env.PUBLIC_URL + "/img/VRARA1.jpg"}
                 alt="Sopar gala VRARA foto1"
                 width="500"
               />
@@ -677,7 +720,7 @@ export default function Cv() {
             </figure>
             <figure>
               <img
-                src="./img/VRARA2.jpg"
+                src={process.env.PUBLIC_URL + "/img/VRARA2.jpg"}
                 alt="Sopar gala VRARA foto2"
                 width="500"
               />
@@ -685,7 +728,10 @@ export default function Cv() {
             </figure>
             <a href="#23">Promovisa Catalunya</a>
             <figure>
-              <img src="./img/promovisa.jpg" alt="Logo Promovisa" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/promovisa.jpg"}
+                alt="Logo Promovisa"
+              />
               <figcaption>Delegat regional per Catalunya i Balears</figcaption>
             </figure>
           </div>
@@ -696,7 +742,7 @@ export default function Cv() {
             <a href="#31">Glory Day: The mystery of the Sagrada Familia</a>
             <figure>
               <img
-                src="./img/gloryday.jpg"
+                src={process.env.PUBLIC_URL + "/img/gloryday.jpg"}
                 alt="Caixa CD-ROM de Glory Day"
                 width="500"
               />
@@ -750,7 +796,7 @@ export default function Cv() {
             <a href="#42">Blog cine.com</a>
             <figure>
               <img
-                src="./img/DougTrumbull_Sitges.jpg"
+                src={process.env.PUBLIC_URL + "/img/DougTrumbull_Sitges.jpg"}
                 alt="entrevista a Doug Trumbull"
                 width="500"
                 heigth="375"
@@ -776,7 +822,7 @@ export default function Cv() {
             </a>
             <figure>
               <img
-                src="./img/Elperiodico1.jpg"
+                src={process.env.PUBLIC_URL + "/img/Elperiodico1.jpg"}
                 alt="Article#1 El Periódico"
                 width="500"
                 heigth="375"
@@ -788,7 +834,7 @@ export default function Cv() {
             </figure>
             <figure>
               <img
-                src="./img/Elperiodico2.jpg"
+                src={process.env.PUBLIC_URL + "/img/Elperiodico2.jpg"}
                 alt="Article#2 El Periódico"
                 width="500"
                 heigth="375"
@@ -851,7 +897,7 @@ export default function Cv() {
               >
                 VR al 360 Film Fest de Barcelona
                 <img
-                  src="./img/yt20.png"
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -863,7 +909,7 @@ export default function Cv() {
               >
                 3D als Matins de Catr&agrave;dio 18/12/2009
                 <img
-                  src="./img/yt20.png"
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -880,7 +926,7 @@ export default function Cv() {
               >
                 TV3 Telenot&iacute;cies 16/04/2010 cine3D (minut 37)
                 <img
-                  src="./img/yt20.png"
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -912,7 +958,7 @@ export default function Cv() {
               >
                 CadenaSER: Hoy por Hoy 4/04/2006 @cine.com
                 <img
-                  src="./img/yt20.png"
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -994,14 +1040,14 @@ export default function Cv() {
               >
                 5º Congreso APD. XR: the next big thing?
                 <img
-                  src="./img/yt20.png"
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
               <figure>
                 <img
-                  src="./img/apd.jpg"
+                  src={process.env.PUBLIC_URL + "/img/apd.jpg"}
                   alt="Xerrada al 5º congreso APD sobre XR"
                   width="500"
                 />
@@ -1013,14 +1059,14 @@ export default function Cv() {
               <a href="#61">
                 GITEX 2019. Huawei 5G Keynote
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
               <figure>
                 <img
-                  src="./img/Huawei2.jpg"
+                  src={process.env.PUBLIC_URL + "/img/Huawei2.jpg"}
                   alt="keynote 5G per Huawei a GITEX Dubai"
                   width="500"
                 />
@@ -1035,19 +1081,19 @@ export default function Cv() {
               >
                 La Liga Technology Showcase Shanghai 15/07/2019
                 <img
-                  src="./img/yt20.png"
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
               <figure>
                 <img
-                  src="./img/LaLigaASIA.png"
+                  src={process.env.PUBLIC_URL + "/img/LaLigaASIA.png"}
                   alt="LaLiga Technology Showcase. Shanghai"
                   width="500"
                 />
@@ -1059,14 +1105,14 @@ export default function Cv() {
               <a href="#62">
                 La Liga Technology Showcase BCN 4/03/2019
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
               </a>
               <figure>
                 <img
-                  src="./img/LaLigaBCN.jpg"
+                  src={process.env.PUBLIC_URL + "/img/LaLigaBCN.jpg"}
                   alt="LaLiga Technology Showcase. RCD Stadium"
                   width="500"
                 />
@@ -1078,7 +1124,7 @@ export default function Cv() {
               <a href="#63">
                 REBUILD 2018. Construcci&oacute; 4.0
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -1086,7 +1132,7 @@ export default function Cv() {
               <a href="#64">
                 COEIC media &amp; IT
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -1094,7 +1140,7 @@ export default function Cv() {
               <a href="#64bis">IBC Project FINE 20/09/2012</a>
               <figure>
                 <img
-                  src="./img/FINE_IBC2012bis.jpg"
+                  src={process.env.PUBLIC_URL + "/img/FINE_IBC2012bis.jpg"}
                   alt="IBC 2020 3D Media"
                   width="500"
                 />
@@ -1105,7 +1151,7 @@ export default function Cv() {
               <a href="#65">
                 Auditori Mediapro 2020 3D Media
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -1113,7 +1159,7 @@ export default function Cv() {
               <a href="#66">
                 IBC 2020 3D Media 03/09/2011
                 <img
-                  src="./img/mediapro.png"
+                  src={process.env.PUBLIC_URL + "/img/mediapro.png"}
                   alt="mediapro"
                   style={{ margin: "0px 0px 0px 15px" }}
                 />
@@ -1129,7 +1175,7 @@ export default function Cv() {
               </a>
               <figure>
                 <img
-                  src="./img/AGAPI.jpg"
+                  src={process.env.PUBLIC_URL + "/img/AGAPI.jpg"}
                   alt="Conferencia sobre vídeo per internet a AGAPI"
                   width="500"
                 />
@@ -1141,7 +1187,7 @@ export default function Cv() {
               <a href="#69">Torre Agbar 24/04/2008 @cine.com</a>
               <figure>
                 <img
-                  src="./img/cpac02.jpg"
+                  src={process.env.PUBLIC_URL + "/img/cpac02.jpg"}
                   alt="CPAC r-evolució difital 24/04/2008 a Torre Agbar"
                   width="500"
                   heigth="375"
@@ -1182,7 +1228,7 @@ export default function Cv() {
               <a href="#73">CGIx Glory Day</a>
               <figure>
                 <img
-                  src="./img/CGIx.jpg"
+                  src={process.env.PUBLIC_URL + "/img/CGIx.jpg"}
                   alt="CGIx a Barcelona el 1999"
                   width="500"
                 />
@@ -1209,7 +1255,11 @@ export default function Cv() {
                 MSc Photonics a la UPC
               </a>
               <figure>
-                <img src="./img/logoUPC.png" alt="Logo UPC" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/logoUPC.png"}
+                  alt="Logo UPC"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://www.esade.edu"
@@ -1219,7 +1269,11 @@ export default function Cv() {
                 MBA a ESADE -no acabat-
               </a>
               <figure>
-                <img src="./img/esade.jpg" alt="Logo ESADE" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/esade.jpg"}
+                  alt="Logo ESADE"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://www.escac.com"
@@ -1229,7 +1283,11 @@ export default function Cv() {
                 MA Computer Animation a l&apos;ESCAC
               </a>
               <figure>
-                <img src="./img/escac.jpg" alt="Logo ESCAC" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/escac.jpg"}
+                  alt="Logo ESCAC"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://www.uab.cat"
@@ -1239,7 +1297,11 @@ export default function Cv() {
                 BSc Computer Science a la UAB
               </a>
               <figure>
-                <img src="./img/uab.png" alt="Logo UAB" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/uab.png"}
+                  alt="Logo UAB"
+                  width="250"
+                />
               </figure>
             </div>
           </div>
@@ -1253,7 +1315,7 @@ export default function Cv() {
               <a href="#77">SCRUM/Agile</a>
               <figure>
                 <img
-                  src="./img/scrum-agile.png"
+                  src={process.env.PUBLIC_URL + "/img/scrum-agile.png"}
                   alt="Logo SCRUM Agile"
                   width="250"
                 />
@@ -1261,18 +1323,26 @@ export default function Cv() {
               </figure>
               <a href="#78">ITIL Essentials</a>
               <figure>
-                <img src="./img/itil.jpg" alt="Logo ITIL" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/itil.jpg"}
+                  alt="Logo ITIL"
+                  width="250"
+                />
                 <figcaption>Certificaci&oacute; EXIN</figcaption>
               </figure>
               <a href="#79">Project Manager</a>
               <figure>
-                <img src="./img/PMI_logo.gif" alt="Logo PMI" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/PMI_logo.gif"}
+                  alt="Logo PMI"
+                  width="250"
+                />
                 <figcaption>Certificaci&oacute; PMI</figcaption>
               </figure>
               <a href="#79">Lean 6-sigma</a>
               <figure>
                 <img
-                  src="./img/lean6sigma.png"
+                  src={process.env.PUBLIC_URL + "/img/lean6sigma.png"}
                   alt="Logo Lean 6 Sigma"
                   width="250"
                 />
@@ -1291,7 +1361,11 @@ export default function Cv() {
               <figure>Certificaci&oacute; Softimage 101-501</figure>
               <a href="#82bis">VR amb SGI</a>
               <figure>
-                <img src="./img/sgi.jpg" alt="Curs VR al 1993" width="500" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/sgi.jpg"}
+                  alt="Curs VR al 1993"
+                  width="500"
+                />
               </figure>
             </div>
           </div>
@@ -1306,7 +1380,11 @@ export default function Cv() {
                 SIGGRAPH
               </a>
               <figure>
-                <img src="./img/Siggraph.jpg" alt="SIGGRAPH 2016" width="500" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/Siggraph.jpg"}
+                  alt="SIGGRAPH 2016"
+                  width="500"
+                />
                 <figcaption>Atenent ininterrompudament des de 1994</figcaption>
               </figure>
               <a
@@ -1318,7 +1396,7 @@ export default function Cv() {
               </a>
               <figure>
                 <img
-                  src="./img/NABAutomaticTV.jpg"
+                  src={process.env.PUBLIC_URL + "/img/NABAutomaticTV.jpg"}
                   alt="NAB 2018"
                   width="500"
                 />
@@ -1411,7 +1489,11 @@ export default function Cv() {
                 SIGGRAPH Pioneers
               </a>
               <figure>
-                <img src="./img/Siggraph.png" alt="Logo Siggraph" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/Siggraph.png"}
+                  alt="Logo Siggraph"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://www.acm.org/"
@@ -1421,7 +1503,11 @@ export default function Cv() {
                 ACM
               </a>
               <figure>
-                <img src="./img/acm.png" alt="Logo ACM" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/acm.png"}
+                  alt="Logo ACM"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://theadvancedimagingsociety.com/"
@@ -1431,7 +1517,11 @@ export default function Cv() {
                 Advanced Imaging Society
               </a>
               <figure>
-                <img src="./img/ais.jpg" alt="Logo AIS" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/ais.jpg"}
+                  alt="Logo AIS"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://enginyeriainformatica.cat/"
@@ -1441,7 +1531,10 @@ export default function Cv() {
                 COEINF
               </a>
               <figure>
-                <img src="./img/COEIC.png" alt="Logo COEIC" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/COEIC.png"}
+                  alt="Logo COEIC"
+                />
                 <figcaption>Col·legiat 444</figcaption>
               </figure>
               <a
@@ -1452,7 +1545,11 @@ export default function Cv() {
                 The VR/AR Association
               </a>
               <figure>
-                <img src="./img/VRARA.png" alt="Logo VRARA" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/VRARA.png"}
+                  alt="Logo VRARA"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://www.neuralink.com"
@@ -1463,26 +1560,34 @@ export default function Cv() {
               </a>
               <figure>
                 <img
-                  src="./img/Neuralink.jpg"
+                  src={process.env.PUBLIC_URL + "/img/Neuralink.jpg"}
                   alt="Logo NeuraLink"
                   width="250"
                 />
               </figure>
               <a href="#99">MENSA</a>
               <figure>
-                <img src="./img/mensa.png" alt="Logo Mensa" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/mensa.png"}
+                  alt="Logo Mensa"
+                  width="250"
+                />
               </figure>
               <a href="#99bis">Barcelon@ Connection</a>
               <figure>
                 <img
-                  src="./img/bcnconnection.png"
+                  src={process.env.PUBLIC_URL + "/img/bcnconnection.png"}
                   alt="Barcelona Connection"
                   width="250"
                 />
               </figure>
               <a href="#100">Virtual Production @Facebook</a>
               <figure>
-                <img src="./img/vp.jpg" alt="Virtual Production" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/vp.jpg"}
+                  alt="Virtual Production"
+                  width="250"
+                />
               </figure>
               <a
                 href="https://www.ctbarcino.cat"
@@ -1493,18 +1598,26 @@ export default function Cv() {
               </a>
               <figure>
                 <img
-                  src="./img/ctbarcino.jpg"
+                  src={process.env.PUBLIC_URL + "/img/ctbarcino.jpg"}
                   alt="Logo CT Barcino"
                   width="250"
                 />
               </figure>
               <a href="#100bis">FCG</a>
               <figure>
-                <img src="./img/fcg.jpg" alt="Logo FCG" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/fcg.jpg"}
+                  alt="Logo FCG"
+                  width="250"
+                />
               </figure>
               <a href="#101">ACPJG</a>
               <figure>
-                <img src="./img/acpjg.jpg" alt="Logo ACPJG" width="250" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/acpjg.jpg"}
+                  alt="Logo ACPJG"
+                  width="250"
+                />
               </figure>
             </div>
           </div>
@@ -1549,7 +1662,7 @@ export default function Cv() {
               </a>
               <figure>
                 <img
-                  src="./img/kiruna.jpg"
+                  src={process.env.PUBLIC_URL + "/img/kiruna.jpg"}
                   alt="Sol de mitjanit a Kiruna"
                   width="500"
                 />
@@ -1559,7 +1672,7 @@ export default function Cv() {
               </figure>
               <figure>
                 <img
-                  src="./img/Georgios.jpg"
+                  src={process.env.PUBLIC_URL + "/img/Georgios.jpg"}
                   alt="Georgios G. Shipwreck at NEOM by Ben Thouard"
                   width="500"
                 />
@@ -1570,7 +1683,7 @@ export default function Cv() {
               </figure>
               <figure>
                 <img
-                  src="./img/fototurismo.jpg"
+                  src={process.env.PUBLIC_URL + "/img/fototurismo.jpg"}
                   alt="Web personal de fotos de turisme"
                   width="500"
                 />
@@ -1590,38 +1703,58 @@ export default function Cv() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/linkedin.svg" alt="LinkedIn" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/linkedin.svg"}
+                alt="LinkedIn"
+              />
             </a>
             <a
               href="https://twitter.com/jordialonso"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/twitter.svg" alt="twitter" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/twitter.svg"}
+                alt="twitter"
+              />
             </a>
             <a
               href="https://instagram.com/jordialonso"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/instagram.svg" alt="instagram" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/instagram.svg"}
+                alt="instagram"
+              />
             </a>
             <a
               href="https://facebook.com/jordi.alonso"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/facebook.svg" alt="facebook" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/facebook.svg"}
+                alt="facebook"
+              />
             </a>
             <a
               href="https://youtube.com/user/cine3Dtv/videos"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/youtube.svg" alt="youtube" />
+              <img
+                src={process.env.PUBLIC_URL + "/img/youtube.svg"}
+                alt="youtube"
+              />
             </a>
             <a href="mailto:info@synthespian.net?subject=Web de Jordi Alonso">
-              <img id="email" src="./img/email.svg" alt="email" width="45" />
+              <img
+                id="email"
+                src={process.env.PUBLIC_URL + "/img/email.svg"}
+                alt="email"
+                width="45"
+              />
             </a>
           </div>
           <div className="break"></div>

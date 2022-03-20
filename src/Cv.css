@@ -36,6 +36,59 @@ h4 {
     cursor: pointer;
 }
 
+#cam {
+    animation-name: desplega;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplega {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 12px;
+    }
+}
+
+#cleft {
+    animation-name: desplega2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplega2 {
+    0% {
+        transform: translate(1px, 5px);
+    }
+    50% {
+        transform: translate(1px, 5px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#cright {
+    animation-name: desplega3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplega3 {
+    0% {
+        transform: translate(-1px, -6px);
+    }
+    50% {
+        transform: translate(-1px, -6px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
 #titol {
     flex: none;
     color: rgb(242, 184, 5);
@@ -173,6 +226,7 @@ h4 {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
+    background-size: cover;
 }
 
 figcaption {
