@@ -113,10 +113,18 @@ h4 {
     margin-bottom: 0px;
 }
 
+h2 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .dropbtn {
     background-color: black;
     color: rgb(242, 184, 5);
-    padding: 16px;
+    padding-top: 1px;
+    padding-left: 16px;
+    padding-bottom: 1px;
+    padding-right: 16px;
     width: 548px;
     font-size: x-large;
     font-weight: bold;

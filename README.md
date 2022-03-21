@@ -34,16 +34,18 @@ Afegir els textos multiidioma en arxius externs a l'App.js, que es vagin cridant
 
 ### Notes v2.0
 
+20-03-2022 <i>Cal fer animació del logo quan s'està :hover</i>
+4 árees del Portfoli en el mòbil, amb 4 icones i 4 sectors grossos, tenint de fons una imatge representativa.
 Caldria usar els desplegables fets servir al curs (slider), no m'agrada com es comporten els que tinc actualment
 També usar el Carrousel
 El carrusel, ha de mostrar transicions d'animació al passar d'una imatge a una altra
 La versió de mòbil, s'ha de repensar perquè funcioni millor
 https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
-Cal fer animació del logo quan s'està :hover
 El desplegable principal, podria fer que filtrés per temàtiques o per anys?
 Mirar d'agrupar temes amb els tags semàntics side, main i content
 Els items que tenen link activat, mostrar-los amb una icona del món, similar a la de Mediapro?
 Potser estaria bé fixar la posició de l'idioma per si vols anar canviant d'idioma al fer click
+Falten dues fotos: Lisboa Estádio da Luz i Nou Camp
 
 ### Notes v3.0
 
