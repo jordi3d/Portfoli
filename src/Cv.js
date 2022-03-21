@@ -1798,8 +1798,12 @@ export default function Cv() {
                 </figure>
               </article>
               <article>
-                <a href="#80">
-                  <h3>Arduino</h3>
+                <a
+                  href="https://telecos.upc.edu/ca/noticies/cursos-destiu-aess"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>Arduino Basic &amp; Advanced 2014</h3>
                 </a>
                 <figure>Certificaci&oacute; UPC</figure>
               </article>
@@ -1813,19 +1817,31 @@ export default function Cv() {
                 </figure>
               </article>
               <article>
-                <a href="#81">
+                <a
+                  href="https://en.wikipedia.org/wiki/Avid_DS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <h3>Avid DS</h3>
                 </a>
                 <figure>Certificaci&oacute; Avid DS 101-501</figure>
               </article>
               <article>
-                <a href="#82">
+                <a
+                  href="https://en.wikipedia.org/wiki/Softimage_3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <h3>Softimage 3D</h3>
                 </a>
                 <figure>Certificaci&oacute; Softimage 101-501</figure>
               </article>
               <article>
-                <a href="#82bis">
+                <a
+                  href="https://en.wikipedia.org/wiki/Silicon_Graphics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <h3>VR amb SGI</h3>
                 </a>
                 <figure>
