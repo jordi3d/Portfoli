@@ -230,7 +230,7 @@ h2 {
     width: 100%;
     /*border: 3px solid black;
     background-image: url("https://via.placeholder.com/640x360");*/
-    background-image: url("/img/Foto3.jpg");
+    background-image: url("../public/img/Foto3.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
