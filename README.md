@@ -30,7 +30,7 @@ que em permeti seleccionar els items i l'idioma i de sortida, generés un CV en 
 
 Data de publicació: 12-03-2022
 Actualitzat l'àrab i afegida molta informació d'entrevistes i fotos
-Afegir els textos multiidioma en arxius externs a l'App.js, que es vagin cridant
+Afegits els textos multiidioma en arxius externs a l'App.js, que es vagin cridant
 
 ### Notes v2.0
 
@@ -42,16 +42,14 @@ El carrusel, ha de mostrar transicions d'animació al passar d'una imatge a una 
 La versió de mòbil, s'ha de repensar perquè funcioni millor
 https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 El desplegable principal, podria fer que filtrés per temàtiques o per anys?
-Mirar d'agrupar temes amb els tags semàntics side, main i content
 Els items que tenen link activat, mostrar-los amb una icona del món, similar a la de Mediapro?
-Potser estaria bé fixar la posició de l'idioma per si vols anar canviant d'idioma al fer click
 Falten dues fotos: Lisboa Estádio da Luz i Nou Camp
 
 ### Notes v3.0
 
 Fer camps ocults/visibles, per activar/desactivar parts del CV
 Activar/Desactivar dates
-Agrupar experiències dient "5 anys d'experiència com a professor"
+Agrupar experiències dient "5 anys d'experiència com a professor", similar als endolls d'EV que es van detallant a mesura que t'apropes amb el zoom
 Posar explicació de les tasques desenvolupades a cada feina
 Traduir els continguts dels submenús als diferents idiomes
 Caldria identificar per IP el país de connexió, i donar per defecte l'idioma principal:

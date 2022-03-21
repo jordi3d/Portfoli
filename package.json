@@ -2,6 +2,7 @@
     "homepage": "https://jordi3d.github.io/Portfoli/",
     "name": "portfoli",
     "version": "0.1.0",
+    "license": "MIT",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
