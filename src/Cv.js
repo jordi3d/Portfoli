@@ -1737,13 +1737,29 @@ export default function Cv() {
                 <a href="#75">
                   <h3>Front-end web developer</h3>
                 </a>
-                <figure>Certificaci&oacute; Tecnocampus</figure>
+                <figure>
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/tecnocampus.jpg"}
+                    alt="Logo Tecnocampus"
+                    width="250"
+                  />
+                  <figcaption>Certificaci&oacute; Tecnocampus</figcaption>
+                </figure>
               </article>
               <article>
                 <a href="#76">
                   <h3>Machine Learning</h3>
                 </a>
-                <figure>Certificaci&oacute; Coursera/Stanford</figure>
+                <figure>
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/coursera_stanford.jpg"}
+                    alt="Coursera-Stanford"
+                    width="500"
+                  />
+                  <figcaption>
+                    Certificaci&oacute; Coursera/Stanford University
+                  </figcaption>
+                </figure>
               </article>
               <article>
                 <a href="#77">
