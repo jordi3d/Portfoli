@@ -18,6 +18,7 @@ import {
   aficions,
   copyright,
 } from "./altres";
+import Carrusel from "./Carrusel";
 
 export default function Cv() {
   const [language, setLanguage] = useState("CAT");
@@ -91,7 +92,8 @@ export default function Cv() {
           </div>
         </div>
         <div id="separador"> </div>
-        <div id="fotoMain"></div>
+        <Carrusel />
+        {/*<div id="fotoMain"></div>*/}
       </header>
       <section>
         <h1 className="main"> {experiencia_professional[0][language]} </h1>
