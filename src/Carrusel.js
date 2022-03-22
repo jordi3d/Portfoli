@@ -40,7 +40,7 @@ export default function Carrusel() {
       >
         &gt;
       </div>
-      <div id="separador"></div>
+
       <div id="navegador" className={amaga}>
         {fotos.map((n, index) => (
           <div

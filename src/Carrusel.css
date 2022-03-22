@@ -1,6 +1,10 @@
 #carrusel {
     width: 100%;
     height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 100px;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -26,18 +30,15 @@
     padding-top: 15px;
     opacity: 0.5;
     background-color: black;
-    /*display: none;*/
     cursor: pointer;
 }
 
 #anterior {
-    left: 0%;
-    top: 160px;
+    order: 0;
 }
 
 #seguent {
-    left: 97%;
-    top: 82px;
+    order: 2;
 }
 
 
@@ -46,12 +47,6 @@
     height: 200px;
     background-color: blue;
 }*/
-
-#separador {
-    width: 100%;
-    height: 0%;
-    display: block;
-}
 
 .punt {
     display: inline-block;
@@ -75,9 +70,8 @@
 }
 
 #navegador {
-    position: relative;
-    top: 185px;
-    left: 41%;
+    align-self: flex-end;
+    margin-bottom: 10px;
     width: 130px;
     height: 20px;
     opacity: 0.5;
