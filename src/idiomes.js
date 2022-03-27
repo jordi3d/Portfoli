@@ -19,7 +19,7 @@ export const idiomes = [
     FR: "Langues",
     RU: "Языки",
     DE: "Sprachen",
-    IT: "Idiomas",
+    IT: "Lingue",
     PT: "Línguas",
     NL: "Talen",
     AR: "الانتماءات",
