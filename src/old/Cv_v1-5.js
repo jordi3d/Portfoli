@@ -1,25 +1,25 @@
 import "./Cv.css";
 import React from "react";
 import { useState } from "react";
-import { idiomes_web } from "./continguts/idiomes";
-import { educacio } from "./continguts/formacio";
+import { idiomes_web } from "../continguts/idiomes";
+import { educacio } from "../continguts/formacio";
 import {
   experiencia_professional,
   entrevistes_i_conferencies,
-} from "./continguts/experiencia";
-import { nom, altres } from "./continguts/altres";
-import Carrusel from "./continguts/Carrusel";
-import Logo from "./continguts/Logo";
-import ExperienciaProfessional from "./continguts/ExperienciaProfessional";
-import Entrevistes from "./continguts/Entrevistes";
-import Conferencies from "./continguts/Conferencies";
-import FormacioReglada from "./continguts/FormacioReglada";
-import Cursos from "./continguts/Cursos";
-import Congressos from "./continguts/Congressos";
-import IdiomesExtrangers from "./continguts/IdiomesExtrangers";
-import Afiliacions from "./continguts/Afiliacions";
-import Aficions from "./continguts/Aficions";
-import Peu from "./continguts/Peu";
+} from "../continguts/experiencia";
+import { nom, altres } from "../continguts/altres";
+import Carrusel from "../continguts/Carrusel";
+import Logo from "../continguts/Logo";
+import ExperienciaProfessional from "../continguts/ExperienciaProfessional";
+import Entrevistes from "../continguts/Entrevistes";
+import Conferencies from "../continguts/Conferencies";
+import FormacioReglada from "../continguts/FormacioReglada";
+import Cursos from "../continguts/Cursos";
+import Congressos from "../continguts/Congressos";
+import IdiomesExtrangers from "../continguts/IdiomesExtrangers";
+import Afiliacions from "../continguts/Afiliacions";
+import Aficions from "../continguts/Aficions";
+import Peu from "../continguts/Peu";
 
 /*const escapeHTML = (str) =>
   str.replace(

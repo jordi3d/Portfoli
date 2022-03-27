@@ -11,10 +11,10 @@ let fotos = [
 ].map((f) => process.env.PUBLIC_URL + f);
 
 export default function Carrusel() {
-  const [tancat, setTancat] = useState(false);
+  //const [tancat, setTancat] = useState(false);
   const [imatge, setImatge] = useState(0);
   const [amaga, setMostra] = useState("amaga");
-  if (tancat) return null;
+  //if (tancat) return null;
   return (
     <div
       id="carrusel"
