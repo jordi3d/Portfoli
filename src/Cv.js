@@ -45,7 +45,7 @@ export default function Cv() {
     return next;
   }
   return (
-    <div className="cv">
+    <>
       <header>
         <div id="barraMenu">
           <nav>
@@ -86,6 +86,6 @@ export default function Cv() {
           <Peu language={language} />
         </section>
       </footer>
-    </div>
+    </>
   );
 }
