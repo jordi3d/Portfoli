@@ -9,6 +9,7 @@ export const idiomes_web = [
   "PT",
   "NL",
   "AR",
+  "JA",
   "ZH",
 ];
 export const idiomes = [
@@ -23,6 +24,7 @@ export const idiomes = [
     PT: "Línguas",
     NL: "Talen",
     AR: "الانتماءات",
+    JA: "言語",
     ZH: "语言",
   },
 ];
@@ -38,6 +40,7 @@ export const llengues = [
     PT: "Catalão",
     NL: "Catalaans",
     AR: "صحافي",
+    JA: "カタロニャー",
     ZH: "加泰罗尼亚州",
   },
   {
@@ -51,6 +54,7 @@ export const llengues = [
     PT: "Espanhol",
     NL: "Spaans",
     AR: "الكاتالونية",
+    JA: "スペイン語",
     ZH: "西班牙语",
   },
   {
@@ -64,6 +68,7 @@ export const llengues = [
     PT: "Inglês",
     NL: "Engels",
     AR: "الأسبانية",
+    JA: "英語",
     ZH: "英语",
   },
   {
@@ -77,6 +82,7 @@ export const llengues = [
     PT: "Francês",
     NL: "Frans",
     AR: "إنجليزي",
+    JA: "フランス語",
     ZH: "法语",
   },
   {
@@ -90,6 +96,7 @@ export const llengues = [
     PT: "Russo",
     NL: "Russisch",
     AR: "الفرنسية",
+    JA: "ロシア",
     ZH: "俄语",
   },
   {
@@ -103,6 +110,7 @@ export const llengues = [
     PT: "Alemão",
     NL: "Duits",
     AR: "الروسية",
+    JA: "ドイツ人",
     ZH: "德语",
   },
   {
@@ -116,6 +124,7 @@ export const llengues = [
     PT: "Italiano",
     NL: "Italiaans",
     AR: "ألمانية",
+    JA: "イタリアの",
     ZH: "意大利人",
   },
   {
@@ -129,6 +138,7 @@ export const llengues = [
     PT: "Português",
     NL: "Portugees",
     AR: "الإيطالية",
+    JA: "ポルトガル語",
     ZH: "葡萄牙语",
   },
   {
@@ -142,6 +152,7 @@ export const llengues = [
     PT: "Chinês",
     NL: "Chinese",
     AR: "البرتغالية",
+    JA: "中国語",
     ZH: "中国人",
   },
 ];

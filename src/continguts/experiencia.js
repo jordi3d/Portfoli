@@ -10,6 +10,7 @@ export const experiencia_professional = [
     PT: "Experiência Profissional",
     NL: "Professionele ervaring",
     AR: "أون",
+    JA: "プロとしての経験",
     ZH: "专业经验",
   },
 ];
@@ -25,6 +26,7 @@ export const feines = [
     PT: "Diretor Técnico",
     NL: "Technisch Directeur",
     AR: "مؤتمرات",
+    JA: "技術指導者",
     ZH: "技术总监",
   },
   {
@@ -38,6 +40,7 @@ export const feines = [
     PT: "Gestor de projeto",
     NL: "Projectleider",
     AR: "مدير فرع",
+    JA: "プロジェクトマネージャ",
     ZH: "专案经理",
   },
   {
@@ -51,6 +54,7 @@ export const feines = [
     PT: "Gerente de Serviço de Conta",
     NL: "Service Account Manager",
     AR: "مدير المشروع",
+    JA: "サービスアカウントマネージャー",
     ZH: "服务客户经理",
   },
   {
@@ -64,6 +68,7 @@ export const feines = [
     PT: "Professor",
     NL: "Docent",
     AR: "المدير الفني",
+    JA: "先生",
     ZH: "老师",
   },
   {
@@ -77,6 +82,7 @@ export const feines = [
     PT: "Gerente de produto",
     NL: "Verantwoordelijk voor product",
     AR: "معلم",
+    JA: "プロダクトマネージャー",
     ZH: "负责产品",
   },
   {
@@ -90,6 +96,7 @@ export const feines = [
     PT: "Gerente de Branch",
     NL: "Regionale afgevaardigde",
     AR: "مدير الإنتاج",
+    JA: "支店長",
     ZH: "区域代表",
   },
   {
@@ -103,6 +110,7 @@ export const feines = [
     PT: "Supervisor de efeitos visuais",
     NL: "Supervisor van visuele effecten",
     AR: "مدير حساب الخدمة",
+    JA: "視覚効果の監督者",
     ZH: "视觉效果的主管",
   },
   {
@@ -116,6 +124,7 @@ export const feines = [
     PT: "Desenvolvedor da Web",
     NL: "Webontwikkelaar",
     AR: "كل الحقوق محفوظة",
+    JA: "ウェブ開発者",
     ZH: "Web开发人员",
   },
   {
@@ -129,6 +138,7 @@ export const feines = [
     PT: "Jornalista",
     NL: "Journalist",
     AR: "المشرف على المؤثرات المرئية",
+    JA: "ジャーナリスト",
     ZH: "记者",
   },
   {
@@ -142,6 +152,7 @@ export const feines = [
     PT: "Homem de negocios",
     NL: "Zakenman",
     AR: "هوايات",
+    JA: "ビジネスマン",
     ZH: "商人",
   },
 ];
@@ -157,6 +168,7 @@ export const entrevistes_i_conferencies = [
     PT: "Entrevistas e Conferências",
     NL: "Interviews en conferenties",
     AR: "اللغات",
+    JA: "インタビューやカンファレンス",
     ZH: "访谈和会议",
   },
 ];
@@ -172,6 +184,7 @@ export const entrevistes = [
     PT: "Entrevistas",
     NL: "Sollicitatiegesprekken",
     AR: "المؤتمرات",
+    JA: "インタビュー",
     ZH: "面试",
   },
 ];
@@ -187,6 +200,7 @@ export const conferencies = [
     PT: "Conferências",
     NL: "Conferenties",
     AR: "المقابلات والمؤتمرات",
+    JA: "カンファレンス",
     ZH: "会议",
   },
 ];

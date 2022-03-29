@@ -10,6 +10,7 @@ export const formacio_reglada = [
     PT: "Formação Regulada",
     NL: "Gereguleerde training",
     AR: "آحرون",
+    JA: "規制トレーニング",
     ZH: "监管培训",
   },
 ];
@@ -25,6 +26,7 @@ export const educacio = [
     PT: "Educação",
     NL: "Opleiding",
     AR: "الخبرة العملية",
+    JA: "教育",
     ZH: "教育",
   },
 ];
@@ -40,6 +42,7 @@ export const cursos = [
     PT: "Cursos",
     NL: "Cursussen",
     AR: "مقابلات",
+    JA: "コース",
     ZH: "培训班",
   },
 ];

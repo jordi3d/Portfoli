@@ -10,6 +10,7 @@ export const nom = [
     PT: "Jorge Alonso",
     NL: "Joris Alonso",
     AR: "جوردي ألونسو",
+    JA: "ジョルディアロンソ",
     ZH: "安桥笛",
   },
 ];
@@ -26,6 +27,7 @@ export const congressos = [
     PT: "Congressos",
     NL: "Congressen",
     AR: "رجل اعمال",
+    JA: "議会",
     ZH: "国会",
   },
 ];
@@ -42,6 +44,7 @@ export const altres = [
     PT: "Outras",
     NL: "Andere",
     AR: "تعليم",
+    JA: "他人",
     ZH: "其他",
   },
 ];
@@ -57,6 +60,7 @@ export const afiliacions = [
     PT: "Afiliações",
     NL: "Affiliaties",
     AR: "التدريب المنظم",
+    JA: "アフィリエーション",
     ZH: "隶属关系",
   },
 ];
@@ -72,6 +76,7 @@ export const aficions = [
     PT: "Hobbies",
     NL: "Hobby&apos;s",
     AR: "الدورات",
+    JA: "趣味",
     ZH: "爱好",
   },
 ];
@@ -88,6 +93,7 @@ export const copyright = [
     PT: "Todos os direitos reservados",
     NL: "Alle rechten voorbehouden",
     AR: "صينى",
+    JA: "全著作権所有",
     ZH: "版权所有",
   },
 ];
