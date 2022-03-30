@@ -13,12 +13,32 @@ export default function Menus() {
       x.className = "topnav";
     }
   }*/
-  //const [mostrar1, setMostrar1] = useState("");
+  const [mostrar1, setMostrar1] = useState("");
   const [mostrar2, setMostrar2] = useState("");
   const [mostrar3, setMostrar3] = useState("");
   const [mostrar4, setMostrar4] = useState("");
   const [mostrar404, setMostrar404] = useState("");
   const [mostrar5, setMostrar5] = useState("");
+  const [desplega1, setDesplega1] = useState("");
+  const [desplega2, setDesplega2] = useState("");
+  const [desplega3, setDesplega3] = useState("");
+  const [desplega4, setDesplega4] = useState("");
+  const [desplega404, setDesplega404] = useState("");
+  const [desplega5, setDesplega5] = useState("");
+  function tancatot() {
+    setMostrar1("");
+    setMostrar2("");
+    setMostrar3("");
+    setMostrar4("");
+    setMostrar404("");
+    setMostrar5("");
+    setDesplega1("");
+    setDesplega2("");
+    setDesplega3("");
+    setDesplega4("");
+    setDesplega404("");
+    setDesplega5("");
+  }
   return (
     <header>
       <div className="nav__container">
@@ -27,7 +47,14 @@ export default function Menus() {
             <a
               href="#100"
               aria-label="Mobile menu"
-              className="nav-toggle fade active"
+              className={"nav-toggle fade " + mostrar1}
+              onClick={() => {
+                if (mostrar1 === "open") tancatot();
+                else {
+                  setMostrar1("open");
+                  setDesplega1("active");
+                }
+              }}
             >
               <span></span>
               <span className="mrg"></span>
@@ -37,14 +64,20 @@ export default function Menus() {
           <div className="nav__logo">Jordi&nbsp;Alonso</div>
           <div>&nbsp;&nbsp;CAT</div>
         </div>
-        <nav className="menu-toggle active">
+        <nav className={"menu-toggle " + desplega1}>
           <ul className="nav__menu">
-            <li className="dropdown active">
+            <li className={"dropdown " + desplega2}>
               <a
                 href="#200"
-                onClick={() =>
-                  mostrar2 === "show" ? setMostrar2("") : setMostrar2("show")
-                }
+                onClick={() => {
+                  if (mostrar2 === "show") {
+                    setMostrar2("");
+                    setDesplega2("");
+                  } else {
+                    setMostrar2("show");
+                    setDesplega2("active");
+                  }
+                }}
               >
                 Experiència Professional
               </a>
@@ -72,12 +105,18 @@ export default function Menus() {
                 </li>
               </ul>
             </li>
-            <li className="dropdown active">
+            <li className={"dropdown " + desplega3}>
               <a
                 href="#300"
-                onClick={() =>
-                  mostrar3 === "show" ? setMostrar3("") : setMostrar3("show")
-                }
+                onClick={() => {
+                  if (mostrar3 === "show") {
+                    setMostrar3("");
+                    setDesplega3("");
+                  } else {
+                    setMostrar3("show");
+                    setDesplega3("active");
+                  }
+                }}
               >
                 Entrevistes i Conferències
               </a>
@@ -90,12 +129,18 @@ export default function Menus() {
                 </li>
               </ul>
             </li>
-            <li className="dropdown active">
+            <li className={"dropdown " + desplega4}>
               <a
                 href="#400"
-                onClick={() =>
-                  mostrar4 === "show" ? setMostrar4("") : setMostrar4("show")
-                }
+                onClick={() => {
+                  if (mostrar4 === "show") {
+                    setMostrar4("");
+                    setDesplega4("");
+                  } else {
+                    setMostrar4("show");
+                    setDesplega4("active");
+                  }
+                }}
               >
                 Educació
               </a>
@@ -109,14 +154,18 @@ export default function Menus() {
                 <li>
                   <a href="#403">Congressos</a>
                 </li>
-                <li className="dropdown second-level">
+                <li className={"dropdown second-level " + desplega404}>
                   <a
                     href="#404"
-                    onClick={() =>
-                      mostrar404 === "show"
-                        ? setMostrar404("")
-                        : setMostrar404("show")
-                    }
+                    onClick={() => {
+                      if (mostrar404 === "show") {
+                        setMostrar404("");
+                        setDesplega404("");
+                      } else {
+                        setMostrar404("show");
+                        setDesplega404("active");
+                      }
+                    }}
                   >
                     Idiomes
                   </a>
@@ -130,16 +179,40 @@ export default function Menus() {
                     <li>
                       <a href="#4043">Anglès</a>
                     </li>
+                    <li>
+                      <a href="#4044">Francès</a>
+                    </li>
+                    <li>
+                      <a href="#4045">Rus</a>
+                    </li>
+                    <li>
+                      <a href="#4046">Alemany</a>
+                    </li>
+                    <li>
+                      <a href="#4047">Italià</a>
+                    </li>
+                    <li>
+                      <a href="#4048">Portuguès</a>
+                    </li>
+                    <li>
+                      <a href="#4049">Xinès</a>
+                    </li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li className="dropdown active">
+            <li className={"dropdown " + desplega5}>
               <a
                 href="#500"
-                onClick={() =>
-                  mostrar5 === "show" ? setMostrar5("") : setMostrar5("show")
-                }
+                onClick={() => {
+                  if (mostrar5 === "show") {
+                    setMostrar5("");
+                    setDesplega5("");
+                  } else {
+                    setMostrar5("show");
+                    setDesplega5("active");
+                  }
+                }}
               >
                 Altres
               </a>
