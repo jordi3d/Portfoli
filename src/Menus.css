@@ -187,7 +187,7 @@ header {
     position: relative;
     white-space: nowrap;
     padding: 0;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .nav__menu .dropdown li {
@@ -201,6 +201,7 @@ header {
     background-color: rgb(242, 184, 5);
     text-decoration: none;
     padding: 10px;
+    padding-left: 60px;
 }
 
 .nav-toggle {

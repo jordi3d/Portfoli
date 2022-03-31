@@ -65,7 +65,7 @@ export default function Peu({ language }) {
       <div className="break"></div>
       <div id="copy">
         <h5>
-          &copy; 2022 {nom[0][language]}. {copyright[0][language]}
+          &copy; 2022 {nom[0][language] + "."} {copyright[0][language]}
         </h5>
       </div>
     </>
