@@ -62,7 +62,19 @@ export default function Menus() {
             </a>
           </div>
           <div className="nav__logo">Jordi&nbsp;Alonso</div>
-          <div>&nbsp;&nbsp;CAT</div>
+          <div
+            style={{
+              color: "rgb(242, 184, 5)",
+              fontSize: "small",
+              marginTop: "19px",
+              paddingLeft: "1rem",
+            }}
+          >
+            CAT
+          </div>
+        </div>
+        <div>
+          <img src={process.env.PUBLIC_URL + "/img/Foto3.jpg"} alt="foto" />
         </div>
         <nav className={"menu-toggle " + desplega1}>
           <ul className="nav__menu">
