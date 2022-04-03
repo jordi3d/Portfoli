@@ -4,14 +4,14 @@ export const formacio_reglada = [
     ES: "Formación Reglada",
     EN: "Regulated Training",
     FR: "Formation Réglementée",
-    RU: "Регулируемая обучение",
+    RU: "Регламентированное обучение",
     DE: "Reguliertes Training",
     IT: "Formazione Regolata",
     PT: "Formação Regulada",
     NL: "Gereguleerde training",
     AR: "آحرون",
     JA: "規制トレーニング",
-    ZH: "监管培训",
+    ZH: "规范培训",
   },
 ];
 export const educacio = [

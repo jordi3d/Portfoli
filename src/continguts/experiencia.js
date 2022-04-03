@@ -11,7 +11,7 @@ export const experiencia_professional = [
     NL: "Professionele ervaring",
     AR: "أون",
     JA: "プロとしての経験",
-    ZH: "专业经验",
+    ZH: "职业履历",
   },
 ];
 export const feines = [
@@ -41,7 +41,7 @@ export const feines = [
     NL: "Projectleider",
     AR: "مدير فرع",
     JA: "プロジェクトマネージャ",
-    ZH: "专案经理",
+    ZH: "项目经理",
   },
   {
     CAT: "Responsable de Servei al Client",
@@ -55,7 +55,7 @@ export const feines = [
     NL: "Service Account Manager",
     AR: "مدير المشروع",
     JA: "サービスアカウントマネージャー",
-    ZH: "服务客户经理",
+    ZH: "客户服务经理",
   },
   {
     CAT: "Mestre",
@@ -76,14 +76,14 @@ export const feines = [
     ES: "Jefe de Producto",
     EN: "Product Manager",
     FR: "Responsable du produit",
-    RU: "Менеджер по продукту",
+    RU: "Продакт-менеджер",
     DE: "Produktmanager",
     IT: "Gestione del prodotto",
     PT: "Gerente de produto",
     NL: "Verantwoordelijk voor product",
     AR: "معلم",
     JA: "プロダクトマネージャー",
-    ZH: "负责产品",
+    ZH: "产品经理",
   },
   {
     CAT: "Delegat Regional",
@@ -118,7 +118,7 @@ export const feines = [
     ES: "Desarrollador Web",
     EN: "Web Developer",
     FR: "Développeur web",
-    RU: "веб-разработчик",
+    RU: "Веб-разработчик",
     DE: "Web-Entwickler",
     IT: "Sviluppatore web",
     PT: "Desenvolvedor da Web",
