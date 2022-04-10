@@ -74,7 +74,7 @@ export const aficions = [
     DE: "Hobbys",
     IT: "Hobbys",
     PT: "Hobbies",
-    NL: "Hobby&apos;s",
+    NL: "Hobby's",
     AR: "الدورات",
     JA: "趣味",
     ZH: "爱好",
