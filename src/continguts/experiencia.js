@@ -36,7 +36,7 @@ export const feines = [
     FR: "Chef de projets",
     RU: "Руководитель проекта",
     DE: "Projektmanager",
-    IT: "Manager di Proyecto",
+    IT: "Manager di Progetto",
     PT: "Gestor de projeto",
     NL: "Project Manager",
     AR: "مدير فرع",
