@@ -8,7 +8,7 @@ export const formacio_reglada = [
     DE: "Reguliertes Training",
     IT: "Formazione Regolata",
     PT: "Formação Regulada",
-    NL: "Gereguleerde training",
+    NL: "Opleidingen",
     AR: "آحرون",
     JA: "規制トレーニング",
     ZH: "规范培训",
