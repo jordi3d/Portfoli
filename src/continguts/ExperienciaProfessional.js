@@ -676,7 +676,7 @@ export default function ExperienciaProfessional({ language }) {
           <article>
             <a href="#24">
               <h3>
-                <em>La Salle*</em>
+                <em>La Salle URL - Grau en Arts Digitals</em>
               </h3>
             </a>
           </article>
