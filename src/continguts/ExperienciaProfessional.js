@@ -674,7 +674,11 @@ export default function ExperienciaProfessional({ language }) {
             </a>
           </article>
           <article>
-            <a href="#24">
+            <a
+              href="https://www.salleurl.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3>
                 <em>La Salle URL - Grau en Arts Digitals</em>
               </h3>
