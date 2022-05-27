@@ -247,7 +247,9 @@ export default function ExperienciaProfessional({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
-            <h3>Media Manager for Wimbledon 2022 in 360º</h3>
+            <a href="#6">
+              <h3>Media Manager for Wimbledon 2022 in 360º</h3>
+            </a>
             <figure>
               <img
                 src={process.env.PUBLIC_URL + "/img/wimbledon01.jpg"}
