@@ -8,6 +8,19 @@ export default function Cursos({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
+            <a href="#74">
+              <h3>Ciberseguretat</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/tecnocampus.jpg"}
+                alt="Logo Tecnocampus"
+                width="250"
+              />
+              <figcaption>Certificaci&oacute; Tecnocampus</figcaption>
+            </figure>
+          </article>
+          <article>
             <a href="#75">
               <h3>Front-end web developer</h3>
             </a>

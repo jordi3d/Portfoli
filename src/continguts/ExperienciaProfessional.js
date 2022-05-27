@@ -247,6 +247,18 @@ export default function ExperienciaProfessional({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
+            <h3>Media Manager for Wimbledon 2022 in 360º</h3>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/wimbledon01.jpg"}
+                alt="Wimbledon 2022"
+                width="500"
+                heigth="375"
+              />
+              <figcaption>Wimbledon 2022 in 360º</figcaption>
+            </figure>
+          </article>
+          <article>
             <a
               href="https://www.neom.com"
               target="_blank"
