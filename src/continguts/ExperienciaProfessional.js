@@ -252,12 +252,14 @@ export default function ExperienciaProfessional({ language }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3>Media Manager for Wimbledon 2022 in 360º</h3>
-              <img
-                src={process.env.PUBLIC_URL + "/img/yt20.png"}
-                alt="youtube"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
+              <h3>
+                Media Manager for Wimbledon 2022 in 360º
+                <img
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </h3>
             </a>
             <figure>
               <img
