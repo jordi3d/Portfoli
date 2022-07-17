@@ -247,8 +247,17 @@ export default function ExperienciaProfessional({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
-            <a href="#6">
+            <a
+              href="https://twitter.com/YBVR360/status/1547902321706733569"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3>Media Manager for Wimbledon 2022 in 360º</h3>
+              <img
+                src={process.env.PUBLIC_URL + "/img/yt20.png"}
+                alt="youtube"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
             </a>
             <figure>
               <img
