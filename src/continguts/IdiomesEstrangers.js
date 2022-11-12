@@ -1,5 +1,5 @@
 import { idiomes, llengues } from "./idiomes";
-export default function IdiomesExtrangers({ language }) {
+export default function IdiomesEstrangers({ language }) {
   return (
     <>
       <div className="dropdown">
@@ -12,7 +12,7 @@ export default function IdiomesExtrangers({ language }) {
               <h3>{llengues[0][language]}</h3>
             </a>
             <figure>Idioma Nadiu</figure>
-            <figure>Certificaci&oacute; C1</figure>
+            <figure>Certificacions C1 i C2</figure>
           </article>
           <article>
             <a href="#87">

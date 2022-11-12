@@ -16,7 +16,7 @@ import Conferencies from "./continguts/Conferencies";
 import FormacioReglada from "./continguts/FormacioReglada";
 import Cursos from "./continguts/Cursos";
 import Congressos from "./continguts/Congressos";
-import IdiomesExtrangers from "./continguts/IdiomesExtrangers";
+import IdiomesEstrangers from "./continguts/IdiomesEstrangers";
 import Afiliacions from "./continguts/Afiliacions";
 import Aficions from "./continguts/Aficions";
 import Peu from "./continguts/Peu";
@@ -74,7 +74,7 @@ export default function Cv() {
         <FormacioReglada language={language} />
         <Cursos language={language} />
         <Congressos language={language} />
-        <IdiomesExtrangers language={language} />
+        <IdiomesEstrangers language={language} />
       </section>
       <section>
         <h1 className="main">{altres[0][language]}</h1>

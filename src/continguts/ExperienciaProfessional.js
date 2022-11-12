@@ -1082,7 +1082,7 @@ export default function ExperienciaProfessional({ language }) {
           <article>
             <a href="#51">
               <h3>
-                CADAT Inform&ograve;tica: importacions, muntatge de PC&apos;s
+                CADAT Inform&agrave;tica: importacions, muntatge de PC&apos;s
                 (1988)
               </h3>
             </a>
