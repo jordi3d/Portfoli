@@ -8,6 +8,22 @@ export default function Entrevistes({ language }) {
           <h2>{entrevistes[0][language]}</h2>
         </div>
         <div className="dropdown-content">
+        <article>
+            <a
+              href="https://www.barcelonadot.com/radio-el-cotxe-electric-amb-jordi-alonso/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                El cotxe elèctric a Barcelona Dot
+                <img
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </h3>
+            </a>
+          </article>
           <article>
             <a
               href="https://www.youtube.com/watch?v=XadyIOiavgk"
