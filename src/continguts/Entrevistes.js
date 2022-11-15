@@ -8,14 +8,14 @@ export default function Entrevistes({ language }) {
           <h2>{entrevistes[0][language]}</h2>
         </div>
         <div className="dropdown-content">
-        <article>
+          <article>
             <a
               href="https://www.barcelonadot.com/radio-el-cotxe-electric-amb-jordi-alonso/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <h3>
-                El cotxe elèctric a Barcelona Dot
+                El cotxe el&egrave;ctric a Barcelona Dot: 27/10/2022
                 <img
                   src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
@@ -23,6 +23,9 @@ export default function Entrevistes({ language }) {
                 />
               </h3>
             </a>
+            <figure>
+              <figcaption>Amb Tom&agrave;s Cascante</figcaption>
+            </figure>
           </article>
           <article>
             <a
