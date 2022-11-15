@@ -24,7 +24,9 @@ export default function Entrevistes({ language }) {
               </h3>
             </a>
             <figure>
-              <figcaption>Amb Tom&agrave;s Cascante</figcaption>
+              <figcaption>
+                El m&oacute;n &eacute;s digital amb Tom&agrave;s Cascante
+              </figcaption>
             </figure>
           </article>
           <article>
@@ -35,6 +37,22 @@ export default function Entrevistes({ language }) {
             >
               <h3>
                 VR al 360 Film Fest de Barcelona
+                <img
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a
+              href="http://www.tv3.cat/videos/2843310/Telenoticies-vespre"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                TV3 Telenot&iacute;cies 16/04/2010 cine3D (minut 37)
                 <img
                   src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
@@ -63,22 +81,6 @@ export default function Entrevistes({ language }) {
                 Als matins de Catalunya R&agrave;dio amb Manel Fuentes
               </figcaption>
             </figure>
-          </article>
-          <article>
-            <a
-              href="http://www.tv3.cat/videos/2843310/Telenoticies-vespre"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                TV3 Telenot&iacute;cies 16/04/2010 cine3D (minut 37)
-                <img
-                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
-                  alt="youtube"
-                  style={{ margin: "0px 0px 0px 15px" }}
-                />
-              </h3>
-            </a>
           </article>
           <article>
             <a
