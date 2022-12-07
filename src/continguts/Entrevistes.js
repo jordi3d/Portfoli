@@ -98,7 +98,9 @@ export default function Entrevistes({ language }) {
             </figure>
           </article>
           <article>
-            <a href="#53">BTV (betev&eacute;) 17/05/2006</a>
+            <a href="#53">
+              <h3>BTV (betev&eacute;) 17/05/2006</h3>
+            </a>
             <figure>
               <figcaption>
                 Infonit Not&iacute;cies a les 21:50. Desc&agrave;rregues per
@@ -121,9 +123,16 @@ export default function Entrevistes({ language }) {
                 />
               </h3>
             </a>
+            <figure>
+              <figcaption>
+                "La muerte de los videoclubs" amb Carles Francino
+              </figcaption>
+            </figure>
           </article>
           <article>
-            <a href="#54">El Pa&iacute;s 4/04/2006 @cine.com</a>
+            <a href="#54">
+              <h3>El Pa&iacute;s 4/04/2006 @cine.com</h3>
+            </a>
             <figure>
               <figcaption>
                 Suplemento de Tecnolog&iacute;a: Paso a Paso. Cine legal en
