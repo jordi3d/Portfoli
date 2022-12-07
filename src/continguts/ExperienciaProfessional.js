@@ -857,7 +857,7 @@ export default function ExperienciaProfessional({ language }) {
                 width="500"
               />
               <figcaption>
-                La pel·l&igrave;cula mai no es va acabar, per&agrave; es va
+                La pel·l&iacute;cula mai no es va acabar, per&agrave; es va
                 editar un CD-ROM
               </figcaption>
             </figure>
@@ -982,7 +982,7 @@ export default function ExperienciaProfessional({ language }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3>El Peri&ograve;dico de Catalunya</h3>
+              <h3>El Peri&oacute;dico de Catalunya</h3>
             </a>
             <figure>
               <img
@@ -992,7 +992,7 @@ export default function ExperienciaProfessional({ language }) {
                 heigth="375"
               />
               <figcaption>
-                Article a El Peri&ograve;dico de Catalunya (suplement de
+                Article a El Peri&oacute;dico de Catalunya (suplement de
                 tecnologia)
               </figcaption>
             </figure>
@@ -1033,14 +1033,14 @@ export default function ExperienciaProfessional({ language }) {
           <article>
             <a href="#44">
               <h3>
-                Serveis de formaci&ograve; CGI, 3D, XR, web, Presentacions en
+                Serveis de formaci&oacute; CGI, 3D, XR, web, Presentacions en
                 p&ugrave;blic
               </h3>
             </a>
           </article>
           <article>
             <a href="#45">
-              <h3>SEO, SEM, Optimitzaci&ograve; de webs WordPress</h3>
+              <h3>SEO, SEM, Optimitzaci&oacute; de webs WordPress</h3>
             </a>
           </article>
           <article>
