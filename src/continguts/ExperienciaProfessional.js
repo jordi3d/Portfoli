@@ -1034,7 +1034,7 @@ export default function ExperienciaProfessional({ language }) {
             <a href="#44">
               <h3>
                 Serveis de formaci&oacute; CGI, 3D, XR, web, Presentacions en
-                p&ugrave;blic
+                p&uacute;blic
               </h3>
             </a>
           </article>
