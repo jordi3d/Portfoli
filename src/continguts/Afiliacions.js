@@ -1,3 +1,4 @@
+import React from "react";
 import { afiliacions } from "./altres";
 export default function Afiliacions({ language }) {
   return (

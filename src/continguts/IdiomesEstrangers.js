@@ -1,3 +1,4 @@
+import React from "react";
 import { idiomes, llengues } from "./idiomes";
 export default function IdiomesEstrangers({ language }) {
   return (

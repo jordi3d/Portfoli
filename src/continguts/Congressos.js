@@ -1,3 +1,4 @@
+import React from "react";
 import { congressos } from "./altres";
 export default function Congressos({ language }) {
   return (

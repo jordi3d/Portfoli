@@ -1,3 +1,4 @@
+import React from "react";
 import { nom, copyright } from "./altres";
 export default function Peu({ language }) {
   return (

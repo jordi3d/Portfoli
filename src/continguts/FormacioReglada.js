@@ -1,3 +1,4 @@
+import React from "react";
 import { formacio_reglada } from "./formacio";
 export default function FormacioReglada({ language }) {
   return (

@@ -1,5 +1,5 @@
+import React from "react";
 import { entrevistes } from "./experiencia";
-
 export default function Entrevistes({ language }) {
   return (
     <>
@@ -36,7 +36,7 @@ export default function Entrevistes({ language }) {
               rel="noopener noreferrer"
             >
               <h3>
-                VR al 360 Film Fest de Barcelona
+                VR al 360 Film Fest de Barcelona: 28/04/2018
                 <img
                   src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"

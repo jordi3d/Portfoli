@@ -1,3 +1,4 @@
+import React from "react";
 import { conferencies } from "./experiencia";
 export default function Conferencies({ language }) {
   return (

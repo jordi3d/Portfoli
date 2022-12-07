@@ -1,5 +1,5 @@
+import React from "react";
 import { feines } from "./experiencia";
-
 export default function ExperienciaProfessional({ language }) {
   return (
     <>

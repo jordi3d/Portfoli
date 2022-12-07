@@ -1,3 +1,4 @@
+import React from "react";
 import { aficions } from "./altres";
 export default function Aficions({ language }) {
   return (

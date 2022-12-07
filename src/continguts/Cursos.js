@@ -1,3 +1,4 @@
+import React from "react";
 import { cursos } from "./formacio";
 export default function Cursos({ language }) {
   return (
