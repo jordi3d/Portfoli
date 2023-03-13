@@ -700,6 +700,18 @@ export default function ExperienciaProfessional({ language }) {
           </article>
           <article>
             <a
+              href="https://www.iesthosicodina.cat"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                Professor d&apos;Inform&agrave;tica als alumnes d&apos;FP Grau
+                Mig
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a
               href="https://www.salleurl.edu"
               target="_blank"
               rel="noopener noreferrer"
