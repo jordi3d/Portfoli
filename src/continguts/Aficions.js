@@ -65,12 +65,15 @@ export default function Aficions({ language }) {
             <a href="#111">
               <h3>Lectura</h3>
             </a>
-            <figure>Darrers llibres:</figure>
-            <figure>04/2022 The Cerebral Cortex</figure>
-            <figure>03/2022 A Thousand Minds</figure>
-            <figure>02/2022 JavaScript The Definitive Guide</figure>
-            <figure>01/2022 LifeSpan</figure>
-            <figure>12/2021 El Mecanisme</figure>
+            <figure>
+              <strong>Darrers llibres:</strong>
+            </figure>
+            <figure>04/2023 The Cerebral Cortex</figure>
+            <figure>03/2023 A Thousand Minds</figure>
+            <figure>02/2023 La Muerte de la muerte</figure>
+            <figure>01/2023 LifeSpan</figure>
+            <figure>12/2022 El Mecanisme</figure>
+            <figure>11/2022 JavaScript The Definitive Guide</figure>
           </article>
           <article>
             <a href="#112">
