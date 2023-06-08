@@ -14,11 +14,13 @@ export default function Cursos({ language }) {
             </a>
             <figure>
               <img
-                src={process.env.PUBLIC_URL + "/img/cursopenai.jpg"}
+                src={process.env.PUBLIC_URL + "/img/CursOpenAI.jpg"}
                 alt="Logo OpenAI"
                 width="500"
               />
-              <figcaption>Certificaci&oacute; UOC</figcaption>
+              <figcaption>
+                Certificaci&oacute; OpenAI i Deeplearning.ai
+              </figcaption>
             </figure>
           </article>
           <article>
