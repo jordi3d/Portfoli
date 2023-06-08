@@ -9,6 +9,19 @@ export default function Cursos({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
+            <a href="#72">
+              <h3>Prompt Engineering for Developers</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/cursopenai.jpg"}
+                alt="Logo OpenAI"
+                width="500"
+              />
+              <figcaption>Certificaci&oacute; UOC</figcaption>
+            </figure>
+          </article>
+          <article>
             <a href="#73">
               <h3>Data Scientist</h3>
             </a>
