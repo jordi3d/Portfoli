@@ -57,7 +57,7 @@ export default function Conferencies({ language }) {
               />
               <figcaption>
                 Evoluci&noacute; de la tecnolog&iacute;a. 1966-2024: Metaverso,
-                durante el 10º ISE 2024 en Fira de Barcelona
+                durante el 10º ISE, Feb 2024, en Fira de Barcelona
               </figcaption>
             </figure>
           </article>
