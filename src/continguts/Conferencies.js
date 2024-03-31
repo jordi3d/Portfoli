@@ -10,6 +10,33 @@ export default function Conferencies({ language }) {
         <div className="dropdown-content">
           <article>
             <a
+              href="https://www.jordialonso.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                10º ISE. 1966-2024: Evoluci&oacute;n de la tecnolog&iacute;a XR
+                <img
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/ise.jpg"}
+                alt="Conferència al ISE sobre XR"
+                width="500"
+              />
+              <figcaption>
+                Evoluci&noacute; de la tecnolog&iacute;a. 1966-2024: Metaverso,
+                durante el 10º ISE 2024 en Fira de Barcelona
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <a
               href="https://www.youtube.com/watch?v=einYD7AtS2M"
               target="_blank"
               rel="noopener noreferrer"
