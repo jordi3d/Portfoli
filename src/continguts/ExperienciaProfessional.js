@@ -9,6 +9,24 @@ export default function ExperienciaProfessional({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
+            <h3>
+              CTO Grup Lavinia
+              <img
+                src={process.env.PUBLIC_URL + "/img/lavinia.png"}
+                alt="Lavinia"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </h3>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/lavinia.jpg"}
+                alt="CTO al Grup Lavinia"
+                width="500"
+              />
+              <figcaption>CTO Grup Lavinia</figcaption>
+            </figure>
+          </article>
+          <article>
             <a
               href="https://www.youtube.com/watch?v=aPbVrFLgIgE"
               target="_blank"

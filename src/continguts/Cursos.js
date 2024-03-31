@@ -9,6 +9,19 @@ export default function Cursos({ language }) {
         </div>
         <div className="dropdown-content">
           <article>
+            <a href="#71">
+              <h3>The AI bootcamp</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/CursIBM.jpg"}
+                alt="Logo IBM"
+                width="500"
+              />
+              <figcaption>Certificaci&oacute; IBM</figcaption>
+            </figure>
+          </article>
+          <article>
             <a href="#72">
               <h3>Prompt Engineering for Developers</h3>
             </a>
