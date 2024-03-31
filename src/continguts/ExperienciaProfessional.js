@@ -10,7 +10,7 @@ export default function ExperienciaProfessional({ language }) {
         <div className="dropdown-content">
           <article>
             <h3>
-              CTO Grup Lavinia
+              &nbsp;&nbsp;CTO Grup Lavinia
               <img
                 src={process.env.PUBLIC_URL + "/img/lavinia.png"}
                 alt="Lavinia"
