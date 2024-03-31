@@ -15,6 +15,32 @@ export default function Conferencies({ language }) {
               rel="noopener noreferrer"
             >
               <h3>
+                Amics de la UNESCO: IA en el m&oacute;n audiovisual
+                <img
+                  src={process.env.PUBLIC_URL + "/img/yt20.png"}
+                  alt="youtube"
+                  style={{ margin: "0px 0px 0px 15px" }}
+                />
+              </h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/unesco.jpg"}
+                alt="Conferència als amics de la UNESCO sobre AI en el món audivusual"
+                width="500"
+              />
+              <figcaption>
+                IA en el mundo audiovisual. 28/02/2024, Amics de la UNESCO
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <a
+              href="https://www.jordialonso.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
                 10º ISE. 1966-2024: Evoluci&oacute;n de la tecnolog&iacute;a XR
                 <img
                   src={process.env.PUBLIC_URL + "/img/yt20.png"}
