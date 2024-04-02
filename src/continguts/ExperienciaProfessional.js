@@ -19,7 +19,7 @@ export default function ExperienciaProfessional({ language }) {
             </h3>
             <figure>
               <img
-                src={process.env.PUBLIC_URL + "/img/lavinia.jpg"}
+                src={process.env.PUBLIC_URL + "/img/laviniaHQ.jpg"}
                 alt="CTO al Grup Lavinia"
                 width="500"
               />
