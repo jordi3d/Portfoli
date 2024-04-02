@@ -30,7 +30,7 @@ export default function Conferencies({ language }) {
                 width="500"
               />
               <figcaption>
-                IA en el mundo audiovisual. 28/02/2024, Amics de la UNESCO
+                IA en el m&ocute;n audiovisual. 28/02/24: Amics de la UNESCO
               </figcaption>
             </figure>
           </article>
@@ -41,7 +41,7 @@ export default function Conferencies({ language }) {
               rel="noopener noreferrer"
             >
               <h3>
-                10º ISE. 1966-2024: Evoluci&oacute;n de la tecnolog&iacute;a XR
+                20º ISE. 1966-2024: Evoluci&oacute;n de la tecnolog&iacute;a XR
                 <img
                   src={process.env.PUBLIC_URL + "/img/yt20.png"}
                   alt="youtube"
@@ -56,8 +56,8 @@ export default function Conferencies({ language }) {
                 width="500"
               />
               <figcaption>
-                Evoluci&noacute; de la tecnolog&iacute;a. 1966-2024: Metaverso,
-                durante el 10º ISE, Feb 2024, en Fira de Barcelona
+                Evoluci&oacute;n de la tecnolog&iacute;a. 1966-2024: Metaverso,
+                durante el 20º ISE, Feb 2024, en Fira de Barcelona
               </figcaption>
             </figure>
           </article>
