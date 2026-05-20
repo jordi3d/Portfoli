@@ -8,6 +8,19 @@ export default function Cursos({ language }) {
           <h2>{cursos[0][language]}</h2>
         </div>
         <div className="dropdown-content">
+        <article>
+            <a href="#70">
+              <h3>Quantum Computing</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/QC.jpg"}
+                alt="EURECAT Academy"
+                width="500"
+              />
+              <figcaption>Certificaci&oacute; EURECAT Academy</figcaption>
+            </figure>
+          </article>
           <article>
             <a href="#71">
               <h3>The AI bootcamp</h3>
