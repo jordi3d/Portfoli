@@ -28,6 +28,44 @@ export default function ExperienciaProfessional({ language }) {
           </article>
           <article>
             <h3>
+              &nbsp;&nbsp;BCN XR Lab
+              <img
+                src={process.env.PUBLIC_URL + "/img/lavinia.png"}
+                alt="Lavinia"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </h3>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/BCNXRLab.jpg"}
+                alt="BCN XR Lab"
+                width="500"
+              />
+              <figcaption>CTO Grup Lavinia</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>
+              &nbsp;&nbsp;XXXVII Copa de l'Am&egrave;erica
+              <img
+                src={process.env.PUBLIC_URL + "/img/lavinia.png"}
+                alt="Lavinia"
+                style={{ margin: "0px 0px 0px 15px" }}
+              />
+            </h3>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/AmericasCup.jpg"}
+                alt="Copa de l'Amèrica"
+                width="500"
+              />
+              <figcaption>
+                Presentaci&oacute; de: Barcelona, Far al M&oacute;n
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>
               &nbsp;&nbsp;Un Far al m&oacute;n
               <img
                 src={process.env.PUBLIC_URL + "/img/americascup.png"}
