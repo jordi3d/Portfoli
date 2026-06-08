@@ -10,6 +10,32 @@ export default function Cursos({ language }) {
         <div className="dropdown-content">
           <article>
             <a href="#71">
+              <h3>Executive Program in Quantum Transformation</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/QC_Eurecat.jpg"}
+                alt="Eurecat Academy"
+                width="500"
+              />
+              <figcaption>Certificaci&oacute; Eurecat Academy</figcaption>
+            </figure>
+          </article>
+          <article>
+            <a href="#71bis">
+              <h3>Introduction to Virtual Production</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/RTVE.jpg"}
+                alt="RTVE Institute"
+                width="500"
+              />
+              <figcaption>Certificaci&oacute; RTVE Institute</figcaption>
+            </figure>
+          </article>
+          <article>
+            <a href="#72">
               <h3>The AI bootcamp</h3>
             </a>
             <figure>
@@ -22,7 +48,7 @@ export default function Cursos({ language }) {
             </figure>
           </article>
           <article>
-            <a href="#72">
+            <a href="#72bis">
               <h3>Prompt Engineering for Developers</h3>
             </a>
             <figure>

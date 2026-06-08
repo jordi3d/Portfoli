@@ -14,6 +14,25 @@ export default function Conferencies({ language }) {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <h3>ESADE: Innovaci&oacute; en el m&oacute;n audiovisual</h3>
+            </a>
+            <figure>
+              <img
+                src={process.env.PUBLIC_URL + "/img/ESADE_2026.jpeg"}
+                alt="Conferència sobre innovació en el món audiovisual"
+                width="500"
+              />
+              <figcaption>
+                Innovaci&oacute; en el m&ocute;n audiovisual. 28/03/26: ESADE
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <a
+              href="https://www.jordialonso.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3>
                 Amics de la UNESCO: IA en el m&oacute;n audiovisual
                 <img
