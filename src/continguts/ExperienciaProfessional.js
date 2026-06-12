@@ -46,7 +46,7 @@ export default function ExperienciaProfessional({ language }) {
           </article>
           <article>
             <h3>
-              &nbsp;&nbsp;XXXVII Copa de l'Am&egrave;erica
+              &nbsp;&nbsp;XXXVII Copa de l'Am&egrave;rica
               <img
                 src={process.env.PUBLIC_URL + "/img/lavinia.png"}
                 alt="Lavinia"
@@ -68,7 +68,7 @@ export default function ExperienciaProfessional({ language }) {
             <h3>
               &nbsp;&nbsp;Un Far al m&oacute;n
               <img
-                src={process.env.PUBLIC_URL + "/img/americascup.png"}
+                src={process.env.PUBLIC_URL + "/img/lavinia.png"}
                 alt="Lavinia"
                 style={{ margin: "0px 0px 0px 15px" }}
               />
