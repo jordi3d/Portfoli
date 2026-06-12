@@ -8,21 +8,8 @@ export default function Cursos({ language }) {
           <h2>{cursos[0][language]}</h2>
         </div>
         <div className="dropdown-content">
-        <article>
-            <a href="#70">
-              <h3>Quantum Computing</h3>
-            </a>
-            <figure>
-              <img
-                src={process.env.PUBLIC_URL + "/img/QC.jpg"}
-                alt="EURECAT Academy"
-                width="500"
-              />
-              <figcaption>Certificaci&oacute; EURECAT Academy</figcaption>
-            </figure>
-          </article>
           <article>
-            <a href="#71">
+            <a href="#70">
               <h3>Executive Program in Quantum Transformation</h3>
             </a>
             <figure>
@@ -35,12 +22,12 @@ export default function Cursos({ language }) {
             </figure>
           </article>
           <article>
-            <a href="#71bis">
+            <a href="#71">
               <h3>Introduction to Virtual Production</h3>
             </a>
             <figure>
               <img
-                src={process.env.PUBLIC_URL + "/img/RTVE.jpg"}
+                src={process.env.PUBLIC_URL + "/img/RTVE.png"}
                 alt="RTVE Institute"
                 width="500"
               />
@@ -53,7 +40,7 @@ export default function Cursos({ language }) {
             </a>
             <figure>
               <img
-                src={process.env.PUBLIC_URL + "/img/CursIBM.jpg"}
+                src={process.env.PUBLIC_URL + "/img/IBM_AI.png"}
                 alt="Logo IBM"
                 width="500"
               />

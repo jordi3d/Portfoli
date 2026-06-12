@@ -65,24 +65,6 @@ export default function ExperienciaProfessional({ language }) {
             </figure>
           </article>
           <article>
-            <h3>
-              &nbsp;&nbsp;Un Far al m&oacute;n
-              <img
-                src={process.env.PUBLIC_URL + "/img/lavinia.png"}
-                alt="Lavinia"
-                style={{ margin: "0px 0px 0px 15px" }}
-              />
-            </h3>
-            <figure>
-              <img
-                src={process.env.PUBLIC_URL + "/img/americascup.jpg"}
-                alt="Opening Ceremony America's Cup 2024"
-                width="500"
-              />
-              <figcaption>America's Cup 2024</figcaption>
-            </figure>
-          </article>
-          <article>
             <a
               href="https://www.youtube.com/watch?v=aPbVrFLgIgE"
               target="_blank"
